@@ -1,0 +1,6 @@
+module BDWebCoreToB {
+  umbrella header "BDWebCoreToB-umbrella.h"
+
+  export *
+  module * { export * }
+}

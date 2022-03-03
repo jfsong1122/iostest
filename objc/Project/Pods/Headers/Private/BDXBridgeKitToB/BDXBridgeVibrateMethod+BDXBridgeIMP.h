@@ -1,0 +1,1 @@
+../../../BDXBridgeKitToB/BDXBridgeKitToB/Classes/Methods/System/BDXBridgeVibrateMethod+BDXBridgeIMP.h

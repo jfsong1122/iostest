@@ -1,0 +1,6 @@
+module RARegisterKit {
+  umbrella header "RARegisterKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

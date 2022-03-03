@@ -1,0 +1,1 @@
+../../../Godzippa/Sources/NSData+Godzippa.h

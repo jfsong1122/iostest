@@ -1,0 +1,6 @@
+module VEInstall {
+  umbrella header "VEInstall-umbrella.h"
+
+  export *
+  module * { export * }
+}

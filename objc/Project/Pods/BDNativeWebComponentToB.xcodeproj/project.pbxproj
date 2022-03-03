@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		968752000003B0 /* TTVPlayerStyle-BDNativeVideo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 968752000002A0 /* TTVPlayerStyle-BDNativeVideo.plist */; };
+		968752000003E0 /* BDNativeWebComponentToB-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 968752000000C0 /* BDNativeWebComponentToB-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		968752000003F0 /* BDNativeContainerObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 968752000000E0 /* BDNativeContainerObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000400 /* BDNativeContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 968752000000F0 /* BDNativeContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000410 /* UIScrollView+BDNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000100 /* UIScrollView+BDNative.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000420 /* WKWebView+BDNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000110 /* WKWebView+BDNative.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000430 /* BDNativeBridgeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000120 /* BDNativeBridgeManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000440 /* BDNativeMessageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000130 /* BDNativeMessageHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000450 /* WKWebView+BDNativeBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000140 /* WKWebView+BDNativeBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000460 /* BDNativeBaseComponent+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000150 /* BDNativeBaseComponent+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000470 /* BDNativeBaseComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000160 /* BDNativeBaseComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000480 /* BDNativeComponentLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000170 /* BDNativeComponentLogic.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000490 /* BDNativeHookUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000180 /* BDNativeHookUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		968752000004A0 /* BDNativeLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000190 /* BDNativeLogManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		968752000004B0 /* NSArray+BDNativeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 968752000001A0 /* NSArray+BDNativeHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		968752000004C0 /* NSDictionary+BDNativeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 968752000001B0 /* NSDictionary+BDNativeHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		968752000004D0 /* NSString+BDNativeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 968752000001C0 /* NSString+BDNativeHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		968752000004E0 /* BDNativeImageComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 968752000001E0 /* BDNativeImageComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		968752000004F0 /* BDNativeImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 968752000001F0 /* BDNativeImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000500 /* BDNativeVideoComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000210 /* BDNativeVideoComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000510 /* BDNativeVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96875200000220 /* BDNativeVideoView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96875200000560 /* BDNativeWebComponentToB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96875200000550 /* BDNativeWebComponentToB-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96875200000570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96875200000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21721D710AD153F714370ACB69148EF5;
+			remoteInfo = "BDNativeWebComponentToB-BDNativeVideoResource";
+		};
+		968752000005A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96875200000590 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		968752000000C0 /* BDNativeWebComponentToB-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDNativeWebComponentToB-bitdummy.m"; sourceTree = "<group>"; };
+		968752000000E0 /* BDNativeContainerObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeContainerObject.h; path = BDNativeWebComponentToB/Core/BDNativeContainerObject.h; sourceTree = "<group>"; };
+		968752000000F0 /* BDNativeContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeContainerView.h; path = BDNativeWebComponentToB/Core/BDNativeContainerView.h; sourceTree = "<group>"; };
+		96875200000100 /* UIScrollView+BDNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+BDNative.h"; path = "BDNativeWebComponentToB/Core/UIScrollView+BDNative.h"; sourceTree = "<group>"; };
+		96875200000110 /* WKWebView+BDNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BDNative.h"; path = "BDNativeWebComponentToB/Core/WKWebView+BDNative.h"; sourceTree = "<group>"; };
+		96875200000120 /* BDNativeBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeBridgeManager.h; path = BDNativeWebComponentToB/Core/Bridge/BDNativeBridgeManager.h; sourceTree = "<group>"; };
+		96875200000130 /* BDNativeMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeMessageHandler.h; path = BDNativeWebComponentToB/Core/Bridge/BDNativeMessageHandler.h; sourceTree = "<group>"; };
+		96875200000140 /* WKWebView+BDNativeBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BDNativeBridge.h"; path = "BDNativeWebComponentToB/Core/Bridge/WKWebView+BDNativeBridge.h"; sourceTree = "<group>"; };
+		96875200000150 /* BDNativeBaseComponent+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDNativeBaseComponent+Private.h"; path = "BDNativeWebComponentToB/Core/NativeComponent/BDNativeBaseComponent+Private.h"; sourceTree = "<group>"; };
+		96875200000160 /* BDNativeBaseComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeBaseComponent.h; path = BDNativeWebComponentToB/Core/NativeComponent/BDNativeBaseComponent.h; sourceTree = "<group>"; };
+		96875200000170 /* BDNativeComponentLogic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeComponentLogic.h; path = BDNativeWebComponentToB/Core/NativeComponent/BDNativeComponentLogic.h; sourceTree = "<group>"; };
+		96875200000180 /* BDNativeHookUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeHookUtil.h; path = BDNativeWebComponentToB/Core/Util/BDNativeHookUtil.h; sourceTree = "<group>"; };
+		96875200000190 /* BDNativeLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeLogManager.h; path = BDNativeWebComponentToB/Core/Util/BDNativeLogManager.h; sourceTree = "<group>"; };
+		968752000001A0 /* NSArray+BDNativeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BDNativeHelper.h"; path = "BDNativeWebComponentToB/Core/Util/NSArray+BDNativeHelper.h"; sourceTree = "<group>"; };
+		968752000001B0 /* NSDictionary+BDNativeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDNativeHelper.h"; path = "BDNativeWebComponentToB/Core/Util/NSDictionary+BDNativeHelper.h"; sourceTree = "<group>"; };
+		968752000001C0 /* NSString+BDNativeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BDNativeHelper.h"; path = "BDNativeWebComponentToB/Core/Util/NSString+BDNativeHelper.h"; sourceTree = "<group>"; };
+		968752000001E0 /* BDNativeImageComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeImageComponent.h; path = BDNativeWebComponentToB/Image/BDNativeImageComponent.h; sourceTree = "<group>"; };
+		968752000001F0 /* BDNativeImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeImageView.h; path = BDNativeWebComponentToB/Image/BDNativeImageView.h; sourceTree = "<group>"; };
+		96875200000210 /* BDNativeVideoComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeVideoComponent.h; path = BDNativeWebComponentToB/Video/BDNativeVideoComponent.h; sourceTree = "<group>"; };
+		96875200000220 /* BDNativeVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDNativeVideoView.h; path = BDNativeWebComponentToB/Video/BDNativeVideoView.h; sourceTree = "<group>"; };
+		96875200000240 /* libBDNativeWebComponentToB_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDNativeWebComponentToB_Core_awesome_ios.a; path = "ios-arch-iphone/libBDNativeWebComponentToB_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		96875200000260 /* libBDNativeWebComponentToB_Image_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDNativeWebComponentToB_Image_awesome_ios.a; path = "ios-arch-iphone/libBDNativeWebComponentToB_Image_awesome_ios.a"; sourceTree = "<group>"; };
+		96875200000280 /* libBDNativeWebComponentToB_Video_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDNativeWebComponentToB_Video_awesome_ios.a; path = "ios-arch-iphone/libBDNativeWebComponentToB_Video_awesome_ios.a"; sourceTree = "<group>"; };
+		968752000002A0 /* TTVPlayerStyle-BDNativeVideo.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "TTVPlayerStyle-BDNativeVideo.plist"; path = "BDNativeWebComponentToB/Video/resource/TTVPlayerStyle-BDNativeVideo.plist"; sourceTree = "<group>"; };
+		968752000003D0 /* ResourceBundle-BDNativeVideoResource-BDNativeWebComponentToB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BDNativeVideoResource-BDNativeWebComponentToB-Info.plist"; sourceTree = "<group>"; };
+		96875200000520 /* BDNativeWebComponentToB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDNativeWebComponentToB.debug.xcconfig; sourceTree = "<group>"; };
+		96875200000530 /* BDNativeWebComponentToB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDNativeWebComponentToB.release.xcconfig; sourceTree = "<group>"; };
+		96875200000540 /* BDNativeWebComponentToB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDNativeWebComponentToB-prefix.pch"; sourceTree = "<group>"; };
+		96875200000550 /* BDNativeWebComponentToB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDNativeWebComponentToB-dummy.m"; sourceTree = "<group>"; };
+		96875200000590 /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		CC8ED99F1062D985F6F67B6C652939ED /* BDNativeWebComponentToB-BDNativeVideoResource */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BDNativeWebComponentToB-BDNativeVideoResource"; path = BDNativeVideoResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA57F854FD2B3F77EEA05B0B2B0C07E8 /* BDNativeWebComponentToB */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BDNativeWebComponentToB; path = libBDNativeWebComponentToB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96875200000320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96875200000390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96875200000010 = {
+			isa = PBXGroup;
+			children = (
+				968752000000B0 /* BDNativeWebComponentToB */,
+				968752000000A0 /* Dependencies */,
+				96875200000060 /* Frameworks */,
+				96875200000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96875200000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA57F854FD2B3F77EEA05B0B2B0C07E8 /* BDNativeWebComponentToB */,
+				CC8ED99F1062D985F6F67B6C652939ED /* BDNativeWebComponentToB-BDNativeVideoResource */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96875200000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		968752000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				96875200000590 /* SDWebImage */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		968752000000B0 /* BDNativeWebComponentToB */ = {
+			isa = PBXGroup;
+			children = (
+				968752000000C0 /* BDNativeWebComponentToB-bitdummy.m */,
+				968752000000D0 /* Core */,
+				968752000001D0 /* Image */,
+				968752000003C0 /* Support Files */,
+				96875200000200 /* Video */,
+			);
+			name = BDNativeWebComponentToB;
+			path = BDNativeWebComponentToB;
+			sourceTree = "<group>";
+		};
+		968752000000D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				96875200000160 /* BDNativeBaseComponent.h */,
+				96875200000150 /* BDNativeBaseComponent+Private.h */,
+				96875200000120 /* BDNativeBridgeManager.h */,
+				96875200000170 /* BDNativeComponentLogic.h */,
+				968752000000E0 /* BDNativeContainerObject.h */,
+				968752000000F0 /* BDNativeContainerView.h */,
+				96875200000180 /* BDNativeHookUtil.h */,
+				96875200000190 /* BDNativeLogManager.h */,
+				96875200000130 /* BDNativeMessageHandler.h */,
+				968752000001A0 /* NSArray+BDNativeHelper.h */,
+				968752000001B0 /* NSDictionary+BDNativeHelper.h */,
+				968752000001C0 /* NSString+BDNativeHelper.h */,
+				96875200000100 /* UIScrollView+BDNative.h */,
+				96875200000110 /* WKWebView+BDNative.h */,
+				96875200000140 /* WKWebView+BDNativeBridge.h */,
+				96875200000230 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		968752000001D0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				968752000001E0 /* BDNativeImageComponent.h */,
+				968752000001F0 /* BDNativeImageView.h */,
+				96875200000250 /* Frameworks */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		96875200000200 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				96875200000210 /* BDNativeVideoComponent.h */,
+				96875200000220 /* BDNativeVideoView.h */,
+				96875200000270 /* Frameworks */,
+				96875200000290 /* Resources */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		96875200000230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96875200000240 /* libBDNativeWebComponentToB_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96875200000250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96875200000260 /* libBDNativeWebComponentToB_Image_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96875200000270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96875200000280 /* libBDNativeWebComponentToB_Video_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96875200000290 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				968752000002A0 /* TTVPlayerStyle-BDNativeVideo.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		968752000003C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96875200000550 /* BDNativeWebComponentToB-dummy.m */,
+				96875200000540 /* BDNativeWebComponentToB-prefix.pch */,
+				96875200000520 /* BDNativeWebComponentToB.debug.xcconfig */,
+				96875200000530 /* BDNativeWebComponentToB.release.xcconfig */,
+				968752000003D0 /* ResourceBundle-BDNativeVideoResource-BDNativeWebComponentToB-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BDNativeWebComponentToB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		96875200000300 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96875200000470 /* BDNativeBaseComponent.h in Headers */,
+				96875200000460 /* BDNativeBaseComponent+Private.h in Headers */,
+				96875200000430 /* BDNativeBridgeManager.h in Headers */,
+				96875200000480 /* BDNativeComponentLogic.h in Headers */,
+				968752000003F0 /* BDNativeContainerObject.h in Headers */,
+				96875200000400 /* BDNativeContainerView.h in Headers */,
+				96875200000490 /* BDNativeHookUtil.h in Headers */,
+				968752000004E0 /* BDNativeImageComponent.h in Headers */,
+				968752000004F0 /* BDNativeImageView.h in Headers */,
+				968752000004A0 /* BDNativeLogManager.h in Headers */,
+				96875200000440 /* BDNativeMessageHandler.h in Headers */,
+				96875200000500 /* BDNativeVideoComponent.h in Headers */,
+				96875200000510 /* BDNativeVideoView.h in Headers */,
+				968752000004B0 /* NSArray+BDNativeHelper.h in Headers */,
+				968752000004C0 /* NSDictionary+BDNativeHelper.h in Headers */,
+				968752000004D0 /* NSString+BDNativeHelper.h in Headers */,
+				96875200000410 /* UIScrollView+BDNative.h in Headers */,
+				96875200000420 /* WKWebView+BDNative.h in Headers */,
+				96875200000450 /* WKWebView+BDNativeBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21721D710AD153F714370ACB69148EF5 /* BDNativeWebComponentToB-BDNativeVideoResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96875200000340 /* Build configuration list for PBXNativeTarget "BDNativeWebComponentToB-BDNativeVideoResource" */;
+			buildPhases = (
+				96875200000380 /* Sources */,
+				96875200000390 /* Frameworks */,
+				968752000003A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BDNativeWebComponentToB-BDNativeVideoResource";
+			productName = BDNativeVideoResource;
+			productReference = CC8ED99F1062D985F6F67B6C652939ED /* BDNativeWebComponentToB-BDNativeVideoResource */;
+			productType = "com.apple.product-type.bundle";
+		};
+		70A1859A61B62A5FF67085BFF7968B46 /* BDNativeWebComponentToB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968752000002C0 /* Build configuration list for PBXNativeTarget "BDNativeWebComponentToB" */;
+			buildPhases = (
+				96875200000300 /* Headers */,
+				96875200000310 /* Sources */,
+				96875200000320 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96875200000580 /* PBXTargetDependency */,
+				968752000005B0 /* PBXTargetDependency */,
+			);
+			name = BDNativeWebComponentToB;
+			productName = BDNativeWebComponentToB;
+			productReference = EA57F854FD2B3F77EEA05B0B2B0C07E8 /* BDNativeWebComponentToB */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96875200000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 96875200000030 /* Build configuration list for PBXProject "BDNativeWebComponentToB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 96875200000010;
+			productRefGroup = 96875200000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 96875200000590 /* SDWebImage */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				70A1859A61B62A5FF67085BFF7968B46 /* BDNativeWebComponentToB */,
+				21721D710AD153F714370ACB69148EF5 /* BDNativeWebComponentToB-BDNativeVideoResource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968752000003A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968752000003B0 /* TTVPlayerStyle-BDNativeVideo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96875200000310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968752000003E0 /* BDNativeWebComponentToB-bitdummy.m in Sources */,
+				96875200000560 /* BDNativeWebComponentToB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96875200000380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96875200000580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BDNativeWebComponentToB-BDNativeVideoResource";
+			target = 21721D710AD153F714370ACB69148EF5 /* BDNativeWebComponentToB-BDNativeVideoResource */;
+			targetProxy = 96875200000570 /* PBXContainerItemProxy */;
+		};
+		968752000005B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = 968752000005A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96875200000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96875200000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		968752000002D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96875200000530 /* BDNativeWebComponentToB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDNativeWebComponentToB/BDNativeWebComponentToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDNativeWebComponentToB;
+				PRODUCT_NAME = BDNativeWebComponentToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		968752000002E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96875200000520 /* BDNativeWebComponentToB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDNativeWebComponentToB/BDNativeWebComponentToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDNativeWebComponentToB;
+				PRODUCT_NAME = BDNativeWebComponentToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96875200000350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96875200000530 /* BDNativeWebComponentToB.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BDNativeWebComponentToB";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = BDNativeWebComponentToB;
+				INFOPLIST_FILE = "Target Support Files/BDNativeWebComponentToB/ResourceBundle-BDNativeVideoResource-BDNativeWebComponentToB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BDNativeVideoResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		96875200000360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96875200000520 /* BDNativeWebComponentToB.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BDNativeWebComponentToB";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = BDNativeWebComponentToB;
+				INFOPLIST_FILE = "Target Support Files/BDNativeWebComponentToB/ResourceBundle-BDNativeVideoResource-BDNativeWebComponentToB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BDNativeVideoResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96875200000030 /* Build configuration list for PBXProject "BDNativeWebComponentToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96875200000040 /* Debug */,
+				96875200000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968752000002C0 /* Build configuration list for PBXNativeTarget "BDNativeWebComponentToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968752000002E0 /* Debug */,
+				968752000002D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96875200000340 /* Build configuration list for PBXNativeTarget "BDNativeWebComponentToB-BDNativeVideoResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96875200000360 /* Debug */,
+				96875200000350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96875200000000 /* Project object */;
+}

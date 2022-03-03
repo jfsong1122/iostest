@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388635000002B0 /* upgrade.json in Resources */ = {isa = PBXBuildFile; fileRef = 38863500000180 /* upgrade.json */; };
+		388635000002C0 /* upgrade.json.zip in Resources */ = {isa = PBXBuildFile; fileRef = 38863500000190 /* upgrade.json.zip */; };
+		388635000002D0 /* TTUpdateView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388635000001A0 /* TTUpdateView.xcassets */; };
+		38863500000300 /* VEAppUpdateHelper-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 388635000000F0 /* VEAppUpdateHelper-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		38863500000310 /* TTAppUpdateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 388635000000D0 /* TTAppUpdateHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38863500000320 /* TTCheckVersionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 388635000000E0 /* TTCheckVersionResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38863500000330 /* TTAppUpdateHelperDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = 38863500000110 /* TTAppUpdateHelperDefault.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38863500000340 /* TTAppUpdateTipView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38863500000120 /* TTAppUpdateTipView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38863500000390 /* VEAppUpdateHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38863500000380 /* VEAppUpdateHelper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388635000003A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38863500000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C250C18CAADD93627BB4AF35ED3FB46D;
+			remoteInfo = "VEAppUpdateHelper-TTUpdateView";
+		};
+		388635000003D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388635000003C0 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		38863500000400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388635000003F0 /* JSONModel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68AC1514F280500634CE33E3D8E63583;
+			remoteInfo = JSONModel;
+		};
+		38863500000430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38863500000420 /* SSZipArchive.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 90CF86BC7D493DAE1C2622CE3BC678BB;
+			remoteInfo = SSZipArchive;
+		};
+		38863500000460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38863500000450 /* lottie-ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FFD4CF15B40CE17E04F3BC6AAF7035A;
+			remoteInfo = "lottie-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388635000000D0 /* TTAppUpdateHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAppUpdateHelper.h; path = VEAppUpdateHelper/Classes/TTUpdateHelper/TTAppUpdateHelper.h; sourceTree = "<group>"; };
+		388635000000E0 /* TTCheckVersionResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCheckVersionResponse.h; path = VEAppUpdateHelper/Classes/TTUpdateHelper/TTCheckVersionResponse.h; sourceTree = "<group>"; };
+		388635000000F0 /* VEAppUpdateHelper-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VEAppUpdateHelper-bitdummy.m"; sourceTree = "<group>"; };
+		38863500000110 /* TTAppUpdateHelperDefault.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAppUpdateHelperDefault.h; path = VEAppUpdateHelper/Classes/TTUpdateView/TTAppUpdateHelperDefault.h; sourceTree = "<group>"; };
+		38863500000120 /* TTAppUpdateTipView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAppUpdateTipView.h; path = VEAppUpdateHelper/Classes/TTUpdateView/TTAppUpdateTipView.h; sourceTree = "<group>"; };
+		38863500000140 /* libVEAppUpdateHelper_VEUpdateHelper_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVEAppUpdateHelper_VEUpdateHelper_awesome_ios.a; path = "ios-arch-iphone/libVEAppUpdateHelper_VEUpdateHelper_awesome_ios.a"; sourceTree = "<group>"; };
+		38863500000160 /* libVEAppUpdateHelper_VEUpdateView_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVEAppUpdateHelper_VEUpdateView_awesome_ios.a; path = "ios-arch-iphone/libVEAppUpdateHelper_VEUpdateView_awesome_ios.a"; sourceTree = "<group>"; };
+		38863500000180 /* upgrade.json */ = {isa = PBXFileReference; includeInIndex = 1; name = upgrade.json; path = VEAppUpdateHelper/Classes/TTUpdateView/Assets/upgrade.json; sourceTree = "<group>"; };
+		38863500000190 /* upgrade.json.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = upgrade.json.zip; path = VEAppUpdateHelper/Classes/TTUpdateView/Assets/upgrade.json.zip; sourceTree = "<group>"; };
+		388635000001A0 /* TTUpdateView.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TTUpdateView.xcassets; path = VEAppUpdateHelper/Classes/TTUpdateView/Assets/TTUpdateView.xcassets; sourceTree = "<group>"; };
+		388635000002F0 /* ResourceBundle-TTUpdateView-VEAppUpdateHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TTUpdateView-VEAppUpdateHelper-Info.plist"; sourceTree = "<group>"; };
+		38863500000350 /* VEAppUpdateHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEAppUpdateHelper.debug.xcconfig; sourceTree = "<group>"; };
+		38863500000360 /* VEAppUpdateHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEAppUpdateHelper.release.xcconfig; sourceTree = "<group>"; };
+		38863500000370 /* VEAppUpdateHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VEAppUpdateHelper-prefix.pch"; sourceTree = "<group>"; };
+		38863500000380 /* VEAppUpdateHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VEAppUpdateHelper-dummy.m"; sourceTree = "<group>"; };
+		388635000003C0 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		388635000003F0 /* JSONModel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONModel; path = JSONModel.xcodeproj; sourceTree = "<group>"; };
+		38863500000420 /* SSZipArchive */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSZipArchive; path = SSZipArchive.xcodeproj; sourceTree = "<group>"; };
+		38863500000450 /* lottie-ios */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lottie-ios"; path = "lottie-ios.xcodeproj"; sourceTree = "<group>"; };
+		7DB50AC00C8D5503FEFBD7EBAB454087 /* VEAppUpdateHelper-TTUpdateView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "VEAppUpdateHelper-TTUpdateView"; path = TTUpdateView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FE4F18A1B22AA375C52874ABA6F548 /* VEAppUpdateHelper */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = VEAppUpdateHelper; path = libVEAppUpdateHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38863500000220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38863500000290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38863500000010 = {
+			isa = PBXGroup;
+			children = (
+				388635000000A0 /* Dependencies */,
+				38863500000060 /* Frameworks */,
+				38863500000020 /* Products */,
+				388635000000B0 /* VEAppUpdateHelper */,
+			);
+			sourceTree = "<group>";
+		};
+		38863500000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FE4F18A1B22AA375C52874ABA6F548 /* VEAppUpdateHelper */,
+				7DB50AC00C8D5503FEFBD7EBAB454087 /* VEAppUpdateHelper-TTUpdateView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38863500000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		388635000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				388635000003F0 /* JSONModel */,
+				38863500000450 /* lottie-ios */,
+				388635000003C0 /* OneKit */,
+				38863500000420 /* SSZipArchive */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		388635000000B0 /* VEAppUpdateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				388635000002E0 /* Support Files */,
+				388635000000C0 /* VEUpdateHelper */,
+				38863500000100 /* VEUpdateView */,
+			);
+			name = VEAppUpdateHelper;
+			path = VEAppUpdateHelper;
+			sourceTree = "<group>";
+		};
+		388635000000C0 /* VEUpdateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				388635000000D0 /* TTAppUpdateHelper.h */,
+				388635000000E0 /* TTCheckVersionResponse.h */,
+				388635000000F0 /* VEAppUpdateHelper-bitdummy.m */,
+				38863500000130 /* Frameworks */,
+			);
+			name = VEUpdateHelper;
+			sourceTree = "<group>";
+		};
+		38863500000100 /* VEUpdateView */ = {
+			isa = PBXGroup;
+			children = (
+				38863500000110 /* TTAppUpdateHelperDefault.h */,
+				38863500000120 /* TTAppUpdateTipView.h */,
+				38863500000150 /* Frameworks */,
+				38863500000170 /* Resources */,
+			);
+			name = VEUpdateView;
+			sourceTree = "<group>";
+		};
+		38863500000130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38863500000140 /* libVEAppUpdateHelper_VEUpdateHelper_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38863500000150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38863500000160 /* libVEAppUpdateHelper_VEUpdateView_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38863500000170 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				388635000001A0 /* TTUpdateView.xcassets */,
+				38863500000180 /* upgrade.json */,
+				38863500000190 /* upgrade.json.zip */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		388635000002E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				388635000002F0 /* ResourceBundle-TTUpdateView-VEAppUpdateHelper-Info.plist */,
+				38863500000380 /* VEAppUpdateHelper-dummy.m */,
+				38863500000370 /* VEAppUpdateHelper-prefix.pch */,
+				38863500000350 /* VEAppUpdateHelper.debug.xcconfig */,
+				38863500000360 /* VEAppUpdateHelper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VEAppUpdateHelper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38863500000200 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38863500000310 /* TTAppUpdateHelper.h in Headers */,
+				38863500000330 /* TTAppUpdateHelperDefault.h in Headers */,
+				38863500000340 /* TTAppUpdateTipView.h in Headers */,
+				38863500000320 /* TTCheckVersionResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3907EF1C6500F5BCAEF4CD2241EC38FA /* VEAppUpdateHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388635000001C0 /* Build configuration list for PBXNativeTarget "VEAppUpdateHelper" */;
+			buildPhases = (
+				38863500000200 /* Headers */,
+				38863500000210 /* Sources */,
+				38863500000220 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38863500000410 /* PBXTargetDependency */,
+				388635000003E0 /* PBXTargetDependency */,
+				38863500000440 /* PBXTargetDependency */,
+				388635000003B0 /* PBXTargetDependency */,
+				38863500000470 /* PBXTargetDependency */,
+			);
+			name = VEAppUpdateHelper;
+			productName = VEAppUpdateHelper;
+			productReference = F3FE4F18A1B22AA375C52874ABA6F548 /* VEAppUpdateHelper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C250C18CAADD93627BB4AF35ED3FB46D /* VEAppUpdateHelper-TTUpdateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38863500000240 /* Build configuration list for PBXNativeTarget "VEAppUpdateHelper-TTUpdateView" */;
+			buildPhases = (
+				38863500000280 /* Sources */,
+				38863500000290 /* Frameworks */,
+				388635000002A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VEAppUpdateHelper-TTUpdateView";
+			productName = TTUpdateView;
+			productReference = 7DB50AC00C8D5503FEFBD7EBAB454087 /* VEAppUpdateHelper-TTUpdateView */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38863500000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 38863500000030 /* Build configuration list for PBXProject "VEAppUpdateHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 38863500000010;
+			productRefGroup = 38863500000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 388635000003C0 /* OneKit */;
+				},
+				{
+					ProjectRef = 388635000003F0 /* JSONModel */;
+				},
+				{
+					ProjectRef = 38863500000420 /* SSZipArchive */;
+				},
+				{
+					ProjectRef = 38863500000450 /* lottie-ios */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3907EF1C6500F5BCAEF4CD2241EC38FA /* VEAppUpdateHelper */,
+				C250C18CAADD93627BB4AF35ED3FB46D /* VEAppUpdateHelper-TTUpdateView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388635000002A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388635000002D0 /* TTUpdateView.xcassets in Resources */,
+				388635000002B0 /* upgrade.json in Resources */,
+				388635000002C0 /* upgrade.json.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38863500000210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38863500000300 /* VEAppUpdateHelper-bitdummy.m in Sources */,
+				38863500000390 /* VEAppUpdateHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38863500000280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388635000003B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VEAppUpdateHelper-TTUpdateView";
+			target = C250C18CAADD93627BB4AF35ED3FB46D /* VEAppUpdateHelper-TTUpdateView */;
+			targetProxy = 388635000003A0 /* PBXContainerItemProxy */;
+		};
+		388635000003E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = 388635000003D0 /* PBXContainerItemProxy */;
+		};
+		38863500000410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			targetProxy = 38863500000400 /* PBXContainerItemProxy */;
+		};
+		38863500000440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			targetProxy = 38863500000430 /* PBXContainerItemProxy */;
+		};
+		38863500000470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			targetProxy = 38863500000460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38863500000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38863500000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		388635000001D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38863500000360 /* VEAppUpdateHelper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/VEAppUpdateHelper/VEAppUpdateHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VEAppUpdateHelper;
+				PRODUCT_NAME = VEAppUpdateHelper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388635000001E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38863500000350 /* VEAppUpdateHelper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/VEAppUpdateHelper/VEAppUpdateHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VEAppUpdateHelper;
+				PRODUCT_NAME = VEAppUpdateHelper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38863500000250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38863500000360 /* VEAppUpdateHelper.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VEAppUpdateHelper";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = VEAppUpdateHelper;
+				INFOPLIST_FILE = "Target Support Files/VEAppUpdateHelper/ResourceBundle-TTUpdateView-VEAppUpdateHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TTUpdateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		38863500000260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38863500000350 /* VEAppUpdateHelper.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VEAppUpdateHelper";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = VEAppUpdateHelper;
+				INFOPLIST_FILE = "Target Support Files/VEAppUpdateHelper/ResourceBundle-TTUpdateView-VEAppUpdateHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TTUpdateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38863500000030 /* Build configuration list for PBXProject "VEAppUpdateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38863500000040 /* Debug */,
+				38863500000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388635000001C0 /* Build configuration list for PBXNativeTarget "VEAppUpdateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388635000001E0 /* Debug */,
+				388635000001D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38863500000240 /* Build configuration list for PBXNativeTarget "VEAppUpdateHelper-TTUpdateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38863500000260 /* Debug */,
+				38863500000250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38863500000000 /* Project object */;
+}

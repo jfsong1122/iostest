@@ -1,0 +1,1 @@
+../../../BDXBridgeKitToB/BDXBridgeKitToB/Classes/Methods/Info/BDXBridgeGetAppInfoMethod+BDXBridgeIMP.h

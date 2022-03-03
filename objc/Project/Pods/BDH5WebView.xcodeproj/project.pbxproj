@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1733B4000002F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1733B4000001E0 /* Images.xcassets */; };
+		1733B400000320 /* BDH5WebView-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1733B4000001A0 /* BDH5WebView-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1733B400000330 /* BDWebView+Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B4000000D0 /* BDWebView+Plugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B400000340 /* BDWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B4000000E0 /* BDWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B400000350 /* BDWebViewCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B4000000F0 /* BDWebViewCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B400000360 /* BDWebViewConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000100 /* BDWebViewConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B400000370 /* BDWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000110 /* BDWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B400000380 /* BDWebViewVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000120 /* BDWebViewVersion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B400000390 /* BDWKProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000130 /* BDWKProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B4000003A0 /* BDWebView+BDServerTrust.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000140 /* BDWebView+BDServerTrust.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B4000003B0 /* BDWebView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000150 /* BDWebView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B4000003C0 /* BDWebViewDetectBlankContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000160 /* BDWebViewDetectBlankContent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B4000003D0 /* BDWebViewUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000170 /* BDWebViewUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B4000003E0 /* NSURLRequest+BDWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000180 /* NSURLRequest+BDWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B4000003F0 /* TTKitchenManager+BDWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000190 /* TTKitchenManager+BDWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B400000440 /* BDH5WebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1733B400000430 /* BDH5WebView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1733B400000470 /* BDH5WebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1733B400000460 /* BDH5WebView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1733B400000480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1733B400000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1CB66CA7DBCEF0382516028EE9EA90A;
+			remoteInfo = "BDH5WebView-ByteWebView";
+		};
+		1733B4000004B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1733B4000004A0 /* BDWebKitToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B853654601E647418471D9C216A228;
+			remoteInfo = BDWebKitToB;
+		};
+		1733B4000004E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1733B4000004D0 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		1733B400000510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1733B400000500 /* BDWebCoreToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F3DE11DD6D38DEA9B7CB523D518C0C;
+			remoteInfo = BDWebCoreToB;
+		};
+		1733B400000540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1733B400000530 /* RSSwizzle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C5C634D45CFEE9A286708BA3EE61B6FC;
+			remoteInfo = RSSwizzle;
+		};
+		1733B400000570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1733B400000560 /* TTNetworkManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73119DD701757B40837515F362586977;
+			remoteInfo = TTNetworkManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1733B4000000D0 /* BDWebView+Plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDWebView+Plugin.h"; path = "ByteWebView/Classes/Core/BDWebView+Plugin.h"; sourceTree = "<group>"; };
+		1733B4000000E0 /* BDWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebView.h; path = ByteWebView/Classes/Core/BDWebView.h; sourceTree = "<group>"; };
+		1733B4000000F0 /* BDWebViewCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewCommon.h; path = ByteWebView/Classes/Core/BDWebViewCommon.h; sourceTree = "<group>"; };
+		1733B400000100 /* BDWebViewConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewConfigManager.h; path = ByteWebView/Classes/Core/BDWebViewConfigManager.h; sourceTree = "<group>"; };
+		1733B400000110 /* BDWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewController.h; path = ByteWebView/Classes/Core/BDWebViewController.h; sourceTree = "<group>"; };
+		1733B400000120 /* BDWebViewVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewVersion.h; path = ByteWebView/Classes/Core/BDWebViewVersion.h; sourceTree = "<group>"; };
+		1733B400000130 /* BDWKProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWKProvider.h; path = ByteWebView/Classes/Core/BDWKProvider.h; sourceTree = "<group>"; };
+		1733B400000140 /* BDWebView+BDServerTrust.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDWebView+BDServerTrust.h"; path = "ByteWebView/Classes/Core/network/BDWebView+BDServerTrust.h"; sourceTree = "<group>"; };
+		1733B400000150 /* BDWebView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDWebView+Private.h"; path = "ByteWebView/Classes/Core/Private/BDWebView+Private.h"; sourceTree = "<group>"; };
+		1733B400000160 /* BDWebViewDetectBlankContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewDetectBlankContent.h; path = ByteWebView/Classes/Core/util/BDWebViewDetectBlankContent.h; sourceTree = "<group>"; };
+		1733B400000170 /* BDWebViewUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewUtil.h; path = ByteWebView/Classes/Core/util/BDWebViewUtil.h; sourceTree = "<group>"; };
+		1733B400000180 /* NSURLRequest+BDWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+BDWebView.h"; path = "ByteWebView/Classes/Core/util/NSURLRequest+BDWebView.h"; sourceTree = "<group>"; };
+		1733B400000190 /* TTKitchenManager+BDWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTKitchenManager+BDWebView.h"; path = "ByteWebView/Classes/Core/util/TTKitchenManager+BDWebView.h"; sourceTree = "<group>"; };
+		1733B4000001A0 /* BDH5WebView-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDH5WebView-bitdummy.m"; sourceTree = "<group>"; };
+		1733B4000001C0 /* libBDH5WebView_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDH5WebView_Core_awesome_ios.a; path = "ios-arch-iphone/libBDH5WebView_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		1733B4000001E0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ByteWebView/Assets/Images.xcassets; sourceTree = "<group>"; };
+		1733B400000310 /* ResourceBundle-ByteWebView-BDH5WebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ByteWebView-BDH5WebView-Info.plist"; sourceTree = "<group>"; };
+		1733B400000400 /* BDH5WebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDH5WebView.debug.xcconfig; sourceTree = "<group>"; };
+		1733B400000410 /* BDH5WebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDH5WebView.release.xcconfig; sourceTree = "<group>"; };
+		1733B400000420 /* BDH5WebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BDH5WebView.modulemap; sourceTree = "<group>"; };
+		1733B400000430 /* BDH5WebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDH5WebView-umbrella.h"; sourceTree = "<group>"; };
+		1733B400000450 /* BDH5WebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDH5WebView-prefix.pch"; sourceTree = "<group>"; };
+		1733B400000460 /* BDH5WebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDH5WebView-dummy.m"; sourceTree = "<group>"; };
+		1733B4000004A0 /* BDWebKitToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDWebKitToB; path = BDWebKitToB.xcodeproj; sourceTree = "<group>"; };
+		1733B4000004D0 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		1733B400000500 /* BDWebCoreToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDWebCoreToB; path = BDWebCoreToB.xcodeproj; sourceTree = "<group>"; };
+		1733B400000530 /* RSSwizzle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSSwizzle; path = RSSwizzle.xcodeproj; sourceTree = "<group>"; };
+		1733B400000560 /* TTNetworkManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TTNetworkManager; path = TTNetworkManager.xcodeproj; sourceTree = "<group>"; };
+		6674DCE7D8680F89ACF1DAE30149E1E8 /* BDH5WebView-ByteWebView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BDH5WebView-ByteWebView"; path = ByteWebView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCA6F101DB1B14D72E7E6D120F7FB2D /* BDH5WebView */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BDH5WebView; path = libBDH5WebView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1733B400000260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1733B4000002D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1733B400000010 = {
+			isa = PBXGroup;
+			children = (
+				1733B4000000B0 /* BDH5WebView */,
+				1733B4000000A0 /* Dependencies */,
+				1733B400000060 /* Frameworks */,
+				1733B400000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1733B400000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCA6F101DB1B14D72E7E6D120F7FB2D /* BDH5WebView */,
+				6674DCE7D8680F89ACF1DAE30149E1E8 /* BDH5WebView-ByteWebView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1733B400000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1733B4000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1733B400000500 /* BDWebCoreToB */,
+				1733B4000004A0 /* BDWebKitToB */,
+				1733B4000004D0 /* OneKit */,
+				1733B400000530 /* RSSwizzle */,
+				1733B400000560 /* TTNetworkManager */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		1733B4000000B0 /* BDH5WebView */ = {
+			isa = PBXGroup;
+			children = (
+				1733B4000000C0 /* Core */,
+				1733B400000300 /* Support Files */,
+			);
+			name = BDH5WebView;
+			path = BDH5WebView;
+			sourceTree = "<group>";
+		};
+		1733B4000000C0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1733B4000001A0 /* BDH5WebView-bitdummy.m */,
+				1733B4000000E0 /* BDWebView.h */,
+				1733B400000140 /* BDWebView+BDServerTrust.h */,
+				1733B4000000D0 /* BDWebView+Plugin.h */,
+				1733B400000150 /* BDWebView+Private.h */,
+				1733B4000000F0 /* BDWebViewCommon.h */,
+				1733B400000100 /* BDWebViewConfigManager.h */,
+				1733B400000110 /* BDWebViewController.h */,
+				1733B400000160 /* BDWebViewDetectBlankContent.h */,
+				1733B400000170 /* BDWebViewUtil.h */,
+				1733B400000120 /* BDWebViewVersion.h */,
+				1733B400000130 /* BDWKProvider.h */,
+				1733B400000180 /* NSURLRequest+BDWebView.h */,
+				1733B400000190 /* TTKitchenManager+BDWebView.h */,
+				1733B4000001B0 /* Frameworks */,
+				1733B4000001D0 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1733B4000001B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1733B4000001C0 /* libBDH5WebView_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1733B4000001D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1733B4000001E0 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1733B400000300 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1733B400000420 /* BDH5WebView.modulemap */,
+				1733B400000460 /* BDH5WebView-dummy.m */,
+				1733B400000450 /* BDH5WebView-prefix.pch */,
+				1733B400000430 /* BDH5WebView-umbrella.h */,
+				1733B400000400 /* BDH5WebView.debug.xcconfig */,
+				1733B400000410 /* BDH5WebView.release.xcconfig */,
+				1733B400000310 /* ResourceBundle-ByteWebView-BDH5WebView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BDH5WebView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1733B400000240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1733B400000440 /* BDH5WebView-umbrella.h in Headers */,
+				1733B400000340 /* BDWebView.h in Headers */,
+				1733B4000003A0 /* BDWebView+BDServerTrust.h in Headers */,
+				1733B400000330 /* BDWebView+Plugin.h in Headers */,
+				1733B4000003B0 /* BDWebView+Private.h in Headers */,
+				1733B400000350 /* BDWebViewCommon.h in Headers */,
+				1733B400000360 /* BDWebViewConfigManager.h in Headers */,
+				1733B400000370 /* BDWebViewController.h in Headers */,
+				1733B4000003C0 /* BDWebViewDetectBlankContent.h in Headers */,
+				1733B4000003D0 /* BDWebViewUtil.h in Headers */,
+				1733B400000380 /* BDWebViewVersion.h in Headers */,
+				1733B400000390 /* BDWKProvider.h in Headers */,
+				1733B4000003E0 /* NSURLRequest+BDWebView.h in Headers */,
+				1733B4000003F0 /* TTKitchenManager+BDWebView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		395A252D47565672A6E9DBA689C94B73 /* BDH5WebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1733B400000200 /* Build configuration list for PBXNativeTarget "BDH5WebView" */;
+			buildPhases = (
+				1733B400000240 /* Headers */,
+				1733B400000250 /* Sources */,
+				1733B400000260 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1733B400000490 /* PBXTargetDependency */,
+				1733B400000520 /* PBXTargetDependency */,
+				1733B4000004C0 /* PBXTargetDependency */,
+				1733B4000004F0 /* PBXTargetDependency */,
+				1733B400000550 /* PBXTargetDependency */,
+				1733B400000580 /* PBXTargetDependency */,
+			);
+			name = BDH5WebView;
+			productName = BDH5WebView;
+			productReference = EBCA6F101DB1B14D72E7E6D120F7FB2D /* BDH5WebView */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1CB66CA7DBCEF0382516028EE9EA90A /* BDH5WebView-ByteWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1733B400000280 /* Build configuration list for PBXNativeTarget "BDH5WebView-ByteWebView" */;
+			buildPhases = (
+				1733B4000002C0 /* Sources */,
+				1733B4000002D0 /* Frameworks */,
+				1733B4000002E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BDH5WebView-ByteWebView";
+			productName = ByteWebView;
+			productReference = 6674DCE7D8680F89ACF1DAE30149E1E8 /* BDH5WebView-ByteWebView */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1733B400000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 1733B400000030 /* Build configuration list for PBXProject "BDH5WebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1733B400000010;
+			productRefGroup = 1733B400000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 1733B4000004A0 /* BDWebKitToB */;
+				},
+				{
+					ProjectRef = 1733B4000004D0 /* OneKit */;
+				},
+				{
+					ProjectRef = 1733B400000500 /* BDWebCoreToB */;
+				},
+				{
+					ProjectRef = 1733B400000530 /* RSSwizzle */;
+				},
+				{
+					ProjectRef = 1733B400000560 /* TTNetworkManager */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				395A252D47565672A6E9DBA689C94B73 /* BDH5WebView */,
+				D1CB66CA7DBCEF0382516028EE9EA90A /* BDH5WebView-ByteWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1733B4000002E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1733B4000002F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1733B400000250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1733B400000320 /* BDH5WebView-bitdummy.m in Sources */,
+				1733B400000470 /* BDH5WebView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1733B4000002C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1733B400000490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BDH5WebView-ByteWebView";
+			target = D1CB66CA7DBCEF0382516028EE9EA90A /* BDH5WebView-ByteWebView */;
+			targetProxy = 1733B400000480 /* PBXContainerItemProxy */;
+		};
+		1733B4000004C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDWebKitToB;
+			targetProxy = 1733B4000004B0 /* PBXContainerItemProxy */;
+		};
+		1733B4000004F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = 1733B4000004E0 /* PBXContainerItemProxy */;
+		};
+		1733B400000520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDWebCoreToB;
+			targetProxy = 1733B400000510 /* PBXContainerItemProxy */;
+		};
+		1733B400000550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSSwizzle;
+			targetProxy = 1733B400000540 /* PBXContainerItemProxy */;
+		};
+		1733B400000580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTNetworkManager;
+			targetProxy = 1733B400000570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1733B400000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1733B400000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1733B400000210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1733B400000410 /* BDH5WebView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDH5WebView/BDH5WebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/BDH5WebView/BDH5WebView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDH5WebView;
+				PRODUCT_NAME = BDH5WebView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1733B400000220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1733B400000400 /* BDH5WebView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDH5WebView/BDH5WebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/BDH5WebView/BDH5WebView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDH5WebView;
+				PRODUCT_NAME = BDH5WebView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1733B400000290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1733B400000410 /* BDH5WebView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BDH5WebView";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = BDH5WebView;
+				INFOPLIST_FILE = "Target Support Files/BDH5WebView/ResourceBundle-ByteWebView-BDH5WebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = ByteWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1733B4000002A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1733B400000400 /* BDH5WebView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BDH5WebView";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = BDH5WebView;
+				INFOPLIST_FILE = "Target Support Files/BDH5WebView/ResourceBundle-ByteWebView-BDH5WebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = ByteWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1733B400000030 /* Build configuration list for PBXProject "BDH5WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1733B400000040 /* Debug */,
+				1733B400000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1733B400000200 /* Build configuration list for PBXNativeTarget "BDH5WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1733B400000220 /* Debug */,
+				1733B400000210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1733B400000280 /* Build configuration list for PBXNativeTarget "BDH5WebView-ByteWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1733B4000002A0 /* Debug */,
+				1733B400000290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1733B400000000 /* Project object */;
+}

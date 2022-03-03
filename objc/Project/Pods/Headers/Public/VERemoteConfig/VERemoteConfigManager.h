@@ -1,0 +1,1 @@
+../../../VERemoteConfig/VERemoteConfig/Classes/Core/VERemoteConfigManager.h

@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13902500000300 /* VEH5Kit-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 139025000000C0 /* VEH5Kit-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		13902500000310 /* VEH5FalconMonitorInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 139025000000E0 /* VEH5FalconMonitorInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000320 /* VEH5Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 139025000000F0 /* VEH5Kit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000330 /* VEH5KitConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 13902500000100 /* VEH5KitConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000340 /* VEH5KitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13902500000110 /* VEH5KitManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000350 /* VEH5BridgeEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 13902500000130 /* VEH5BridgeEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000360 /* VEH5BridgeEventCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 13902500000140 /* VEH5BridgeEventCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000370 /* VEH5BridgeMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 13902500000150 /* VEH5BridgeMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000380 /* VEH5BridgeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 13902500000160 /* VEH5BridgeModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000390 /* VEH5KitStartUpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 13902500000190 /* VEH5KitStartUpTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		139025000003A0 /* VEH5WebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 139025000001B0 /* VEH5WebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		139025000003B0 /* VEH5WebViewConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 139025000001C0 /* VEH5WebViewConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		139025000003C0 /* VEH5WebViewControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 139025000001D0 /* VEH5WebViewControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		139025000003D0 /* VEH5WebViewDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 139025000001E0 /* VEH5WebViewDelegateProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		139025000003E0 /* VEH5WebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 139025000001F0 /* VEH5WebViewProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13902500000440 /* VEH5Kit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13902500000430 /* VEH5Kit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13902500000460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13902500000450 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		13902500000490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13902500000480 /* mars_gecko_ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D64ED42582DDE345DC89EBFE3335FBA;
+			remoteInfo = mars_gecko_ios;
+		};
+		139025000004C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139025000004B0 /* BDXBridgeKitToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 51D37C5ECE147FED94BEB3B62E11E78D;
+			remoteInfo = BDXBridgeKitToB;
+		};
+		139025000004F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139025000004E0 /* BDNativeWebComponentToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A1859A61B62A5FF67085BFF7968B46;
+			remoteInfo = BDNativeWebComponentToB;
+		};
+		13902500000520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13902500000510 /* BDWebKitToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B853654601E647418471D9C216A228;
+			remoteInfo = BDWebKitToB;
+		};
+		13902500000550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13902500000540 /* BDH5WebView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 395A252D47565672A6E9DBA689C94B73;
+			remoteInfo = BDH5WebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139025000000C0 /* VEH5Kit-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VEH5Kit-bitdummy.m"; sourceTree = "<group>"; };
+		139025000000E0 /* VEH5FalconMonitorInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5FalconMonitorInterceptor.h; path = VEH5Kit/Classes/Core/VEH5FalconMonitorInterceptor.h; sourceTree = "<group>"; };
+		139025000000F0 /* VEH5Kit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5Kit.h; path = VEH5Kit/Classes/Core/VEH5Kit.h; sourceTree = "<group>"; };
+		13902500000100 /* VEH5KitConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5KitConfig.h; path = VEH5Kit/Classes/Core/VEH5KitConfig.h; sourceTree = "<group>"; };
+		13902500000110 /* VEH5KitManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5KitManager.h; path = VEH5Kit/Classes/Core/VEH5KitManager.h; sourceTree = "<group>"; };
+		13902500000130 /* VEH5BridgeEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5BridgeEvent.h; path = VEH5Kit/Classes/JSBridge/VEH5BridgeEvent.h; sourceTree = "<group>"; };
+		13902500000140 /* VEH5BridgeEventCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5BridgeEventCenter.h; path = VEH5Kit/Classes/JSBridge/VEH5BridgeEventCenter.h; sourceTree = "<group>"; };
+		13902500000150 /* VEH5BridgeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5BridgeMethod.h; path = VEH5Kit/Classes/JSBridge/VEH5BridgeMethod.h; sourceTree = "<group>"; };
+		13902500000160 /* VEH5BridgeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5BridgeModel.h; path = VEH5Kit/Classes/JSBridge/VEH5BridgeModel.h; sourceTree = "<group>"; };
+		13902500000190 /* VEH5KitStartUpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5KitStartUpTask.h; path = VEH5Kit/Classes/OneKit/Tasks/VEH5KitStartUpTask.h; sourceTree = "<group>"; };
+		139025000001B0 /* VEH5WebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5WebView.h; path = VEH5Kit/Classes/WebView/VEH5WebView.h; sourceTree = "<group>"; };
+		139025000001C0 /* VEH5WebViewConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5WebViewConfiguration.h; path = VEH5Kit/Classes/WebView/VEH5WebViewConfiguration.h; sourceTree = "<group>"; };
+		139025000001D0 /* VEH5WebViewControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5WebViewControl.h; path = VEH5Kit/Classes/WebView/VEH5WebViewControl.h; sourceTree = "<group>"; };
+		139025000001E0 /* VEH5WebViewDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5WebViewDelegateProxy.h; path = VEH5Kit/Classes/WebView/VEH5WebViewDelegateProxy.h; sourceTree = "<group>"; };
+		139025000001F0 /* VEH5WebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEH5WebViewProgressView.h; path = VEH5Kit/Classes/WebView/VEH5WebViewProgressView.h; sourceTree = "<group>"; };
+		13902500000210 /* libVEH5Kit_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVEH5Kit_Core_awesome_ios.a; path = "ios-arch-iphone/libVEH5Kit_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		13902500000230 /* libVEH5Kit_JSBridge_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVEH5Kit_JSBridge_awesome_ios.a; path = "ios-arch-iphone/libVEH5Kit_JSBridge_awesome_ios.a"; sourceTree = "<group>"; };
+		13902500000250 /* libVEH5Kit_OneKit_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVEH5Kit_OneKit_awesome_ios.a; path = "ios-arch-iphone/libVEH5Kit_OneKit_awesome_ios.a"; sourceTree = "<group>"; };
+		13902500000270 /* libVEH5Kit_WebView_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVEH5Kit_WebView_awesome_ios.a; path = "ios-arch-iphone/libVEH5Kit_WebView_awesome_ios.a"; sourceTree = "<group>"; };
+		13902500000400 /* VEH5Kit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEH5Kit.debug.xcconfig; sourceTree = "<group>"; };
+		13902500000410 /* VEH5Kit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEH5Kit.release.xcconfig; sourceTree = "<group>"; };
+		13902500000420 /* VEH5Kit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VEH5Kit-prefix.pch"; sourceTree = "<group>"; };
+		13902500000430 /* VEH5Kit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VEH5Kit-dummy.m"; sourceTree = "<group>"; };
+		13902500000450 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		13902500000480 /* mars_gecko_ios */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mars_gecko_ios; path = mars_gecko_ios.xcodeproj; sourceTree = "<group>"; };
+		139025000004B0 /* BDXBridgeKitToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDXBridgeKitToB; path = BDXBridgeKitToB.xcodeproj; sourceTree = "<group>"; };
+		139025000004E0 /* BDNativeWebComponentToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDNativeWebComponentToB; path = BDNativeWebComponentToB.xcodeproj; sourceTree = "<group>"; };
+		13902500000510 /* BDWebKitToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDWebKitToB; path = BDWebKitToB.xcodeproj; sourceTree = "<group>"; };
+		13902500000540 /* BDH5WebView */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDH5WebView; path = BDH5WebView.xcodeproj; sourceTree = "<group>"; };
+		2EE2827F370AD2BDB66A2BF2480901F5 /* VEH5Kit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = VEH5Kit; path = libVEH5Kit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139025000002F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13902500000010 = {
+			isa = PBXGroup;
+			children = (
+				139025000000A0 /* Dependencies */,
+				13902500000060 /* Frameworks */,
+				13902500000020 /* Products */,
+				139025000000B0 /* VEH5Kit */,
+			);
+			sourceTree = "<group>";
+		};
+		13902500000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE2827F370AD2BDB66A2BF2480901F5 /* VEH5Kit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13902500000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		139025000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				13902500000540 /* BDH5WebView */,
+				139025000004E0 /* BDNativeWebComponentToB */,
+				13902500000510 /* BDWebKitToB */,
+				139025000004B0 /* BDXBridgeKitToB */,
+				13902500000480 /* mars_gecko_ios */,
+				13902500000450 /* OneKit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		139025000000B0 /* VEH5Kit */ = {
+			isa = PBXGroup;
+			children = (
+				139025000000C0 /* VEH5Kit-bitdummy.m */,
+				139025000000D0 /* Core */,
+				13902500000120 /* JSBridge */,
+				13902500000170 /* NativeComponent */,
+				13902500000180 /* OneKit */,
+				139025000003F0 /* Support Files */,
+				139025000001A0 /* WebView */,
+			);
+			name = VEH5Kit;
+			path = VEH5Kit;
+			sourceTree = "<group>";
+		};
+		139025000000D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				139025000000E0 /* VEH5FalconMonitorInterceptor.h */,
+				139025000000F0 /* VEH5Kit.h */,
+				13902500000100 /* VEH5KitConfig.h */,
+				13902500000110 /* VEH5KitManager.h */,
+				13902500000200 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		13902500000120 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				13902500000130 /* VEH5BridgeEvent.h */,
+				13902500000140 /* VEH5BridgeEventCenter.h */,
+				13902500000150 /* VEH5BridgeMethod.h */,
+				13902500000160 /* VEH5BridgeModel.h */,
+				13902500000220 /* Frameworks */,
+			);
+			name = JSBridge;
+			sourceTree = "<group>";
+		};
+		13902500000170 /* NativeComponent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NativeComponent;
+			sourceTree = "<group>";
+		};
+		13902500000180 /* OneKit */ = {
+			isa = PBXGroup;
+			children = (
+				13902500000190 /* VEH5KitStartUpTask.h */,
+				13902500000240 /* Frameworks */,
+			);
+			name = OneKit;
+			sourceTree = "<group>";
+		};
+		139025000001A0 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				139025000001B0 /* VEH5WebView.h */,
+				139025000001C0 /* VEH5WebViewConfiguration.h */,
+				139025000001D0 /* VEH5WebViewControl.h */,
+				139025000001E0 /* VEH5WebViewDelegateProxy.h */,
+				139025000001F0 /* VEH5WebViewProgressView.h */,
+				13902500000260 /* Frameworks */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		13902500000200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13902500000210 /* libVEH5Kit_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13902500000220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13902500000230 /* libVEH5Kit_JSBridge_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13902500000240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13902500000250 /* libVEH5Kit_OneKit_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13902500000260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13902500000270 /* libVEH5Kit_WebView_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		139025000003F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13902500000430 /* VEH5Kit-dummy.m */,
+				13902500000420 /* VEH5Kit-prefix.pch */,
+				13902500000400 /* VEH5Kit.debug.xcconfig */,
+				13902500000410 /* VEH5Kit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VEH5Kit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		139025000002D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13902500000350 /* VEH5BridgeEvent.h in Headers */,
+				13902500000360 /* VEH5BridgeEventCenter.h in Headers */,
+				13902500000370 /* VEH5BridgeMethod.h in Headers */,
+				13902500000380 /* VEH5BridgeModel.h in Headers */,
+				13902500000310 /* VEH5FalconMonitorInterceptor.h in Headers */,
+				13902500000320 /* VEH5Kit.h in Headers */,
+				13902500000330 /* VEH5KitConfig.h in Headers */,
+				13902500000340 /* VEH5KitManager.h in Headers */,
+				13902500000390 /* VEH5KitStartUpTask.h in Headers */,
+				139025000003A0 /* VEH5WebView.h in Headers */,
+				139025000003B0 /* VEH5WebViewConfiguration.h in Headers */,
+				139025000003C0 /* VEH5WebViewControl.h in Headers */,
+				139025000003D0 /* VEH5WebViewDelegateProxy.h in Headers */,
+				139025000003E0 /* VEH5WebViewProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7C01324B4D1B209C8A830298F54F224C /* VEH5Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13902500000290 /* Build configuration list for PBXNativeTarget "VEH5Kit" */;
+			buildPhases = (
+				139025000002D0 /* Headers */,
+				139025000002E0 /* Sources */,
+				139025000002F0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13902500000560 /* PBXTargetDependency */,
+				13902500000500 /* PBXTargetDependency */,
+				13902500000530 /* PBXTargetDependency */,
+				139025000004D0 /* PBXTargetDependency */,
+				13902500000470 /* PBXTargetDependency */,
+				139025000004A0 /* PBXTargetDependency */,
+			);
+			name = VEH5Kit;
+			productName = VEH5Kit;
+			productReference = 2EE2827F370AD2BDB66A2BF2480901F5 /* VEH5Kit */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13902500000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 13902500000030 /* Build configuration list for PBXProject "VEH5Kit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 13902500000010;
+			productRefGroup = 13902500000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 13902500000450 /* OneKit */;
+				},
+				{
+					ProjectRef = 13902500000480 /* mars_gecko_ios */;
+				},
+				{
+					ProjectRef = 139025000004B0 /* BDXBridgeKitToB */;
+				},
+				{
+					ProjectRef = 139025000004E0 /* BDNativeWebComponentToB */;
+				},
+				{
+					ProjectRef = 13902500000510 /* BDWebKitToB */;
+				},
+				{
+					ProjectRef = 13902500000540 /* BDH5WebView */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7C01324B4D1B209C8A830298F54F224C /* VEH5Kit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139025000002E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13902500000300 /* VEH5Kit-bitdummy.m in Sources */,
+				13902500000440 /* VEH5Kit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13902500000470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = 13902500000460 /* PBXContainerItemProxy */;
+		};
+		139025000004A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mars_gecko_ios;
+			targetProxy = 13902500000490 /* PBXContainerItemProxy */;
+		};
+		139025000004D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDXBridgeKitToB;
+			targetProxy = 139025000004C0 /* PBXContainerItemProxy */;
+		};
+		13902500000500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDNativeWebComponentToB;
+			targetProxy = 139025000004F0 /* PBXContainerItemProxy */;
+		};
+		13902500000530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDWebKitToB;
+			targetProxy = 13902500000520 /* PBXContainerItemProxy */;
+		};
+		13902500000560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDH5WebView;
+			targetProxy = 13902500000550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13902500000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		13902500000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		139025000002A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13902500000410 /* VEH5Kit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/VEH5Kit/VEH5Kit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VEH5Kit;
+				PRODUCT_NAME = VEH5Kit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		139025000002B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13902500000400 /* VEH5Kit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/VEH5Kit/VEH5Kit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VEH5Kit;
+				PRODUCT_NAME = VEH5Kit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13902500000030 /* Build configuration list for PBXProject "VEH5Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13902500000040 /* Debug */,
+				13902500000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13902500000290 /* Build configuration list for PBXNativeTarget "VEH5Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139025000002B0 /* Debug */,
+				139025000002A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13902500000000 /* Project object */;
+}

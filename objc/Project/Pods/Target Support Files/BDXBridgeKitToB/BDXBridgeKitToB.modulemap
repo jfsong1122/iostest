@@ -1,0 +1,6 @@
+module BDXBridgeKitToB {
+  umbrella header "BDXBridgeKitToB-umbrella.h"
+
+  export *
+  module * { export * }
+}

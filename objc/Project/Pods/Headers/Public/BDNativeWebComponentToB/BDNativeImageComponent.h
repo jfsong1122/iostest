@@ -1,0 +1,1 @@
+../../../BDNativeWebComponentToB/BDNativeWebComponentToB/Image/BDNativeImageComponent.h

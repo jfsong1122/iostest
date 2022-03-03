@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579BC900000A80 /* OneKit-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 579BC9000000C0 /* OneKit-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		579BC900000A90 /* BDMantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000000E0 /* BDMantle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000AA0 /* BDMTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000000F0 /* BDMTLJSONAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000AB0 /* BDMTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000100 /* BDMTLModel+NSCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000AC0 /* BDMTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000110 /* BDMTLModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000AD0 /* BDMTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000120 /* BDMTLReflection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000AE0 /* BDMTLTransformerErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000130 /* BDMTLTransformerErrorHandling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000AF0 /* BDMTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000140 /* BDMTLValueTransformer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B00 /* BDEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000150 /* BDEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B10 /* BDEXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000160 /* BDEXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B20 /* BDEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000170 /* BDEXTScope.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B30 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000180 /* metamacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B40 /* NSArray+BDMTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000190 /* NSArray+BDMTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B50 /* NSDictionary+BDMTLJSONKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000001A0 /* NSDictionary+BDMTLJSONKeyPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B60 /* NSDictionary+BDMTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000001B0 /* NSDictionary+BDMTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B70 /* NSDictionary+BDMTLMappingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000001C0 /* NSDictionary+BDMTLMappingAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B80 /* NSError+BDMTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000001D0 /* NSError+BDMTLModelException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000B90 /* NSObject+BDMTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000001E0 /* NSObject+BDMTLComparisonAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000BA0 /* NSValueTransformer+BDMTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000001F0 /* NSValueTransformer+BDMTLInversionAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000BB0 /* NSValueTransformer+BDMTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000200 /* NSValueTransformer+BDMTLPredefinedTransformerAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000BC0 /* NSData+OKDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000220 /* NSData+OKDecorator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000BD0 /* NSData+OKSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000230 /* NSData+OKSecurity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000BE0 /* NSString+OKSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000240 /* NSString+OKSecurity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000BF0 /* app_log_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000250 /* app_log_private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C00 /* NSArray+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000260 /* NSArray+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C10 /* NSData+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000270 /* NSData+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C20 /* NSDictionary+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000280 /* NSDictionary+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C30 /* NSFileManager+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000290 /* NSFileManager+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C40 /* NSHashTable+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000002A0 /* NSHashTable+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C50 /* NSMapTable+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000002B0 /* NSMapTable+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C60 /* NSMutableArray+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000002C0 /* NSMutableArray+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C70 /* NSMutableDictionary+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000002D0 /* NSMutableDictionary+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C80 /* NSNumber+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000002E0 /* NSNumber+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000C90 /* NSObject+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000002F0 /* NSObject+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000CA0 /* NSSet+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000300 /* NSSet+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000CB0 /* NSString+OK.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000310 /* NSString+OK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000CC0 /* OKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000320 /* OKDevice.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000CD0 /* OKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000330 /* OKMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000CE0 /* OKSandbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000340 /* OKSandbox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000CF0 /* OKTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000350 /* OKTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D00 /* OKUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000360 /* OKUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D10 /* OKWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000370 /* OKWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D20 /* NSData+OKGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000380 /* NSData+OKGZIP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D30 /* OKKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000390 /* OKKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D40 /* OKSectionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000003A0 /* OKSectionData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D50 /* OKSectionFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000003B0 /* OKSectionFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D60 /* OKResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000003C0 /* OKResponder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D70 /* UIApplication+OKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000003D0 /* UIApplication+OKAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D80 /* BTDDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000400 /* BTDDispatch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000D90 /* BTDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000410 /* BTDWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000DA0 /* NSArray+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000420 /* NSArray+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000DB0 /* NSAttributedString+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000430 /* NSAttributedString+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000DC0 /* NSBundle+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000440 /* NSBundle+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000DD0 /* NSData+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000450 /* NSData+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000DE0 /* NSDate+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000460 /* NSDate+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000DF0 /* NSDictionary+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000470 /* NSDictionary+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E00 /* NSFileManager+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000480 /* NSFileManager+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E10 /* NSNumber+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000490 /* NSNumber+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E20 /* NSObject+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000004A0 /* NSObject+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E30 /* NSSet+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000004B0 /* NSSet+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E40 /* NSString+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000004C0 /* NSString+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E50 /* NSTimer+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000004D0 /* NSTimer+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E60 /* NSURL+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000004E0 /* NSURL+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E70 /* BTDMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000004F0 /* BTDMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E80 /* ByteDanceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000500 /* ByteDanceKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000E90 /* BTDResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000520 /* BTDResponder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000EA0 /* UIApplication+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000530 /* UIApplication+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000EB0 /* UIButton+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000540 /* UIButton+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000EC0 /* UIColor+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000550 /* UIColor+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000ED0 /* UIControl+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000560 /* UIControl+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000EE0 /* UIDevice+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000570 /* UIDevice+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000EF0 /* UIGestureRecognizer+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000580 /* UIGestureRecognizer+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F00 /* UIImage+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000590 /* UIImage+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F10 /* UILabel+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000005A0 /* UILabel+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F20 /* UIScrollView+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000005B0 /* UIScrollView+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F30 /* UIView+BTDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000005C0 /* UIView+BTDAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F40 /* OKDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000005E0 /* OKDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F50 /* OKDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000005F0 /* OKDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F60 /* OKDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000600 /* OKDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F70 /* OKDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000610 /* OKDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F80 /* OKResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000620 /* OKResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000F90 /* OKDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000640 /* OKDefaults.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000FA0 /* NSMutableURLRequest+OKSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000670 /* NSMutableURLRequest+OKSignature.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000FB0 /* OKMARSAuthHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000680 /* OKMARSAuthHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000FC0 /* OKCellular.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000006A0 /* OKCellular.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000FD0 /* OKConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000006B0 /* OKConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000FE0 /* OKReachability+Authorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000006C0 /* OKReachability+Authorization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900000FF0 /* OKReachability+Cellular.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000006D0 /* OKReachability+Cellular.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001000 /* OKReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000006E0 /* OKReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001010 /* OKSnapshotManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000700 /* OKSnapshotManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001020 /* OKSnapshotScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000710 /* OKSnapshotScroll.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001030 /* OKScreenshotTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000720 /* OKScreenshotTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001040 /* UIViewController+OKSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000730 /* UIViewController+OKSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001050 /* UIScrollView+OKSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000740 /* UIScrollView+OKSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001060 /* UIScrollView+OKSplice.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000750 /* UIScrollView+OKSplice.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001070 /* UIView+OKSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000760 /* UIView+OKSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001080 /* WKWebView+OKSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000770 /* WKWebView+OKSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001090 /* OKApplicationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000790 /* OKApplicationInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC9000010A0 /* OKSdkEventConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000007A0 /* OKSdkEventConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC9000010B0 /* OKService.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000007B0 /* OKService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC9000010C0 /* OKServiceCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000007C0 /* OKServiceCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC9000010D0 /* OKServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000007D0 /* OKServices.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC9000010E0 /* OKStartUpFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC9000007F0 /* OKStartUpFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC9000010F0 /* OKStartUpScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000800 /* OKStartUpScheduler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001100 /* OKStartUpSchemeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000810 /* OKStartUpSchemeHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001110 /* OKStartUpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000820 /* OKStartUpTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001120 /* OneKitApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900000830 /* OneKitApp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC900001180 /* OneKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 579BC900001170 /* OneKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579BC9000011B0 /* OneKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 579BC9000011A0 /* OneKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0431F65E9E42495C564993E06AB96DFD /* OneKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = OneKit; path = libOneKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		579BC9000000C0 /* OneKit-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneKit-bitdummy.m"; sourceTree = "<group>"; };
+		579BC9000000E0 /* BDMantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDMantle.h; path = OneKit/BDMantle/BDMantle/BDMantle.h; sourceTree = "<group>"; };
+		579BC9000000F0 /* BDMTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDMTLJSONAdapter.h; path = OneKit/BDMantle/BDMantle/BDMTLJSONAdapter.h; sourceTree = "<group>"; };
+		579BC900000100 /* BDMTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDMTLModel+NSCoding.h"; path = "OneKit/BDMantle/BDMantle/BDMTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		579BC900000110 /* BDMTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDMTLModel.h; path = OneKit/BDMantle/BDMantle/BDMTLModel.h; sourceTree = "<group>"; };
+		579BC900000120 /* BDMTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDMTLReflection.h; path = OneKit/BDMantle/BDMantle/BDMTLReflection.h; sourceTree = "<group>"; };
+		579BC900000130 /* BDMTLTransformerErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDMTLTransformerErrorHandling.h; path = OneKit/BDMantle/BDMantle/BDMTLTransformerErrorHandling.h; sourceTree = "<group>"; };
+		579BC900000140 /* BDMTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDMTLValueTransformer.h; path = OneKit/BDMantle/BDMantle/BDMTLValueTransformer.h; sourceTree = "<group>"; };
+		579BC900000150 /* BDEXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDEXTKeyPathCoding.h; path = OneKit/BDMantle/BDMantle/extobjc/BDEXTKeyPathCoding.h; sourceTree = "<group>"; };
+		579BC900000160 /* BDEXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDEXTRuntimeExtensions.h; path = OneKit/BDMantle/BDMantle/extobjc/BDEXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		579BC900000170 /* BDEXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDEXTScope.h; path = OneKit/BDMantle/BDMantle/extobjc/BDEXTScope.h; sourceTree = "<group>"; };
+		579BC900000180 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = OneKit/BDMantle/BDMantle/extobjc/metamacros.h; sourceTree = "<group>"; };
+		579BC900000190 /* NSArray+BDMTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BDMTLManipulationAdditions.h"; path = "OneKit/BDMantle/BDMantle/NSArray+BDMTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		579BC9000001A0 /* NSDictionary+BDMTLJSONKeyPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDMTLJSONKeyPath.h"; path = "OneKit/BDMantle/BDMantle/NSDictionary+BDMTLJSONKeyPath.h"; sourceTree = "<group>"; };
+		579BC9000001B0 /* NSDictionary+BDMTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDMTLManipulationAdditions.h"; path = "OneKit/BDMantle/BDMantle/NSDictionary+BDMTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		579BC9000001C0 /* NSDictionary+BDMTLMappingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDMTLMappingAdditions.h"; path = "OneKit/BDMantle/BDMantle/NSDictionary+BDMTLMappingAdditions.h"; sourceTree = "<group>"; };
+		579BC9000001D0 /* NSError+BDMTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+BDMTLModelException.h"; path = "OneKit/BDMantle/BDMantle/NSError+BDMTLModelException.h"; sourceTree = "<group>"; };
+		579BC9000001E0 /* NSObject+BDMTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BDMTLComparisonAdditions.h"; path = "OneKit/BDMantle/BDMantle/NSObject+BDMTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		579BC9000001F0 /* NSValueTransformer+BDMTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+BDMTLInversionAdditions.h"; path = "OneKit/BDMantle/BDMantle/NSValueTransformer+BDMTLInversionAdditions.h"; sourceTree = "<group>"; };
+		579BC900000200 /* NSValueTransformer+BDMTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+BDMTLPredefinedTransformerAdditions.h"; path = "OneKit/BDMantle/BDMantle/NSValueTransformer+BDMTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		579BC900000220 /* NSData+OKDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+OKDecorator.h"; path = "OneKit/BaseKit/Decorator/NSData+OKDecorator.h"; sourceTree = "<group>"; };
+		579BC900000230 /* NSData+OKSecurity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+OKSecurity.h"; path = "OneKit/BaseKit/Decorator/NSData+OKSecurity.h"; sourceTree = "<group>"; };
+		579BC900000240 /* NSString+OKSecurity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+OKSecurity.h"; path = "OneKit/BaseKit/Decorator/NSString+OKSecurity.h"; sourceTree = "<group>"; };
+		579BC900000250 /* app_log_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = app_log_private.h; path = OneKit/BaseKit/Decorator/Vendor/app_log_private.h; sourceTree = "<group>"; };
+		579BC900000260 /* NSArray+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+OK.h"; path = "OneKit/BaseKit/Foundation/NSArray+OK.h"; sourceTree = "<group>"; };
+		579BC900000270 /* NSData+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+OK.h"; path = "OneKit/BaseKit/Foundation/NSData+OK.h"; sourceTree = "<group>"; };
+		579BC900000280 /* NSDictionary+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+OK.h"; path = "OneKit/BaseKit/Foundation/NSDictionary+OK.h"; sourceTree = "<group>"; };
+		579BC900000290 /* NSFileManager+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+OK.h"; path = "OneKit/BaseKit/Foundation/NSFileManager+OK.h"; sourceTree = "<group>"; };
+		579BC9000002A0 /* NSHashTable+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSHashTable+OK.h"; path = "OneKit/BaseKit/Foundation/NSHashTable+OK.h"; sourceTree = "<group>"; };
+		579BC9000002B0 /* NSMapTable+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMapTable+OK.h"; path = "OneKit/BaseKit/Foundation/NSMapTable+OK.h"; sourceTree = "<group>"; };
+		579BC9000002C0 /* NSMutableArray+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+OK.h"; path = "OneKit/BaseKit/Foundation/NSMutableArray+OK.h"; sourceTree = "<group>"; };
+		579BC9000002D0 /* NSMutableDictionary+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+OK.h"; path = "OneKit/BaseKit/Foundation/NSMutableDictionary+OK.h"; sourceTree = "<group>"; };
+		579BC9000002E0 /* NSNumber+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+OK.h"; path = "OneKit/BaseKit/Foundation/NSNumber+OK.h"; sourceTree = "<group>"; };
+		579BC9000002F0 /* NSObject+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+OK.h"; path = "OneKit/BaseKit/Foundation/NSObject+OK.h"; sourceTree = "<group>"; };
+		579BC900000300 /* NSSet+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+OK.h"; path = "OneKit/BaseKit/Foundation/NSSet+OK.h"; sourceTree = "<group>"; };
+		579BC900000310 /* NSString+OK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+OK.h"; path = "OneKit/BaseKit/Foundation/NSString+OK.h"; sourceTree = "<group>"; };
+		579BC900000320 /* OKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKDevice.h; path = OneKit/BaseKit/Foundation/OKDevice.h; sourceTree = "<group>"; };
+		579BC900000330 /* OKMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKMacros.h; path = OneKit/BaseKit/Foundation/OKMacros.h; sourceTree = "<group>"; };
+		579BC900000340 /* OKSandbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKSandbox.h; path = OneKit/BaseKit/Foundation/OKSandbox.h; sourceTree = "<group>"; };
+		579BC900000350 /* OKTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKTimer.h; path = OneKit/BaseKit/Foundation/OKTimer.h; sourceTree = "<group>"; };
+		579BC900000360 /* OKUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKUtility.h; path = OneKit/BaseKit/Foundation/OKUtility.h; sourceTree = "<group>"; };
+		579BC900000370 /* OKWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKWeakProxy.h; path = OneKit/BaseKit/Foundation/OKWeakProxy.h; sourceTree = "<group>"; };
+		579BC900000380 /* NSData+OKGZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+OKGZIP.h"; path = "OneKit/BaseKit/GZip/NSData+OKGZIP.h"; sourceTree = "<group>"; };
+		579BC900000390 /* OKKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKKeychain.h; path = OneKit/BaseKit/Keychain/OKKeychain.h; sourceTree = "<group>"; };
+		579BC9000003A0 /* OKSectionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKSectionData.h; path = OneKit/BaseKit/Section/OKSectionData.h; sourceTree = "<group>"; };
+		579BC9000003B0 /* OKSectionFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKSectionFunction.h; path = OneKit/BaseKit/Section/OKSectionFunction.h; sourceTree = "<group>"; };
+		579BC9000003C0 /* OKResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKResponder.h; path = OneKit/BaseKit/UIKit/OKResponder.h; sourceTree = "<group>"; };
+		579BC9000003D0 /* UIApplication+OKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+OKAdditions.h"; path = "OneKit/BaseKit/UIKit/UIApplication+OKAdditions.h"; sourceTree = "<group>"; };
+		579BC900000400 /* BTDDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDDispatch.h; path = OneKit/ByteDanceKit/Foundation/BTDDispatch.h; sourceTree = "<group>"; };
+		579BC900000410 /* BTDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDWeakProxy.h; path = OneKit/ByteDanceKit/Foundation/BTDWeakProxy.h; sourceTree = "<group>"; };
+		579BC900000420 /* NSArray+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSArray+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000430 /* NSAttributedString+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSAttributedString+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000440 /* NSBundle+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSBundle+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000450 /* NSData+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSData+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000460 /* NSDate+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSDate+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000470 /* NSDictionary+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSDictionary+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000480 /* NSFileManager+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSFileManager+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000490 /* NSNumber+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSNumber+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000004A0 /* NSObject+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSObject+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000004B0 /* NSSet+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSSet+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000004C0 /* NSString+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSString+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000004D0 /* NSTimer+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSTimer+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000004E0 /* NSURL+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+BTDAdditions.h"; path = "OneKit/ByteDanceKit/Foundation/NSURL+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000004F0 /* BTDMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDMacros.h; path = OneKit/ByteDanceKit/BTDMacros.h; sourceTree = "<group>"; };
+		579BC900000500 /* ByteDanceKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ByteDanceKit.h; path = OneKit/ByteDanceKit/ByteDanceKit.h; sourceTree = "<group>"; };
+		579BC900000520 /* BTDResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDResponder.h; path = OneKit/ByteDanceKit/UIKit/BTDResponder.h; sourceTree = "<group>"; };
+		579BC900000530 /* UIApplication+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIApplication+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000540 /* UIButton+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIButton+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000550 /* UIColor+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIColor+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000560 /* UIControl+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIControl+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000570 /* UIDevice+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIDevice+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000580 /* UIGestureRecognizer+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIGestureRecognizer+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC900000590 /* UIImage+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIImage+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000005A0 /* UILabel+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UILabel+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000005B0 /* UIScrollView+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIScrollView+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000005C0 /* UIView+BTDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BTDAdditions.h"; path = "OneKit/ByteDanceKit/UIKit/UIView+BTDAdditions.h"; sourceTree = "<group>"; };
+		579BC9000005E0 /* OKDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKDatabase.h; path = OneKit/Database/OKDatabase.h; sourceTree = "<group>"; };
+		579BC9000005F0 /* OKDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKDatabaseAdditions.h; path = OneKit/Database/OKDatabaseAdditions.h; sourceTree = "<group>"; };
+		579BC900000600 /* OKDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKDatabasePool.h; path = OneKit/Database/OKDatabasePool.h; sourceTree = "<group>"; };
+		579BC900000610 /* OKDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKDatabaseQueue.h; path = OneKit/Database/OKDatabaseQueue.h; sourceTree = "<group>"; };
+		579BC900000620 /* OKResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKResultSet.h; path = OneKit/Database/OKResultSet.h; sourceTree = "<group>"; };
+		579BC900000640 /* OKDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKDefaults.h; path = OneKit/Defaults/OKDefaults.h; sourceTree = "<group>"; };
+		579BC900000670 /* NSMutableURLRequest+OKSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+OKSignature.h"; path = "OneKit/MARS/Auth/NSMutableURLRequest+OKSignature.h"; sourceTree = "<group>"; };
+		579BC900000680 /* OKMARSAuthHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKMARSAuthHelper.h; path = OneKit/MARS/Auth/OKMARSAuthHelper.h; sourceTree = "<group>"; };
+		579BC9000006A0 /* OKCellular.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKCellular.h; path = OneKit/Reachability/OKCellular.h; sourceTree = "<group>"; };
+		579BC9000006B0 /* OKConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKConnection.h; path = OneKit/Reachability/OKConnection.h; sourceTree = "<group>"; };
+		579BC9000006C0 /* OKReachability+Authorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKReachability+Authorization.h"; path = "OneKit/Reachability/OKReachability+Authorization.h"; sourceTree = "<group>"; };
+		579BC9000006D0 /* OKReachability+Cellular.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKReachability+Cellular.h"; path = "OneKit/Reachability/OKReachability+Cellular.h"; sourceTree = "<group>"; };
+		579BC9000006E0 /* OKReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKReachability.h; path = OneKit/Reachability/OKReachability.h; sourceTree = "<group>"; };
+		579BC900000700 /* OKSnapshotManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKSnapshotManager.h; path = OneKit/Screenshot/OKSnapshotManager.h; sourceTree = "<group>"; };
+		579BC900000710 /* OKSnapshotScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKSnapshotScroll.h; path = OneKit/Screenshot/OKSnapshotScroll.h; sourceTree = "<group>"; };
+		579BC900000720 /* OKScreenshotTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKScreenshotTools.h; path = OneKit/Screenshot/Tools/OKScreenshotTools.h; sourceTree = "<group>"; };
+		579BC900000730 /* UIViewController+OKSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+OKSnapshot.h"; path = "OneKit/Screenshot/Tools/UIViewController+OKSnapshot.h"; sourceTree = "<group>"; };
+		579BC900000740 /* UIScrollView+OKSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+OKSnapshot.h"; path = "OneKit/Screenshot/UIScrollView+OKSnapshot.h"; sourceTree = "<group>"; };
+		579BC900000750 /* UIScrollView+OKSplice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+OKSplice.h"; path = "OneKit/Screenshot/UIScrollView+OKSplice.h"; sourceTree = "<group>"; };
+		579BC900000760 /* UIView+OKSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+OKSnapshot.h"; path = "OneKit/Screenshot/UIView+OKSnapshot.h"; sourceTree = "<group>"; };
+		579BC900000770 /* WKWebView+OKSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+OKSnapshot.h"; path = "OneKit/Screenshot/WKWebView+OKSnapshot.h"; sourceTree = "<group>"; };
+		579BC900000790 /* OKApplicationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKApplicationInfo.h; path = OneKit/Service/OKApplicationInfo.h; sourceTree = "<group>"; };
+		579BC9000007A0 /* OKSdkEventConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKSdkEventConfig.h; path = OneKit/Service/OKSdkEventConfig.h; sourceTree = "<group>"; };
+		579BC9000007B0 /* OKService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKService.h; path = OneKit/Service/OKService.h; sourceTree = "<group>"; };
+		579BC9000007C0 /* OKServiceCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKServiceCenter.h; path = OneKit/Service/OKServiceCenter.h; sourceTree = "<group>"; };
+		579BC9000007D0 /* OKServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKServices.h; path = OneKit/Service/OKServices.h; sourceTree = "<group>"; };
+		579BC9000007F0 /* OKStartUpFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKStartUpFunction.h; path = OneKit/StartUp/Headers/OKStartUpFunction.h; sourceTree = "<group>"; };
+		579BC900000800 /* OKStartUpScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKStartUpScheduler.h; path = OneKit/StartUp/Headers/OKStartUpScheduler.h; sourceTree = "<group>"; };
+		579BC900000810 /* OKStartUpSchemeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKStartUpSchemeHandler.h; path = OneKit/StartUp/Headers/OKStartUpSchemeHandler.h; sourceTree = "<group>"; };
+		579BC900000820 /* OKStartUpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKStartUpTask.h; path = OneKit/StartUp/Headers/OKStartUpTask.h; sourceTree = "<group>"; };
+		579BC900000830 /* OneKitApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OneKitApp.h; path = OneKit/StartUp/Headers/OneKitApp.h; sourceTree = "<group>"; };
+		579BC900000860 /* libOneKit_BDMantle_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_BDMantle_awesome_ios.a; path = "ios-arch-iphone/libOneKit_BDMantle_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC900000880 /* libEncryptor.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEncryptor.a; path = OneKit/BaseKit/Decorator/Vendor/libEncryptor.a; sourceTree = "<group>"; };
+		579BC900000890 /* libOneKit_BaseKit_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_BaseKit_awesome_ios.a; path = "ios-arch-iphone/libOneKit_BaseKit_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC9000008B0 /* libOneKit_Foundation_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_Foundation_awesome_ios.a; path = "ios-arch-iphone/libOneKit_Foundation_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC9000008D0 /* libOneKit_UIKit_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_UIKit_awesome_ios.a; path = "ios-arch-iphone/libOneKit_UIKit_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC9000008F0 /* libOneKit_Database_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_Database_awesome_ios.a; path = "ios-arch-iphone/libOneKit_Database_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC900000910 /* libOneKit_Defaults_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_Defaults_awesome_ios.a; path = "ios-arch-iphone/libOneKit_Defaults_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC900000930 /* libOneKit_Auth_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_Auth_awesome_ios.a; path = "ios-arch-iphone/libOneKit_Auth_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC900000950 /* libOneKit_Reachability_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_Reachability_awesome_ios.a; path = "ios-arch-iphone/libOneKit_Reachability_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC900000970 /* libOneKit_Screenshot_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_Screenshot_awesome_ios.a; path = "ios-arch-iphone/libOneKit_Screenshot_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC900000990 /* libOneKit_Service_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_Service_awesome_ios.a; path = "ios-arch-iphone/libOneKit_Service_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC9000009B0 /* libOneKit_StartUp_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOneKit_StartUp_awesome_ios.a; path = "ios-arch-iphone/libOneKit_StartUp_awesome_ios.a"; sourceTree = "<group>"; };
+		579BC9000009D0 /* libcrcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrcrypto.a; path = OneKit/boringssl/libcrcrypto.a; sourceTree = "<group>"; };
+		579BC9000009E0 /* libboringssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libboringssl.a; path = OneKit/boringssl/libboringssl.a; sourceTree = "<group>"; };
+		579BC9000009F0 /* libboringssl_asm.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libboringssl_asm.a; path = OneKit/boringssl/libboringssl_asm.a; sourceTree = "<group>"; };
+		579BC900001140 /* OneKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneKit.debug.xcconfig; sourceTree = "<group>"; };
+		579BC900001150 /* OneKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneKit.release.xcconfig; sourceTree = "<group>"; };
+		579BC900001160 /* OneKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneKit.modulemap; sourceTree = "<group>"; };
+		579BC900001170 /* OneKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneKit-umbrella.h"; sourceTree = "<group>"; };
+		579BC900001190 /* OneKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneKit-prefix.pch"; sourceTree = "<group>"; };
+		579BC9000011A0 /* OneKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		579BC900000A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579BC900000010 = {
+			isa = PBXGroup;
+			children = (
+				579BC900000060 /* Frameworks */,
+				579BC9000000B0 /* OneKit */,
+				579BC900000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		579BC900000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0431F65E9E42495C564993E06AB96DFD /* OneKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579BC900000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC9000000B0 /* OneKit */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000000C0 /* OneKit-bitdummy.m */,
+				579BC900000210 /* BaseKit */,
+				579BC9000000D0 /* BDMantle */,
+				579BC900000840 /* boringssl */,
+				579BC9000003E0 /* ByteDanceKit */,
+				579BC9000005D0 /* Database */,
+				579BC900000630 /* Defaults */,
+				579BC900000650 /* MARS */,
+				579BC900000690 /* Reachability */,
+				579BC9000006F0 /* Screenshot */,
+				579BC900000780 /* Service */,
+				579BC9000007E0 /* StartUp */,
+				579BC900001130 /* Support Files */,
+			);
+			name = OneKit;
+			path = OneKit;
+			sourceTree = "<group>";
+		};
+		579BC9000000D0 /* BDMantle */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000150 /* BDEXTKeyPathCoding.h */,
+				579BC900000160 /* BDEXTRuntimeExtensions.h */,
+				579BC900000170 /* BDEXTScope.h */,
+				579BC9000000E0 /* BDMantle.h */,
+				579BC9000000F0 /* BDMTLJSONAdapter.h */,
+				579BC900000110 /* BDMTLModel.h */,
+				579BC900000100 /* BDMTLModel+NSCoding.h */,
+				579BC900000120 /* BDMTLReflection.h */,
+				579BC900000130 /* BDMTLTransformerErrorHandling.h */,
+				579BC900000140 /* BDMTLValueTransformer.h */,
+				579BC900000180 /* metamacros.h */,
+				579BC900000190 /* NSArray+BDMTLManipulationAdditions.h */,
+				579BC9000001A0 /* NSDictionary+BDMTLJSONKeyPath.h */,
+				579BC9000001B0 /* NSDictionary+BDMTLManipulationAdditions.h */,
+				579BC9000001C0 /* NSDictionary+BDMTLMappingAdditions.h */,
+				579BC9000001D0 /* NSError+BDMTLModelException.h */,
+				579BC9000001E0 /* NSObject+BDMTLComparisonAdditions.h */,
+				579BC9000001F0 /* NSValueTransformer+BDMTLInversionAdditions.h */,
+				579BC900000200 /* NSValueTransformer+BDMTLPredefinedTransformerAdditions.h */,
+				579BC900000850 /* Frameworks */,
+			);
+			name = BDMantle;
+			sourceTree = "<group>";
+		};
+		579BC900000210 /* BaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000250 /* app_log_private.h */,
+				579BC900000260 /* NSArray+OK.h */,
+				579BC900000270 /* NSData+OK.h */,
+				579BC900000220 /* NSData+OKDecorator.h */,
+				579BC900000380 /* NSData+OKGZIP.h */,
+				579BC900000230 /* NSData+OKSecurity.h */,
+				579BC900000280 /* NSDictionary+OK.h */,
+				579BC900000290 /* NSFileManager+OK.h */,
+				579BC9000002A0 /* NSHashTable+OK.h */,
+				579BC9000002B0 /* NSMapTable+OK.h */,
+				579BC9000002C0 /* NSMutableArray+OK.h */,
+				579BC9000002D0 /* NSMutableDictionary+OK.h */,
+				579BC9000002E0 /* NSNumber+OK.h */,
+				579BC9000002F0 /* NSObject+OK.h */,
+				579BC900000300 /* NSSet+OK.h */,
+				579BC900000310 /* NSString+OK.h */,
+				579BC900000240 /* NSString+OKSecurity.h */,
+				579BC900000320 /* OKDevice.h */,
+				579BC900000390 /* OKKeychain.h */,
+				579BC900000330 /* OKMacros.h */,
+				579BC9000003C0 /* OKResponder.h */,
+				579BC900000340 /* OKSandbox.h */,
+				579BC9000003A0 /* OKSectionData.h */,
+				579BC9000003B0 /* OKSectionFunction.h */,
+				579BC900000350 /* OKTimer.h */,
+				579BC900000360 /* OKUtility.h */,
+				579BC900000370 /* OKWeakProxy.h */,
+				579BC9000003D0 /* UIApplication+OKAdditions.h */,
+				579BC900000870 /* Frameworks */,
+			);
+			name = BaseKit;
+			sourceTree = "<group>";
+		};
+		579BC9000003E0 /* ByteDanceKit */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000003F0 /* Foundation */,
+				579BC900000510 /* UIKit */,
+			);
+			name = ByteDanceKit;
+			sourceTree = "<group>";
+		};
+		579BC9000003F0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000400 /* BTDDispatch.h */,
+				579BC9000004F0 /* BTDMacros.h */,
+				579BC900000410 /* BTDWeakProxy.h */,
+				579BC900000500 /* ByteDanceKit.h */,
+				579BC900000420 /* NSArray+BTDAdditions.h */,
+				579BC900000430 /* NSAttributedString+BTDAdditions.h */,
+				579BC900000440 /* NSBundle+BTDAdditions.h */,
+				579BC900000450 /* NSData+BTDAdditions.h */,
+				579BC900000460 /* NSDate+BTDAdditions.h */,
+				579BC900000470 /* NSDictionary+BTDAdditions.h */,
+				579BC900000480 /* NSFileManager+BTDAdditions.h */,
+				579BC900000490 /* NSNumber+BTDAdditions.h */,
+				579BC9000004A0 /* NSObject+BTDAdditions.h */,
+				579BC9000004B0 /* NSSet+BTDAdditions.h */,
+				579BC9000004C0 /* NSString+BTDAdditions.h */,
+				579BC9000004D0 /* NSTimer+BTDAdditions.h */,
+				579BC9000004E0 /* NSURL+BTDAdditions.h */,
+				579BC9000008A0 /* Frameworks */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		579BC900000510 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000520 /* BTDResponder.h */,
+				579BC900000530 /* UIApplication+BTDAdditions.h */,
+				579BC900000540 /* UIButton+BTDAdditions.h */,
+				579BC900000550 /* UIColor+BTDAdditions.h */,
+				579BC900000560 /* UIControl+BTDAdditions.h */,
+				579BC900000570 /* UIDevice+BTDAdditions.h */,
+				579BC900000580 /* UIGestureRecognizer+BTDAdditions.h */,
+				579BC900000590 /* UIImage+BTDAdditions.h */,
+				579BC9000005A0 /* UILabel+BTDAdditions.h */,
+				579BC9000005B0 /* UIScrollView+BTDAdditions.h */,
+				579BC9000005C0 /* UIView+BTDAdditions.h */,
+				579BC9000008C0 /* Frameworks */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		579BC9000005D0 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000005E0 /* OKDatabase.h */,
+				579BC9000005F0 /* OKDatabaseAdditions.h */,
+				579BC900000600 /* OKDatabasePool.h */,
+				579BC900000610 /* OKDatabaseQueue.h */,
+				579BC900000620 /* OKResultSet.h */,
+				579BC9000008E0 /* Frameworks */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		579BC900000630 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000640 /* OKDefaults.h */,
+				579BC900000900 /* Frameworks */,
+			);
+			name = Defaults;
+			sourceTree = "<group>";
+		};
+		579BC900000650 /* MARS */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000660 /* Auth */,
+			);
+			name = MARS;
+			sourceTree = "<group>";
+		};
+		579BC900000660 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000670 /* NSMutableURLRequest+OKSignature.h */,
+				579BC900000680 /* OKMARSAuthHelper.h */,
+				579BC900000920 /* Frameworks */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		579BC900000690 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000006A0 /* OKCellular.h */,
+				579BC9000006B0 /* OKConnection.h */,
+				579BC9000006E0 /* OKReachability.h */,
+				579BC9000006C0 /* OKReachability+Authorization.h */,
+				579BC9000006D0 /* OKReachability+Cellular.h */,
+				579BC900000940 /* Frameworks */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		579BC9000006F0 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000720 /* OKScreenshotTools.h */,
+				579BC900000700 /* OKSnapshotManager.h */,
+				579BC900000710 /* OKSnapshotScroll.h */,
+				579BC900000740 /* UIScrollView+OKSnapshot.h */,
+				579BC900000750 /* UIScrollView+OKSplice.h */,
+				579BC900000760 /* UIView+OKSnapshot.h */,
+				579BC900000730 /* UIViewController+OKSnapshot.h */,
+				579BC900000770 /* WKWebView+OKSnapshot.h */,
+				579BC900000960 /* Frameworks */,
+			);
+			name = Screenshot;
+			sourceTree = "<group>";
+		};
+		579BC900000780 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000790 /* OKApplicationInfo.h */,
+				579BC9000007A0 /* OKSdkEventConfig.h */,
+				579BC9000007B0 /* OKService.h */,
+				579BC9000007C0 /* OKServiceCenter.h */,
+				579BC9000007D0 /* OKServices.h */,
+				579BC900000980 /* Frameworks */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		579BC9000007E0 /* StartUp */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000007F0 /* OKStartUpFunction.h */,
+				579BC900000800 /* OKStartUpScheduler.h */,
+				579BC900000810 /* OKStartUpSchemeHandler.h */,
+				579BC900000820 /* OKStartUpTask.h */,
+				579BC900000830 /* OneKitApp.h */,
+				579BC9000009A0 /* Frameworks */,
+			);
+			name = StartUp;
+			sourceTree = "<group>";
+		};
+		579BC900000840 /* boringssl */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000009C0 /* Frameworks */,
+			);
+			name = boringssl;
+			sourceTree = "<group>";
+		};
+		579BC900000850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000860 /* libOneKit_BDMantle_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC900000870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000880 /* libEncryptor.a */,
+				579BC900000890 /* libOneKit_BaseKit_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC9000008A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000008B0 /* libOneKit_Foundation_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC9000008C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000008D0 /* libOneKit_UIKit_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC9000008E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000008F0 /* libOneKit_Database_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC900000900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000910 /* libOneKit_Defaults_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC900000920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000930 /* libOneKit_Auth_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC900000940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000950 /* libOneKit_Reachability_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC900000960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000970 /* libOneKit_Screenshot_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC900000980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900000990 /* libOneKit_Service_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC9000009A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000009B0 /* libOneKit_StartUp_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC9000009C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579BC9000009E0 /* libboringssl.a */,
+				579BC9000009F0 /* libboringssl_asm.a */,
+				579BC9000009D0 /* libcrcrypto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579BC900001130 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				579BC900001160 /* OneKit.modulemap */,
+				579BC9000011A0 /* OneKit-dummy.m */,
+				579BC900001190 /* OneKit-prefix.pch */,
+				579BC900001170 /* OneKit-umbrella.h */,
+				579BC900001140 /* OneKit.debug.xcconfig */,
+				579BC900001150 /* OneKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OneKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		579BC900000A50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579BC900000BF0 /* app_log_private.h in Headers */,
+				579BC900000B00 /* BDEXTKeyPathCoding.h in Headers */,
+				579BC900000B10 /* BDEXTRuntimeExtensions.h in Headers */,
+				579BC900000B20 /* BDEXTScope.h in Headers */,
+				579BC900000A90 /* BDMantle.h in Headers */,
+				579BC900000AA0 /* BDMTLJSONAdapter.h in Headers */,
+				579BC900000AC0 /* BDMTLModel.h in Headers */,
+				579BC900000AB0 /* BDMTLModel+NSCoding.h in Headers */,
+				579BC900000AD0 /* BDMTLReflection.h in Headers */,
+				579BC900000AE0 /* BDMTLTransformerErrorHandling.h in Headers */,
+				579BC900000AF0 /* BDMTLValueTransformer.h in Headers */,
+				579BC900000D80 /* BTDDispatch.h in Headers */,
+				579BC900000E70 /* BTDMacros.h in Headers */,
+				579BC900000E90 /* BTDResponder.h in Headers */,
+				579BC900000D90 /* BTDWeakProxy.h in Headers */,
+				579BC900000E80 /* ByteDanceKit.h in Headers */,
+				579BC900000B30 /* metamacros.h in Headers */,
+				579BC900000B40 /* NSArray+BDMTLManipulationAdditions.h in Headers */,
+				579BC900000DA0 /* NSArray+BTDAdditions.h in Headers */,
+				579BC900000C00 /* NSArray+OK.h in Headers */,
+				579BC900000DB0 /* NSAttributedString+BTDAdditions.h in Headers */,
+				579BC900000DC0 /* NSBundle+BTDAdditions.h in Headers */,
+				579BC900000DD0 /* NSData+BTDAdditions.h in Headers */,
+				579BC900000C10 /* NSData+OK.h in Headers */,
+				579BC900000BC0 /* NSData+OKDecorator.h in Headers */,
+				579BC900000D20 /* NSData+OKGZIP.h in Headers */,
+				579BC900000BD0 /* NSData+OKSecurity.h in Headers */,
+				579BC900000DE0 /* NSDate+BTDAdditions.h in Headers */,
+				579BC900000B50 /* NSDictionary+BDMTLJSONKeyPath.h in Headers */,
+				579BC900000B60 /* NSDictionary+BDMTLManipulationAdditions.h in Headers */,
+				579BC900000B70 /* NSDictionary+BDMTLMappingAdditions.h in Headers */,
+				579BC900000DF0 /* NSDictionary+BTDAdditions.h in Headers */,
+				579BC900000C20 /* NSDictionary+OK.h in Headers */,
+				579BC900000B80 /* NSError+BDMTLModelException.h in Headers */,
+				579BC900000E00 /* NSFileManager+BTDAdditions.h in Headers */,
+				579BC900000C30 /* NSFileManager+OK.h in Headers */,
+				579BC900000C40 /* NSHashTable+OK.h in Headers */,
+				579BC900000C50 /* NSMapTable+OK.h in Headers */,
+				579BC900000C60 /* NSMutableArray+OK.h in Headers */,
+				579BC900000C70 /* NSMutableDictionary+OK.h in Headers */,
+				579BC900000FA0 /* NSMutableURLRequest+OKSignature.h in Headers */,
+				579BC900000E10 /* NSNumber+BTDAdditions.h in Headers */,
+				579BC900000C80 /* NSNumber+OK.h in Headers */,
+				579BC900000B90 /* NSObject+BDMTLComparisonAdditions.h in Headers */,
+				579BC900000E20 /* NSObject+BTDAdditions.h in Headers */,
+				579BC900000C90 /* NSObject+OK.h in Headers */,
+				579BC900000E30 /* NSSet+BTDAdditions.h in Headers */,
+				579BC900000CA0 /* NSSet+OK.h in Headers */,
+				579BC900000E40 /* NSString+BTDAdditions.h in Headers */,
+				579BC900000CB0 /* NSString+OK.h in Headers */,
+				579BC900000BE0 /* NSString+OKSecurity.h in Headers */,
+				579BC900000E50 /* NSTimer+BTDAdditions.h in Headers */,
+				579BC900000E60 /* NSURL+BTDAdditions.h in Headers */,
+				579BC900000BA0 /* NSValueTransformer+BDMTLInversionAdditions.h in Headers */,
+				579BC900000BB0 /* NSValueTransformer+BDMTLPredefinedTransformerAdditions.h in Headers */,
+				579BC900001090 /* OKApplicationInfo.h in Headers */,
+				579BC900000FC0 /* OKCellular.h in Headers */,
+				579BC900000FD0 /* OKConnection.h in Headers */,
+				579BC900000F40 /* OKDatabase.h in Headers */,
+				579BC900000F50 /* OKDatabaseAdditions.h in Headers */,
+				579BC900000F60 /* OKDatabasePool.h in Headers */,
+				579BC900000F70 /* OKDatabaseQueue.h in Headers */,
+				579BC900000F90 /* OKDefaults.h in Headers */,
+				579BC900000CC0 /* OKDevice.h in Headers */,
+				579BC900000D30 /* OKKeychain.h in Headers */,
+				579BC900000CD0 /* OKMacros.h in Headers */,
+				579BC900000FB0 /* OKMARSAuthHelper.h in Headers */,
+				579BC900001000 /* OKReachability.h in Headers */,
+				579BC900000FE0 /* OKReachability+Authorization.h in Headers */,
+				579BC900000FF0 /* OKReachability+Cellular.h in Headers */,
+				579BC900000D60 /* OKResponder.h in Headers */,
+				579BC900000F80 /* OKResultSet.h in Headers */,
+				579BC900000CE0 /* OKSandbox.h in Headers */,
+				579BC900001030 /* OKScreenshotTools.h in Headers */,
+				579BC9000010A0 /* OKSdkEventConfig.h in Headers */,
+				579BC900000D40 /* OKSectionData.h in Headers */,
+				579BC900000D50 /* OKSectionFunction.h in Headers */,
+				579BC9000010B0 /* OKService.h in Headers */,
+				579BC9000010C0 /* OKServiceCenter.h in Headers */,
+				579BC9000010D0 /* OKServices.h in Headers */,
+				579BC900001010 /* OKSnapshotManager.h in Headers */,
+				579BC900001020 /* OKSnapshotScroll.h in Headers */,
+				579BC9000010E0 /* OKStartUpFunction.h in Headers */,
+				579BC9000010F0 /* OKStartUpScheduler.h in Headers */,
+				579BC900001100 /* OKStartUpSchemeHandler.h in Headers */,
+				579BC900001110 /* OKStartUpTask.h in Headers */,
+				579BC900000CF0 /* OKTimer.h in Headers */,
+				579BC900000D00 /* OKUtility.h in Headers */,
+				579BC900000D10 /* OKWeakProxy.h in Headers */,
+				579BC900001180 /* OneKit-umbrella.h in Headers */,
+				579BC900001120 /* OneKitApp.h in Headers */,
+				579BC900000EA0 /* UIApplication+BTDAdditions.h in Headers */,
+				579BC900000D70 /* UIApplication+OKAdditions.h in Headers */,
+				579BC900000EB0 /* UIButton+BTDAdditions.h in Headers */,
+				579BC900000EC0 /* UIColor+BTDAdditions.h in Headers */,
+				579BC900000ED0 /* UIControl+BTDAdditions.h in Headers */,
+				579BC900000EE0 /* UIDevice+BTDAdditions.h in Headers */,
+				579BC900000EF0 /* UIGestureRecognizer+BTDAdditions.h in Headers */,
+				579BC900000F00 /* UIImage+BTDAdditions.h in Headers */,
+				579BC900000F10 /* UILabel+BTDAdditions.h in Headers */,
+				579BC900000F20 /* UIScrollView+BTDAdditions.h in Headers */,
+				579BC900001050 /* UIScrollView+OKSnapshot.h in Headers */,
+				579BC900001060 /* UIScrollView+OKSplice.h in Headers */,
+				579BC900000F30 /* UIView+BTDAdditions.h in Headers */,
+				579BC900001070 /* UIView+OKSnapshot.h in Headers */,
+				579BC900001040 /* UIViewController+OKSnapshot.h in Headers */,
+				579BC900001080 /* WKWebView+OKSnapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E1FDB596F09B7A02A2E5B3658E7159A9 /* OneKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579BC900000A10 /* Build configuration list for PBXNativeTarget "OneKit" */;
+			buildPhases = (
+				579BC900000A50 /* Headers */,
+				579BC900000A60 /* Sources */,
+				579BC900000A70 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneKit;
+			productName = OneKit;
+			productReference = 0431F65E9E42495C564993E06AB96DFD /* OneKit */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579BC900000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 579BC900000030 /* Build configuration list for PBXProject "OneKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 579BC900000010;
+			productRefGroup = 579BC900000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FDB596F09B7A02A2E5B3658E7159A9 /* OneKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		579BC900000A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579BC900000A80 /* OneKit-bitdummy.m in Sources */,
+				579BC9000011B0 /* OneKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		579BC900000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		579BC900000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		579BC900000A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579BC900001150 /* OneKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OneKit/OneKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/OneKit/OneKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OneKit;
+				PRODUCT_NAME = OneKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		579BC900000A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579BC900001140 /* OneKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OneKit/OneKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/OneKit/OneKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OneKit;
+				PRODUCT_NAME = OneKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		579BC900000030 /* Build configuration list for PBXProject "OneKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579BC900000040 /* Debug */,
+				579BC900000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579BC900000A10 /* Build configuration list for PBXNativeTarget "OneKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579BC900000A30 /* Debug */,
+				579BC900000A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 579BC900000000 /* Project object */;
+}

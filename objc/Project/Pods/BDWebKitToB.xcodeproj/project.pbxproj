@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD361500000790 /* BDWebKitToB-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3615000000F0 /* BDWebKitToB-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CD3615000007A0 /* BDWebKitUtil+BlankDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000000D0 /* BDWebKitUtil+BlankDetect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000007B0 /* BDWebViewBlankDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000000E0 /* BDWebViewBlankDetect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000007C0 /* BDWebCookiePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000110 /* BDWebCookiePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000007D0 /* WKWebView+BDCookie.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000120 /* WKWebView+BDCookie.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000007E0 /* BDALogPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000140 /* BDALogPlaceholder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000007F0 /* BDWebKitDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000150 /* BDWebKitDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000800 /* BDWebKitSettingsManger.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000160 /* BDWebKitSettingsManger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000810 /* BDWebKitUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000170 /* BDWebKitUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000820 /* BDWebKitVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000180 /* BDWebKitVersion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000830 /* BDWebViewDebugKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000190 /* BDWebViewDebugKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000840 /* NSObject+BDWRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000001A0 /* NSObject+BDWRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000850 /* WKUserContentController+BDWHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000001B0 /* WKUserContentController+BDWHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000860 /* WKWebView+BDPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000001C0 /* WKWebView+BDPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000870 /* BDFixWKWebViewCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000001E0 /* BDFixWKWebViewCrash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000880 /* BDWebCrashFixPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000001F0 /* BDWebCrashFixPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000890 /* BDWebFalconURLSchemaHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000210 /* BDWebFalconURLSchemaHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000008A0 /* IESFalconCustomInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000220 /* IESFalconCustomInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000008B0 /* IESFalconDebugLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000230 /* IESFalconDebugLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000008C0 /* IESFalconFileInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000240 /* IESFalconFileInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000008D0 /* IESFalconGurdInterceptionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000250 /* IESFalconGurdInterceptionDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000008E0 /* IESFalconGurdInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000260 /* IESFalconGurdInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000008F0 /* IESFalconHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000270 /* IESFalconHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000900 /* IESFalconInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000280 /* IESFalconInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000910 /* IESFalconManager+InterceptionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000290 /* IESFalconManager+InterceptionDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000920 /* IESFalconManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000002A0 /* IESFalconManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000930 /* IESFalconStatModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000002B0 /* IESFalconStatModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000940 /* IESFalconStatRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000002C0 /* IESFalconStatRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000950 /* IESFalconURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000002D0 /* IESFalconURLProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000960 /* IWKFalconPluginObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000002E0 /* IWKFalconPluginObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000970 /* NSData+ETag.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000002F0 /* NSData+ETag.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000980 /* NSString+IESFalconConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000300 /* NSString+IESFalconConvenience.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000990 /* NSURLProtocol+WebKitSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000310 /* NSURLProtocol+WebKitSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000009A0 /* IESWebPRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000320 /* IESWebPRepresentation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000009B0 /* BDWebDefaultRequestDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000350 /* BDWebDefaultRequestDecorator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000009C0 /* BDWebDefaultURLSchemaHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000360 /* BDWebDefaultURLSchemaHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000009D0 /* BDWebInterceptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000370 /* BDWebInterceptor+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000009E0 /* BDWebInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000380 /* BDWebInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD3615000009F0 /* BDWebInterceptorPluginObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000390 /* BDWebInterceptorPluginObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A00 /* BDWebRequestDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000003A0 /* BDWebRequestDecorator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A10 /* BDWebURLSchemeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000003B0 /* BDWebURLSchemeHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A20 /* BDWebURLSchemeTask.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000003C0 /* BDWebURLSchemeTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A30 /* BDWebURLSchemeTaskHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000003D0 /* BDWebURLSchemeTaskHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A40 /* BDWebURLSchemeTaskProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000003E0 /* BDWebURLSchemeTaskProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A50 /* QNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000003F0 /* QNSURLSessionDemux.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A60 /* WKWebView+BDInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000400 /* WKWebView+BDInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A70 /* BDPreloadCachedResponse+Falcon.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000420 /* BDPreloadCachedResponse+Falcon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A80 /* BDWebOfflinePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000430 /* BDWebOfflinePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000A90 /* BDWebViewOfflineManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000440 /* BDWebViewOfflineManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000AA0 /* BDWebViewOfflineStatusLogicControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000450 /* BDWebViewOfflineStatusLogicControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000AB0 /* WKUserContentController+BDWebViewHookJS.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000460 /* WKUserContentController+BDWebViewHookJS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000AC0 /* WKWebView+BDOffline.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000470 /* WKWebView+BDOffline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000AD0 /* BDWKPrecreator.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000490 /* BDWKPrecreator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000AE0 /* BDWebViewResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000004B0 /* BDWebViewResourceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000AF0 /* BDWebServerTrustChallengeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000004D0 /* BDWebServerTrustChallengeHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B00 /* BDWebSSLPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000004E0 /* BDWebSSLPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B10 /* WKWebView+BDWebServerTrust.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3615000004F0 /* WKWebView+BDWebServerTrust.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B20 /* BDTTNetAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000510 /* BDTTNetAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B30 /* BDTTNetPrefetch.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000520 /* BDTTNetPrefetch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B40 /* BDWebTTNetPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000530 /* BDWebTTNetPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B50 /* BDWebViewSchemeTaskHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000540 /* BDWebViewSchemeTaskHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B60 /* BDWebViewTTNetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000550 /* BDWebViewTTNetUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B70 /* BDWebViewURLProtocolClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000560 /* BDWebViewURLProtocolClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B80 /* BDWKPrecreator+TTNet.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000570 /* BDWKPrecreator+TTNet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000B90 /* WKWebView+TTNet.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000580 /* WKWebView+TTNet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000BF0 /* BDWebKitToB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361500000BE0 /* BDWebKitToB-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD361500000C20 /* BDWebKitToB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD361500000C10 /* BDWebKitToB-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD361500000C40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD361500000C30 /* BDWebCoreToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F3DE11DD6D38DEA9B7CB523D518C0C;
+			remoteInfo = BDWebCoreToB;
+		};
+		CD361500000C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD361500000C60 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		CD361500000CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD361500000C90 /* mars_gecko_ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D64ED42582DDE345DC89EBFE3335FBA;
+			remoteInfo = mars_gecko_ios;
+		};
+		CD361500000CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD361500000CC0 /* libwebp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B44052FC803D817D2B128238580750;
+			remoteInfo = libwebp;
+		};
+		CD361500000D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD361500000CF0 /* BDPreloadSDKToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B45EEEBB64582F21121EE967C729A31;
+			remoteInfo = BDPreloadSDKToB;
+		};
+		CD361500000D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD361500000D20 /* TTNetworkManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73119DD701757B40837515F362586977;
+			remoteInfo = TTNetworkManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57C53A333A5F45474E54783F4C012BB5 /* BDWebKitToB */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BDWebKitToB; path = libBDWebKitToB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3615000000D0 /* BDWebKitUtil+BlankDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDWebKitUtil+BlankDetect.h"; path = "BDWebKit/Classes/BlankDetect/BDWebKitUtil+BlankDetect.h"; sourceTree = "<group>"; };
+		CD3615000000E0 /* BDWebViewBlankDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewBlankDetect.h; path = BDWebKit/Classes/BlankDetect/BDWebViewBlankDetect.h; sourceTree = "<group>"; };
+		CD3615000000F0 /* BDWebKitToB-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDWebKitToB-bitdummy.m"; sourceTree = "<group>"; };
+		CD361500000110 /* BDWebCookiePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebCookiePlugin.h; path = BDWebKit/Classes/Cookie/BDWebCookiePlugin.h; sourceTree = "<group>"; };
+		CD361500000120 /* WKWebView+BDCookie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BDCookie.h"; path = "BDWebKit/Classes/Cookie/WKWebView+BDCookie.h"; sourceTree = "<group>"; };
+		CD361500000140 /* BDALogPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDALogPlaceholder.h; path = BDWebKit/Classes/Core/BDALogPlaceholder.h; sourceTree = "<group>"; };
+		CD361500000150 /* BDWebKitDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebKitDefine.h; path = BDWebKit/Classes/Core/BDWebKitDefine.h; sourceTree = "<group>"; };
+		CD361500000160 /* BDWebKitSettingsManger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebKitSettingsManger.h; path = BDWebKit/Classes/Core/BDWebKitSettingsManger.h; sourceTree = "<group>"; };
+		CD361500000170 /* BDWebKitUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebKitUtil.h; path = BDWebKit/Classes/Core/BDWebKitUtil.h; sourceTree = "<group>"; };
+		CD361500000180 /* BDWebKitVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebKitVersion.h; path = BDWebKit/Classes/Core/BDWebKitVersion.h; sourceTree = "<group>"; };
+		CD361500000190 /* BDWebViewDebugKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewDebugKit.h; path = BDWebKit/Classes/Core/BDWebViewDebugKit.h; sourceTree = "<group>"; };
+		CD3615000001A0 /* NSObject+BDWRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BDWRuntime.h"; path = "BDWebKit/Classes/Core/NSObject+BDWRuntime.h"; sourceTree = "<group>"; };
+		CD3615000001B0 /* WKUserContentController+BDWHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKUserContentController+BDWHelper.h"; path = "BDWebKit/Classes/Core/WKUserContentController+BDWHelper.h"; sourceTree = "<group>"; };
+		CD3615000001C0 /* WKWebView+BDPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BDPrivate.h"; path = "BDWebKit/Classes/Core/WKWebView+BDPrivate.h"; sourceTree = "<group>"; };
+		CD3615000001E0 /* BDFixWKWebViewCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDFixWKWebViewCrash.h; path = BDWebKit/Classes/CrashFix/BDFixWKWebViewCrash.h; sourceTree = "<group>"; };
+		CD3615000001F0 /* BDWebCrashFixPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebCrashFixPlugin.h; path = BDWebKit/Classes/CrashFix/BDWebCrashFixPlugin.h; sourceTree = "<group>"; };
+		CD361500000210 /* BDWebFalconURLSchemaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebFalconURLSchemaHandler.h; path = BDWebKit/Classes/Falcon/BDWebFalconURLSchemaHandler.h; sourceTree = "<group>"; };
+		CD361500000220 /* IESFalconCustomInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconCustomInterceptor.h; path = BDWebKit/Classes/Falcon/IESFalconCustomInterceptor.h; sourceTree = "<group>"; };
+		CD361500000230 /* IESFalconDebugLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconDebugLogger.h; path = BDWebKit/Classes/Falcon/IESFalconDebugLogger.h; sourceTree = "<group>"; };
+		CD361500000240 /* IESFalconFileInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconFileInterceptor.h; path = BDWebKit/Classes/Falcon/IESFalconFileInterceptor.h; sourceTree = "<group>"; };
+		CD361500000250 /* IESFalconGurdInterceptionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconGurdInterceptionDelegate.h; path = BDWebKit/Classes/Falcon/IESFalconGurdInterceptionDelegate.h; sourceTree = "<group>"; };
+		CD361500000260 /* IESFalconGurdInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconGurdInterceptor.h; path = BDWebKit/Classes/Falcon/IESFalconGurdInterceptor.h; sourceTree = "<group>"; };
+		CD361500000270 /* IESFalconHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconHelper.h; path = BDWebKit/Classes/Falcon/IESFalconHelper.h; sourceTree = "<group>"; };
+		CD361500000280 /* IESFalconInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconInfo.h; path = BDWebKit/Classes/Falcon/IESFalconInfo.h; sourceTree = "<group>"; };
+		CD361500000290 /* IESFalconManager+InterceptionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IESFalconManager+InterceptionDelegate.h"; path = "BDWebKit/Classes/Falcon/IESFalconManager+InterceptionDelegate.h"; sourceTree = "<group>"; };
+		CD3615000002A0 /* IESFalconManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconManager.h; path = BDWebKit/Classes/Falcon/IESFalconManager.h; sourceTree = "<group>"; };
+		CD3615000002B0 /* IESFalconStatModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconStatModel.h; path = BDWebKit/Classes/Falcon/IESFalconStatModel.h; sourceTree = "<group>"; };
+		CD3615000002C0 /* IESFalconStatRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconStatRecorder.h; path = BDWebKit/Classes/Falcon/IESFalconStatRecorder.h; sourceTree = "<group>"; };
+		CD3615000002D0 /* IESFalconURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESFalconURLProtocol.h; path = BDWebKit/Classes/Falcon/IESFalconURLProtocol.h; sourceTree = "<group>"; };
+		CD3615000002E0 /* IWKFalconPluginObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKFalconPluginObject.h; path = BDWebKit/Classes/Falcon/IWKFalconPluginObject.h; sourceTree = "<group>"; };
+		CD3615000002F0 /* NSData+ETag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ETag.h"; path = "BDWebKit/Classes/Falcon/NSData+ETag.h"; sourceTree = "<group>"; };
+		CD361500000300 /* NSString+IESFalconConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+IESFalconConvenience.h"; path = "BDWebKit/Classes/Falcon/NSString+IESFalconConvenience.h"; sourceTree = "<group>"; };
+		CD361500000310 /* NSURLProtocol+WebKitSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLProtocol+WebKitSupport.h"; path = "BDWebKit/Classes/Falcon/NSURLProtocol+WebKitSupport.h"; sourceTree = "<group>"; };
+		CD361500000320 /* IESWebPRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IESWebPRepresentation.h; path = BDWebKit/Classes/Falcon/WebP/IESWebPRepresentation.h; sourceTree = "<group>"; };
+		CD361500000350 /* BDWebDefaultRequestDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebDefaultRequestDecorator.h; path = BDWebKit/Classes/Interceptor/BDWebDefaultRequestDecorator.h; sourceTree = "<group>"; };
+		CD361500000360 /* BDWebDefaultURLSchemaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebDefaultURLSchemaHandler.h; path = BDWebKit/Classes/Interceptor/BDWebDefaultURLSchemaHandler.h; sourceTree = "<group>"; };
+		CD361500000370 /* BDWebInterceptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDWebInterceptor+Private.h"; path = "BDWebKit/Classes/Interceptor/BDWebInterceptor+Private.h"; sourceTree = "<group>"; };
+		CD361500000380 /* BDWebInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebInterceptor.h; path = BDWebKit/Classes/Interceptor/BDWebInterceptor.h; sourceTree = "<group>"; };
+		CD361500000390 /* BDWebInterceptorPluginObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebInterceptorPluginObject.h; path = BDWebKit/Classes/Interceptor/BDWebInterceptorPluginObject.h; sourceTree = "<group>"; };
+		CD3615000003A0 /* BDWebRequestDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebRequestDecorator.h; path = BDWebKit/Classes/Interceptor/BDWebRequestDecorator.h; sourceTree = "<group>"; };
+		CD3615000003B0 /* BDWebURLSchemeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebURLSchemeHandler.h; path = BDWebKit/Classes/Interceptor/BDWebURLSchemeHandler.h; sourceTree = "<group>"; };
+		CD3615000003C0 /* BDWebURLSchemeTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebURLSchemeTask.h; path = BDWebKit/Classes/Interceptor/BDWebURLSchemeTask.h; sourceTree = "<group>"; };
+		CD3615000003D0 /* BDWebURLSchemeTaskHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebURLSchemeTaskHandler.h; path = BDWebKit/Classes/Interceptor/BDWebURLSchemeTaskHandler.h; sourceTree = "<group>"; };
+		CD3615000003E0 /* BDWebURLSchemeTaskProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebURLSchemeTaskProxy.h; path = BDWebKit/Classes/Interceptor/BDWebURLSchemeTaskProxy.h; sourceTree = "<group>"; };
+		CD3615000003F0 /* QNSURLSessionDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNSURLSessionDemux.h; path = BDWebKit/Classes/Interceptor/QNSURLSessionDemux.h; sourceTree = "<group>"; };
+		CD361500000400 /* WKWebView+BDInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BDInterceptor.h"; path = "BDWebKit/Classes/Interceptor/WKWebView+BDInterceptor.h"; sourceTree = "<group>"; };
+		CD361500000420 /* BDPreloadCachedResponse+Falcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDPreloadCachedResponse+Falcon.h"; path = "BDWebKit/Classes/Offline/BDPreloadCachedResponse+Falcon.h"; sourceTree = "<group>"; };
+		CD361500000430 /* BDWebOfflinePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebOfflinePlugin.h; path = BDWebKit/Classes/Offline/BDWebOfflinePlugin.h; sourceTree = "<group>"; };
+		CD361500000440 /* BDWebViewOfflineManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewOfflineManager.h; path = BDWebKit/Classes/Offline/BDWebViewOfflineManager.h; sourceTree = "<group>"; };
+		CD361500000450 /* BDWebViewOfflineStatusLogicControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewOfflineStatusLogicControl.h; path = BDWebKit/Classes/Offline/BDWebViewOfflineStatusLogicControl.h; sourceTree = "<group>"; };
+		CD361500000460 /* WKUserContentController+BDWebViewHookJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKUserContentController+BDWebViewHookJS.h"; path = "BDWebKit/Classes/Offline/WKUserContentController+BDWebViewHookJS.h"; sourceTree = "<group>"; };
+		CD361500000470 /* WKWebView+BDOffline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BDOffline.h"; path = "BDWebKit/Classes/Offline/WKWebView+BDOffline.h"; sourceTree = "<group>"; };
+		CD361500000490 /* BDWKPrecreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWKPrecreator.h; path = BDWebKit/Classes/Precreator/BDWKPrecreator.h; sourceTree = "<group>"; };
+		CD3615000004B0 /* BDWebViewResourceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewResourceManager.h; path = BDWebKit/Classes/Resource/BDWebViewResourceManager.h; sourceTree = "<group>"; };
+		CD3615000004D0 /* BDWebServerTrustChallengeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebServerTrustChallengeHandler.h; path = BDWebKit/Classes/SSL/BDWebServerTrustChallengeHandler.h; sourceTree = "<group>"; };
+		CD3615000004E0 /* BDWebSSLPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebSSLPlugin.h; path = BDWebKit/Classes/SSL/BDWebSSLPlugin.h; sourceTree = "<group>"; };
+		CD3615000004F0 /* WKWebView+BDWebServerTrust.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BDWebServerTrust.h"; path = "BDWebKit/Classes/SSL/WKWebView+BDWebServerTrust.h"; sourceTree = "<group>"; };
+		CD361500000510 /* BDTTNetAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDTTNetAdapter.h; path = BDWebKit/Classes/TTNet/BDTTNetAdapter.h; sourceTree = "<group>"; };
+		CD361500000520 /* BDTTNetPrefetch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDTTNetPrefetch.h; path = BDWebKit/Classes/TTNet/BDTTNetPrefetch.h; sourceTree = "<group>"; };
+		CD361500000530 /* BDWebTTNetPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebTTNetPlugin.h; path = BDWebKit/Classes/TTNet/BDWebTTNetPlugin.h; sourceTree = "<group>"; };
+		CD361500000540 /* BDWebViewSchemeTaskHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewSchemeTaskHandler.h; path = BDWebKit/Classes/TTNet/BDWebViewSchemeTaskHandler.h; sourceTree = "<group>"; };
+		CD361500000550 /* BDWebViewTTNetUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewTTNetUtil.h; path = BDWebKit/Classes/TTNet/BDWebViewTTNetUtil.h; sourceTree = "<group>"; };
+		CD361500000560 /* BDWebViewURLProtocolClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWebViewURLProtocolClient.h; path = BDWebKit/Classes/TTNet/BDWebViewURLProtocolClient.h; sourceTree = "<group>"; };
+		CD361500000570 /* BDWKPrecreator+TTNet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDWKPrecreator+TTNet.h"; path = "BDWebKit/Classes/TTNet/BDWKPrecreator+TTNet.h"; sourceTree = "<group>"; };
+		CD361500000580 /* WKWebView+TTNet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+TTNet.h"; path = "BDWebKit/Classes/TTNet/WKWebView+TTNet.h"; sourceTree = "<group>"; };
+		CD3615000005A0 /* libBDWebKitToB_BlankDetect_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_BlankDetect_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_BlankDetect_awesome_ios.a"; sourceTree = "<group>"; };
+		CD3615000005C0 /* libBDWebKitToB_Cookie_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_Cookie_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_Cookie_awesome_ios.a"; sourceTree = "<group>"; };
+		CD3615000005E0 /* libBDWebKitToB_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_Core_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		CD361500000600 /* libBDWebKitToB_CrashFix_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_CrashFix_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_CrashFix_awesome_ios.a"; sourceTree = "<group>"; };
+		CD361500000620 /* libBDWebKitToB_Falcon_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_Falcon_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_Falcon_awesome_ios.a"; sourceTree = "<group>"; };
+		CD361500000630 /* libBDWebKitToB__Falcon_WebP_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB__Falcon_WebP_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB__Falcon_WebP_awesome_ios.a"; sourceTree = "<group>"; };
+		CD361500000660 /* libBDWebKitToB_Interceptor_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_Interceptor_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_Interceptor_awesome_ios.a"; sourceTree = "<group>"; };
+		CD361500000680 /* libBDWebKitToB_Offline_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_Offline_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_Offline_awesome_ios.a"; sourceTree = "<group>"; };
+		CD3615000006A0 /* libBDWebKitToB_Precreator_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_Precreator_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_Precreator_awesome_ios.a"; sourceTree = "<group>"; };
+		CD3615000006C0 /* libBDWebKitToB_Resource_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_Resource_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_Resource_awesome_ios.a"; sourceTree = "<group>"; };
+		CD3615000006E0 /* libBDWebKitToB_SSL_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_SSL_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_SSL_awesome_ios.a"; sourceTree = "<group>"; };
+		CD361500000700 /* libBDWebKitToB_TTNet_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebKitToB_TTNet_awesome_ios.a; path = "ios-arch-iphone/libBDWebKitToB_TTNet_awesome_ios.a"; sourceTree = "<group>"; };
+		CD361500000BB0 /* BDWebKitToB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDWebKitToB.debug.xcconfig; sourceTree = "<group>"; };
+		CD361500000BC0 /* BDWebKitToB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDWebKitToB.release.xcconfig; sourceTree = "<group>"; };
+		CD361500000BD0 /* BDWebKitToB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BDWebKitToB.modulemap; sourceTree = "<group>"; };
+		CD361500000BE0 /* BDWebKitToB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDWebKitToB-umbrella.h"; sourceTree = "<group>"; };
+		CD361500000C00 /* BDWebKitToB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDWebKitToB-prefix.pch"; sourceTree = "<group>"; };
+		CD361500000C10 /* BDWebKitToB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDWebKitToB-dummy.m"; sourceTree = "<group>"; };
+		CD361500000C30 /* BDWebCoreToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDWebCoreToB; path = BDWebCoreToB.xcodeproj; sourceTree = "<group>"; };
+		CD361500000C60 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		CD361500000C90 /* mars_gecko_ios */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mars_gecko_ios; path = mars_gecko_ios.xcodeproj; sourceTree = "<group>"; };
+		CD361500000CC0 /* libwebp */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libwebp; path = libwebp.xcodeproj; sourceTree = "<group>"; };
+		CD361500000CF0 /* BDPreloadSDKToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDPreloadSDKToB; path = BDPreloadSDKToB.xcodeproj; sourceTree = "<group>"; };
+		CD361500000D20 /* TTNetworkManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TTNetworkManager; path = TTNetworkManager.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD361500000780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD361500000010 = {
+			isa = PBXGroup;
+			children = (
+				CD3615000000B0 /* BDWebKitToB */,
+				CD3615000000A0 /* Dependencies */,
+				CD361500000060 /* Frameworks */,
+				CD361500000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD361500000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C53A333A5F45474E54783F4C012BB5 /* BDWebKitToB */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD361500000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3615000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000CF0 /* BDPreloadSDKToB */,
+				CD361500000C30 /* BDWebCoreToB */,
+				CD361500000CC0 /* libwebp */,
+				CD361500000C90 /* mars_gecko_ios */,
+				CD361500000C60 /* OneKit */,
+				CD361500000D20 /* TTNetworkManager */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		CD3615000000B0 /* BDWebKitToB */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000000C0 /* BlankDetect */,
+				CD361500000100 /* Cookie */,
+				CD361500000130 /* Core */,
+				CD3615000001D0 /* CrashFix */,
+				CD361500000200 /* Falcon */,
+				CD361500000340 /* Interceptor */,
+				CD361500000410 /* Offline */,
+				CD361500000480 /* Precreator */,
+				CD3615000004A0 /* Resource */,
+				CD3615000004C0 /* SSL */,
+				CD361500000BA0 /* Support Files */,
+				CD361500000500 /* TTNet */,
+			);
+			name = BDWebKitToB;
+			path = BDWebKitToB;
+			sourceTree = "<group>";
+		};
+		CD3615000000C0 /* BlankDetect */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000000F0 /* BDWebKitToB-bitdummy.m */,
+				CD3615000000D0 /* BDWebKitUtil+BlankDetect.h */,
+				CD3615000000E0 /* BDWebViewBlankDetect.h */,
+				CD361500000590 /* Frameworks */,
+			);
+			name = BlankDetect;
+			sourceTree = "<group>";
+		};
+		CD361500000100 /* Cookie */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000110 /* BDWebCookiePlugin.h */,
+				CD361500000120 /* WKWebView+BDCookie.h */,
+				CD3615000005B0 /* Frameworks */,
+			);
+			name = Cookie;
+			sourceTree = "<group>";
+		};
+		CD361500000130 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000140 /* BDALogPlaceholder.h */,
+				CD361500000150 /* BDWebKitDefine.h */,
+				CD361500000160 /* BDWebKitSettingsManger.h */,
+				CD361500000170 /* BDWebKitUtil.h */,
+				CD361500000180 /* BDWebKitVersion.h */,
+				CD361500000190 /* BDWebViewDebugKit.h */,
+				CD3615000001A0 /* NSObject+BDWRuntime.h */,
+				CD3615000001B0 /* WKUserContentController+BDWHelper.h */,
+				CD3615000001C0 /* WKWebView+BDPrivate.h */,
+				CD3615000005D0 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CD3615000001D0 /* CrashFix */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000001E0 /* BDFixWKWebViewCrash.h */,
+				CD3615000001F0 /* BDWebCrashFixPlugin.h */,
+				CD3615000005F0 /* Frameworks */,
+			);
+			name = CrashFix;
+			sourceTree = "<group>";
+		};
+		CD361500000200 /* Falcon */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000210 /* BDWebFalconURLSchemaHandler.h */,
+				CD361500000220 /* IESFalconCustomInterceptor.h */,
+				CD361500000230 /* IESFalconDebugLogger.h */,
+				CD361500000240 /* IESFalconFileInterceptor.h */,
+				CD361500000250 /* IESFalconGurdInterceptionDelegate.h */,
+				CD361500000260 /* IESFalconGurdInterceptor.h */,
+				CD361500000270 /* IESFalconHelper.h */,
+				CD361500000280 /* IESFalconInfo.h */,
+				CD3615000002A0 /* IESFalconManager.h */,
+				CD361500000290 /* IESFalconManager+InterceptionDelegate.h */,
+				CD3615000002B0 /* IESFalconStatModel.h */,
+				CD3615000002C0 /* IESFalconStatRecorder.h */,
+				CD3615000002D0 /* IESFalconURLProtocol.h */,
+				CD361500000320 /* IESWebPRepresentation.h */,
+				CD3615000002E0 /* IWKFalconPluginObject.h */,
+				CD3615000002F0 /* NSData+ETag.h */,
+				CD361500000300 /* NSString+IESFalconConvenience.h */,
+				CD361500000310 /* NSURLProtocol+WebKitSupport.h */,
+				CD361500000610 /* Frameworks */,
+				CD361500000330 /* WebP */,
+			);
+			name = Falcon;
+			sourceTree = "<group>";
+		};
+		CD361500000330 /* WebP */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000640 /* Frameworks */,
+			);
+			name = WebP;
+			sourceTree = "<group>";
+		};
+		CD361500000340 /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000350 /* BDWebDefaultRequestDecorator.h */,
+				CD361500000360 /* BDWebDefaultURLSchemaHandler.h */,
+				CD361500000380 /* BDWebInterceptor.h */,
+				CD361500000370 /* BDWebInterceptor+Private.h */,
+				CD361500000390 /* BDWebInterceptorPluginObject.h */,
+				CD3615000003A0 /* BDWebRequestDecorator.h */,
+				CD3615000003B0 /* BDWebURLSchemeHandler.h */,
+				CD3615000003C0 /* BDWebURLSchemeTask.h */,
+				CD3615000003D0 /* BDWebURLSchemeTaskHandler.h */,
+				CD3615000003E0 /* BDWebURLSchemeTaskProxy.h */,
+				CD3615000003F0 /* QNSURLSessionDemux.h */,
+				CD361500000400 /* WKWebView+BDInterceptor.h */,
+				CD361500000650 /* Frameworks */,
+			);
+			name = Interceptor;
+			sourceTree = "<group>";
+		};
+		CD361500000410 /* Offline */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000420 /* BDPreloadCachedResponse+Falcon.h */,
+				CD361500000430 /* BDWebOfflinePlugin.h */,
+				CD361500000440 /* BDWebViewOfflineManager.h */,
+				CD361500000450 /* BDWebViewOfflineStatusLogicControl.h */,
+				CD361500000460 /* WKUserContentController+BDWebViewHookJS.h */,
+				CD361500000470 /* WKWebView+BDOffline.h */,
+				CD361500000670 /* Frameworks */,
+			);
+			name = Offline;
+			sourceTree = "<group>";
+		};
+		CD361500000480 /* Precreator */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000490 /* BDWKPrecreator.h */,
+				CD361500000690 /* Frameworks */,
+			);
+			name = Precreator;
+			sourceTree = "<group>";
+		};
+		CD3615000004A0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000004B0 /* BDWebViewResourceManager.h */,
+				CD3615000006B0 /* Frameworks */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		CD3615000004C0 /* SSL */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000004D0 /* BDWebServerTrustChallengeHandler.h */,
+				CD3615000004E0 /* BDWebSSLPlugin.h */,
+				CD3615000004F0 /* WKWebView+BDWebServerTrust.h */,
+				CD3615000006D0 /* Frameworks */,
+			);
+			name = SSL;
+			sourceTree = "<group>";
+		};
+		CD361500000500 /* TTNet */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000510 /* BDTTNetAdapter.h */,
+				CD361500000520 /* BDTTNetPrefetch.h */,
+				CD361500000530 /* BDWebTTNetPlugin.h */,
+				CD361500000540 /* BDWebViewSchemeTaskHandler.h */,
+				CD361500000550 /* BDWebViewTTNetUtil.h */,
+				CD361500000560 /* BDWebViewURLProtocolClient.h */,
+				CD361500000570 /* BDWKPrecreator+TTNet.h */,
+				CD361500000580 /* WKWebView+TTNet.h */,
+				CD3615000006F0 /* Frameworks */,
+			);
+			name = TTNet;
+			sourceTree = "<group>";
+		};
+		CD361500000590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000005A0 /* libBDWebKitToB_BlankDetect_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3615000005B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000005C0 /* libBDWebKitToB_Cookie_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3615000005D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000005E0 /* libBDWebKitToB_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3615000005F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000600 /* libBDWebKitToB_CrashFix_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD361500000610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000630 /* libBDWebKitToB__Falcon_WebP_awesome_ios.a */,
+				CD361500000620 /* libBDWebKitToB_Falcon_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD361500000640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD361500000650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000660 /* libBDWebKitToB_Interceptor_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD361500000670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000680 /* libBDWebKitToB_Offline_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD361500000690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000006A0 /* libBDWebKitToB_Precreator_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3615000006B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000006C0 /* libBDWebKitToB_Resource_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3615000006D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3615000006E0 /* libBDWebKitToB_SSL_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3615000006F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000700 /* libBDWebKitToB_TTNet_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD361500000BA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD361500000BD0 /* BDWebKitToB.modulemap */,
+				CD361500000C10 /* BDWebKitToB-dummy.m */,
+				CD361500000C00 /* BDWebKitToB-prefix.pch */,
+				CD361500000BE0 /* BDWebKitToB-umbrella.h */,
+				CD361500000BB0 /* BDWebKitToB.debug.xcconfig */,
+				CD361500000BC0 /* BDWebKitToB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BDWebKitToB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD361500000760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3615000007E0 /* BDALogPlaceholder.h in Headers */,
+				CD361500000870 /* BDFixWKWebViewCrash.h in Headers */,
+				CD361500000A70 /* BDPreloadCachedResponse+Falcon.h in Headers */,
+				CD361500000B20 /* BDTTNetAdapter.h in Headers */,
+				CD361500000B30 /* BDTTNetPrefetch.h in Headers */,
+				CD3615000007C0 /* BDWebCookiePlugin.h in Headers */,
+				CD361500000880 /* BDWebCrashFixPlugin.h in Headers */,
+				CD3615000009B0 /* BDWebDefaultRequestDecorator.h in Headers */,
+				CD3615000009C0 /* BDWebDefaultURLSchemaHandler.h in Headers */,
+				CD361500000890 /* BDWebFalconURLSchemaHandler.h in Headers */,
+				CD3615000009E0 /* BDWebInterceptor.h in Headers */,
+				CD3615000009D0 /* BDWebInterceptor+Private.h in Headers */,
+				CD3615000009F0 /* BDWebInterceptorPluginObject.h in Headers */,
+				CD3615000007F0 /* BDWebKitDefine.h in Headers */,
+				CD361500000800 /* BDWebKitSettingsManger.h in Headers */,
+				CD361500000BF0 /* BDWebKitToB-umbrella.h in Headers */,
+				CD361500000810 /* BDWebKitUtil.h in Headers */,
+				CD3615000007A0 /* BDWebKitUtil+BlankDetect.h in Headers */,
+				CD361500000820 /* BDWebKitVersion.h in Headers */,
+				CD361500000A80 /* BDWebOfflinePlugin.h in Headers */,
+				CD361500000A00 /* BDWebRequestDecorator.h in Headers */,
+				CD361500000AF0 /* BDWebServerTrustChallengeHandler.h in Headers */,
+				CD361500000B00 /* BDWebSSLPlugin.h in Headers */,
+				CD361500000B40 /* BDWebTTNetPlugin.h in Headers */,
+				CD361500000A10 /* BDWebURLSchemeHandler.h in Headers */,
+				CD361500000A20 /* BDWebURLSchemeTask.h in Headers */,
+				CD361500000A30 /* BDWebURLSchemeTaskHandler.h in Headers */,
+				CD361500000A40 /* BDWebURLSchemeTaskProxy.h in Headers */,
+				CD3615000007B0 /* BDWebViewBlankDetect.h in Headers */,
+				CD361500000830 /* BDWebViewDebugKit.h in Headers */,
+				CD361500000A90 /* BDWebViewOfflineManager.h in Headers */,
+				CD361500000AA0 /* BDWebViewOfflineStatusLogicControl.h in Headers */,
+				CD361500000AE0 /* BDWebViewResourceManager.h in Headers */,
+				CD361500000B50 /* BDWebViewSchemeTaskHandler.h in Headers */,
+				CD361500000B60 /* BDWebViewTTNetUtil.h in Headers */,
+				CD361500000B70 /* BDWebViewURLProtocolClient.h in Headers */,
+				CD361500000AD0 /* BDWKPrecreator.h in Headers */,
+				CD361500000B80 /* BDWKPrecreator+TTNet.h in Headers */,
+				CD3615000008A0 /* IESFalconCustomInterceptor.h in Headers */,
+				CD3615000008B0 /* IESFalconDebugLogger.h in Headers */,
+				CD3615000008C0 /* IESFalconFileInterceptor.h in Headers */,
+				CD3615000008D0 /* IESFalconGurdInterceptionDelegate.h in Headers */,
+				CD3615000008E0 /* IESFalconGurdInterceptor.h in Headers */,
+				CD3615000008F0 /* IESFalconHelper.h in Headers */,
+				CD361500000900 /* IESFalconInfo.h in Headers */,
+				CD361500000920 /* IESFalconManager.h in Headers */,
+				CD361500000910 /* IESFalconManager+InterceptionDelegate.h in Headers */,
+				CD361500000930 /* IESFalconStatModel.h in Headers */,
+				CD361500000940 /* IESFalconStatRecorder.h in Headers */,
+				CD361500000950 /* IESFalconURLProtocol.h in Headers */,
+				CD3615000009A0 /* IESWebPRepresentation.h in Headers */,
+				CD361500000960 /* IWKFalconPluginObject.h in Headers */,
+				CD361500000970 /* NSData+ETag.h in Headers */,
+				CD361500000840 /* NSObject+BDWRuntime.h in Headers */,
+				CD361500000980 /* NSString+IESFalconConvenience.h in Headers */,
+				CD361500000990 /* NSURLProtocol+WebKitSupport.h in Headers */,
+				CD361500000A50 /* QNSURLSessionDemux.h in Headers */,
+				CD361500000AB0 /* WKUserContentController+BDWebViewHookJS.h in Headers */,
+				CD361500000850 /* WKUserContentController+BDWHelper.h in Headers */,
+				CD3615000007D0 /* WKWebView+BDCookie.h in Headers */,
+				CD361500000A60 /* WKWebView+BDInterceptor.h in Headers */,
+				CD361500000AC0 /* WKWebView+BDOffline.h in Headers */,
+				CD361500000860 /* WKWebView+BDPrivate.h in Headers */,
+				CD361500000B10 /* WKWebView+BDWebServerTrust.h in Headers */,
+				CD361500000B90 /* WKWebView+TTNet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7B853654601E647418471D9C216A228 /* BDWebKitToB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD361500000720 /* Build configuration list for PBXNativeTarget "BDWebKitToB" */;
+			buildPhases = (
+				CD361500000760 /* Headers */,
+				CD361500000770 /* Sources */,
+				CD361500000780 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD361500000D10 /* PBXTargetDependency */,
+				CD361500000C50 /* PBXTargetDependency */,
+				CD361500000C80 /* PBXTargetDependency */,
+				CD361500000D40 /* PBXTargetDependency */,
+				CD361500000CE0 /* PBXTargetDependency */,
+				CD361500000CB0 /* PBXTargetDependency */,
+			);
+			name = BDWebKitToB;
+			productName = BDWebKitToB;
+			productReference = 57C53A333A5F45474E54783F4C012BB5 /* BDWebKitToB */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD361500000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = CD361500000030 /* Build configuration list for PBXProject "BDWebKitToB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CD361500000010;
+			productRefGroup = CD361500000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = CD361500000C30 /* BDWebCoreToB */;
+				},
+				{
+					ProjectRef = CD361500000C60 /* OneKit */;
+				},
+				{
+					ProjectRef = CD361500000C90 /* mars_gecko_ios */;
+				},
+				{
+					ProjectRef = CD361500000CC0 /* libwebp */;
+				},
+				{
+					ProjectRef = CD361500000CF0 /* BDPreloadSDKToB */;
+				},
+				{
+					ProjectRef = CD361500000D20 /* TTNetworkManager */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F7B853654601E647418471D9C216A228 /* BDWebKitToB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD361500000770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD361500000790 /* BDWebKitToB-bitdummy.m in Sources */,
+				CD361500000C20 /* BDWebKitToB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD361500000C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDWebCoreToB;
+			targetProxy = CD361500000C40 /* PBXContainerItemProxy */;
+		};
+		CD361500000C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = CD361500000C70 /* PBXContainerItemProxy */;
+		};
+		CD361500000CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mars_gecko_ios;
+			targetProxy = CD361500000CA0 /* PBXContainerItemProxy */;
+		};
+		CD361500000CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libwebp;
+			targetProxy = CD361500000CD0 /* PBXContainerItemProxy */;
+		};
+		CD361500000D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDPreloadSDKToB;
+			targetProxy = CD361500000D00 /* PBXContainerItemProxy */;
+		};
+		CD361500000D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTNetworkManager;
+			targetProxy = CD361500000D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD361500000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CD361500000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD361500000730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD361500000BC0 /* BDWebKitToB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDWebKitToB/BDWebKitToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/BDWebKitToB/BDWebKitToB.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDWebKitToB;
+				PRODUCT_NAME = BDWebKitToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD361500000740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD361500000BB0 /* BDWebKitToB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDWebKitToB/BDWebKitToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/BDWebKitToB/BDWebKitToB.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDWebKitToB;
+				PRODUCT_NAME = BDWebKitToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD361500000030 /* Build configuration list for PBXProject "BDWebKitToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD361500000040 /* Debug */,
+				CD361500000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD361500000720 /* Build configuration list for PBXNativeTarget "BDWebKitToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD361500000740 /* Debug */,
+				CD361500000730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD361500000000 /* Project object */;
+}

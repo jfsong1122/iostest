@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230963000003A0 /* OKJSBridgeToB-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 230963000002E0 /* OKJSBridgeToB-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		230963000003B0 /* OKFastBridge_Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000000C0 /* OKFastBridge_Deprecated.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000003C0 /* OKJSBridgeEngine_Deprecated+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000000D0 /* OKJSBridgeEngine_Deprecated+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000003D0 /* OKJSBridgeEngine_Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000000E0 /* OKJSBridgeEngine_Deprecated.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000003E0 /* OKJSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000000F0 /* OKJSBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000003F0 /* OKJSBridgeAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000100 /* OKJSBridgeAuthorization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000400 /* OKJSBridgeEngine+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000110 /* OKJSBridgeEngine+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000410 /* OKJSBridgeEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000120 /* OKJSBridgeEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000420 /* OKJSBridgeMessage+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000130 /* OKJSBridgeMessage+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000430 /* OKJSBridgeMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000140 /* OKJSBridgeMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000440 /* OKJSBridgeMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000150 /* OKJSBridgeMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000450 /* OKJSMethodManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000160 /* OKJSMethodManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000460 /* WKWebView+OKJSBridgeExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000170 /* WKWebView+OKJSBridgeExecutor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000470 /* IWKJSBridgePluginObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000180 /* IWKJSBridgePluginObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000480 /* NSURL+OKJSBridgeAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000190 /* NSURL+OKJSBridgeAddition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000490 /* OKJSBridgeCoreABTestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000001A0 /* OKJSBridgeCoreABTestManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000004A0 /* OKJSBridgeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000001B0 /* OKJSBridgeDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000004B0 /* OKBridgeRegister+AuthManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000001C0 /* OKBridgeRegister+AuthManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000004C0 /* OKBridgeAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000001D0 /* OKBridgeAuthorization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000004D0 /* OKBridgeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000001E0 /* OKBridgeCommand.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000004E0 /* OKBridgeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000001F0 /* OKBridgeDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000004F0 /* OKBridgeEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000200 /* OKBridgeEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000500 /* OKBridgeForwarding.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000210 /* OKBridgeForwarding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000510 /* OKBridgePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000220 /* OKBridgePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000520 /* OKBridgeRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000230 /* OKBridgeRegister.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000530 /* OKBridgeUnify.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000240 /* OKBridgeUnify.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000540 /* OKBridgeUnify_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000250 /* OKBridgeUnify_internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000550 /* OKUnifyBridgeAuthManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000260 /* OKUnifyBridgeAuthManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000560 /* OKUnifiedWebViewBridgeEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000270 /* OKUnifiedWebViewBridgeEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000570 /* OKWebViewBridgeEngine+AuthManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000280 /* OKWebViewBridgeEngine+AuthManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000580 /* OKWebViewBridgeEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 23096300000290 /* OKWebViewBridgeEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000590 /* OKBridgeAuthModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000002A0 /* OKBridgeAuthModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000005A0 /* OKJSBridgeAuthManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000002B0 /* OKJSBridgeAuthManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000005B0 /* TTHttpRequest+OKSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000002C0 /* TTHttpRequest+OKSignature.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230963000005C0 /* TTNetworkManager+IESWKAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 230963000002D0 /* TTNetworkManager+IESWKAddition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23096300000620 /* OKJSBridgeToB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23096300000610 /* OKJSBridgeToB-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23096300000640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23096300000630 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		23096300000670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23096300000660 /* TTNetworkManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73119DD701757B40837515F362586977;
+			remoteInfo = TTNetworkManager;
+		};
+		230963000006A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23096300000690 /* BDWebCoreToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F3DE11DD6D38DEA9B7CB523D518C0C;
+			remoteInfo = BDWebCoreToB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230963000000C0 /* OKFastBridge_Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKFastBridge_Deprecated.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Deprecated/OKFastBridge_Deprecated.h; sourceTree = "<group>"; };
+		230963000000D0 /* OKJSBridgeEngine_Deprecated+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKJSBridgeEngine_Deprecated+Private.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Deprecated/OKJSBridgeEngine_Deprecated+Private.h"; sourceTree = "<group>"; };
+		230963000000E0 /* OKJSBridgeEngine_Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridgeEngine_Deprecated.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Deprecated/OKJSBridgeEngine_Deprecated.h; sourceTree = "<group>"; };
+		230963000000F0 /* OKJSBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridge.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/OKJSBridge.h; sourceTree = "<group>"; };
+		23096300000100 /* OKJSBridgeAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridgeAuthorization.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/OKJSBridgeAuthorization.h; sourceTree = "<group>"; };
+		23096300000110 /* OKJSBridgeEngine+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKJSBridgeEngine+Private.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/OKJSBridgeEngine+Private.h"; sourceTree = "<group>"; };
+		23096300000120 /* OKJSBridgeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridgeEngine.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/OKJSBridgeEngine.h; sourceTree = "<group>"; };
+		23096300000130 /* OKJSBridgeMessage+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKJSBridgeMessage+Private.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/OKJSBridgeMessage+Private.h"; sourceTree = "<group>"; };
+		23096300000140 /* OKJSBridgeMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridgeMessage.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/OKJSBridgeMessage.h; sourceTree = "<group>"; };
+		23096300000150 /* OKJSBridgeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridgeMethod.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/OKJSBridgeMethod.h; sourceTree = "<group>"; };
+		23096300000160 /* OKJSMethodManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSMethodManager.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/OKJSMethodManager.h; sourceTree = "<group>"; };
+		23096300000170 /* WKWebView+OKJSBridgeExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+OKJSBridgeExecutor.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/Engine/WKWebView+OKJSBridgeExecutor.h"; sourceTree = "<group>"; };
+		23096300000180 /* IWKJSBridgePluginObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKJSBridgePluginObject.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/IWKJSBridgePluginObject.h; sourceTree = "<group>"; };
+		23096300000190 /* NSURL+OKJSBridgeAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+OKJSBridgeAddition.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/NSURL+OKJSBridgeAddition.h"; sourceTree = "<group>"; };
+		230963000001A0 /* OKJSBridgeCoreABTestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridgeCoreABTestManager.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/OKJSBridgeCoreABTestManager.h; sourceTree = "<group>"; };
+		230963000001B0 /* OKJSBridgeDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridgeDefines.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeCore/OKJSBridgeDefines.h; sourceTree = "<group>"; };
+		230963000001C0 /* OKBridgeRegister+AuthManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKBridgeRegister+AuthManager.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeAuth/OKBridgeRegister+AuthManager.h"; sourceTree = "<group>"; };
+		230963000001D0 /* OKBridgeAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeAuthorization.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgeAuthorization.h; sourceTree = "<group>"; };
+		230963000001E0 /* OKBridgeCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeCommand.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgeCommand.h; sourceTree = "<group>"; };
+		230963000001F0 /* OKBridgeDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeDefines.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgeDefines.h; sourceTree = "<group>"; };
+		23096300000200 /* OKBridgeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeEngine.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgeEngine.h; sourceTree = "<group>"; };
+		23096300000210 /* OKBridgeForwarding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeForwarding.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgeForwarding.h; sourceTree = "<group>"; };
+		23096300000220 /* OKBridgePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgePlugin.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgePlugin.h; sourceTree = "<group>"; };
+		23096300000230 /* OKBridgeRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeRegister.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgeRegister.h; sourceTree = "<group>"; };
+		23096300000240 /* OKBridgeUnify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeUnify.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgeUnify.h; sourceTree = "<group>"; };
+		23096300000250 /* OKBridgeUnify_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeUnify_internal.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/BridgeCore/OKBridgeUnify_internal.h; sourceTree = "<group>"; };
+		23096300000260 /* OKUnifyBridgeAuthManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKUnifyBridgeAuthManager.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/OKUnifyBridgeAuthManager/OKUnifyBridgeAuthManager.h; sourceTree = "<group>"; };
+		23096300000270 /* OKUnifiedWebViewBridgeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKUnifiedWebViewBridgeEngine.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/UnifiedWebView/OKUnifiedWebViewBridgeEngine.h; sourceTree = "<group>"; };
+		23096300000280 /* OKWebViewBridgeEngine+AuthManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKWebViewBridgeEngine+AuthManager.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/WebViewAuth/OKWebViewBridgeEngine+AuthManager.h"; sourceTree = "<group>"; };
+		23096300000290 /* OKWebViewBridgeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKWebViewBridgeEngine.h; path = OKJSBridgeToB/Classes/JSBridge/OKBridgeUnify/WebViewCore/OKWebViewBridgeEngine.h; sourceTree = "<group>"; };
+		230963000002A0 /* OKBridgeAuthModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKBridgeAuthModel.h; path = OKJSBridgeToB/Classes/JSBridge/OKJSBridgeAuthManager/Core/OKBridgeAuthModel.h; sourceTree = "<group>"; };
+		230963000002B0 /* OKJSBridgeAuthManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKJSBridgeAuthManager.h; path = OKJSBridgeToB/Classes/JSBridge/OKJSBridgeAuthManager/Core/OKJSBridgeAuthManager.h; sourceTree = "<group>"; };
+		230963000002C0 /* TTHttpRequest+OKSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTHttpRequest+OKSignature.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKJSBridgeAuthManager/Core/TTHttpRequest+OKSignature.h"; sourceTree = "<group>"; };
+		230963000002D0 /* TTNetworkManager+IESWKAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTNetworkManager+IESWKAddition.h"; path = "OKJSBridgeToB/Classes/JSBridge/OKJSBridgeAuthManager/Core/TTNetworkManager+IESWKAddition.h"; sourceTree = "<group>"; };
+		230963000002E0 /* OKJSBridgeToB-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKJSBridgeToB-bitdummy.m"; sourceTree = "<group>"; };
+		23096300000310 /* libOKJSBridgeToB_OKJSBridgeToB_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOKJSBridgeToB_OKJSBridgeToB_awesome_ios.a; path = "ios-arch-iphone/libOKJSBridgeToB_OKJSBridgeToB_awesome_ios.a"; sourceTree = "<group>"; };
+		230963000005E0 /* OKJSBridgeToB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKJSBridgeToB.debug.xcconfig; sourceTree = "<group>"; };
+		230963000005F0 /* OKJSBridgeToB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKJSBridgeToB.release.xcconfig; sourceTree = "<group>"; };
+		23096300000600 /* OKJSBridgeToB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKJSBridgeToB-prefix.pch"; sourceTree = "<group>"; };
+		23096300000610 /* OKJSBridgeToB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKJSBridgeToB-dummy.m"; sourceTree = "<group>"; };
+		23096300000630 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		23096300000660 /* TTNetworkManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TTNetworkManager; path = TTNetworkManager.xcodeproj; sourceTree = "<group>"; };
+		23096300000690 /* BDWebCoreToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDWebCoreToB; path = BDWebCoreToB.xcodeproj; sourceTree = "<group>"; };
+		3CDCEEC75AF36C13C25FDADD19C6A758 /* OKJSBridgeToB */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = OKJSBridgeToB; path = libOKJSBridgeToB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23096300000390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23096300000010 = {
+			isa = PBXGroup;
+			children = (
+				230963000000A0 /* Dependencies */,
+				23096300000060 /* Frameworks */,
+				230963000000B0 /* OKJSBridgeToB */,
+				23096300000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23096300000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCEEC75AF36C13C25FDADD19C6A758 /* OKJSBridgeToB */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23096300000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		230963000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				23096300000690 /* BDWebCoreToB */,
+				23096300000630 /* OneKit */,
+				23096300000660 /* TTNetworkManager */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		230963000000B0 /* OKJSBridgeToB */ = {
+			isa = PBXGroup;
+			children = (
+				23096300000180 /* IWKJSBridgePluginObject.h */,
+				23096300000190 /* NSURL+OKJSBridgeAddition.h */,
+				230963000002A0 /* OKBridgeAuthModel.h */,
+				230963000001D0 /* OKBridgeAuthorization.h */,
+				230963000001E0 /* OKBridgeCommand.h */,
+				230963000001F0 /* OKBridgeDefines.h */,
+				23096300000200 /* OKBridgeEngine.h */,
+				23096300000210 /* OKBridgeForwarding.h */,
+				23096300000220 /* OKBridgePlugin.h */,
+				23096300000230 /* OKBridgeRegister.h */,
+				230963000001C0 /* OKBridgeRegister+AuthManager.h */,
+				23096300000240 /* OKBridgeUnify.h */,
+				23096300000250 /* OKBridgeUnify_internal.h */,
+				230963000000C0 /* OKFastBridge_Deprecated.h */,
+				230963000000F0 /* OKJSBridge.h */,
+				230963000002B0 /* OKJSBridgeAuthManager.h */,
+				23096300000100 /* OKJSBridgeAuthorization.h */,
+				230963000001A0 /* OKJSBridgeCoreABTestManager.h */,
+				230963000001B0 /* OKJSBridgeDefines.h */,
+				23096300000120 /* OKJSBridgeEngine.h */,
+				23096300000110 /* OKJSBridgeEngine+Private.h */,
+				230963000000E0 /* OKJSBridgeEngine_Deprecated.h */,
+				230963000000D0 /* OKJSBridgeEngine_Deprecated+Private.h */,
+				23096300000140 /* OKJSBridgeMessage.h */,
+				23096300000130 /* OKJSBridgeMessage+Private.h */,
+				23096300000150 /* OKJSBridgeMethod.h */,
+				230963000002E0 /* OKJSBridgeToB-bitdummy.m */,
+				23096300000160 /* OKJSMethodManager.h */,
+				23096300000270 /* OKUnifiedWebViewBridgeEngine.h */,
+				23096300000260 /* OKUnifyBridgeAuthManager.h */,
+				23096300000290 /* OKWebViewBridgeEngine.h */,
+				23096300000280 /* OKWebViewBridgeEngine+AuthManager.h */,
+				230963000002C0 /* TTHttpRequest+OKSignature.h */,
+				230963000002D0 /* TTNetworkManager+IESWKAddition.h */,
+				23096300000170 /* WKWebView+OKJSBridgeExecutor.h */,
+				23096300000300 /* Frameworks */,
+				230963000002F0 /* JSBridge */,
+				230963000005D0 /* Support Files */,
+			);
+			name = OKJSBridgeToB;
+			path = OKJSBridgeToB;
+			sourceTree = "<group>";
+		};
+		230963000002F0 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JSBridge;
+			sourceTree = "<group>";
+		};
+		23096300000300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23096300000310 /* libOKJSBridgeToB_OKJSBridgeToB_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		230963000005D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23096300000610 /* OKJSBridgeToB-dummy.m */,
+				23096300000600 /* OKJSBridgeToB-prefix.pch */,
+				230963000005E0 /* OKJSBridgeToB.debug.xcconfig */,
+				230963000005F0 /* OKJSBridgeToB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OKJSBridgeToB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23096300000370 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23096300000470 /* IWKJSBridgePluginObject.h in Headers */,
+				23096300000480 /* NSURL+OKJSBridgeAddition.h in Headers */,
+				23096300000590 /* OKBridgeAuthModel.h in Headers */,
+				230963000004C0 /* OKBridgeAuthorization.h in Headers */,
+				230963000004D0 /* OKBridgeCommand.h in Headers */,
+				230963000004E0 /* OKBridgeDefines.h in Headers */,
+				230963000004F0 /* OKBridgeEngine.h in Headers */,
+				23096300000500 /* OKBridgeForwarding.h in Headers */,
+				23096300000510 /* OKBridgePlugin.h in Headers */,
+				23096300000520 /* OKBridgeRegister.h in Headers */,
+				230963000004B0 /* OKBridgeRegister+AuthManager.h in Headers */,
+				23096300000530 /* OKBridgeUnify.h in Headers */,
+				23096300000540 /* OKBridgeUnify_internal.h in Headers */,
+				230963000003B0 /* OKFastBridge_Deprecated.h in Headers */,
+				230963000003E0 /* OKJSBridge.h in Headers */,
+				230963000005A0 /* OKJSBridgeAuthManager.h in Headers */,
+				230963000003F0 /* OKJSBridgeAuthorization.h in Headers */,
+				23096300000490 /* OKJSBridgeCoreABTestManager.h in Headers */,
+				230963000004A0 /* OKJSBridgeDefines.h in Headers */,
+				23096300000410 /* OKJSBridgeEngine.h in Headers */,
+				23096300000400 /* OKJSBridgeEngine+Private.h in Headers */,
+				230963000003D0 /* OKJSBridgeEngine_Deprecated.h in Headers */,
+				230963000003C0 /* OKJSBridgeEngine_Deprecated+Private.h in Headers */,
+				23096300000430 /* OKJSBridgeMessage.h in Headers */,
+				23096300000420 /* OKJSBridgeMessage+Private.h in Headers */,
+				23096300000440 /* OKJSBridgeMethod.h in Headers */,
+				23096300000450 /* OKJSMethodManager.h in Headers */,
+				23096300000560 /* OKUnifiedWebViewBridgeEngine.h in Headers */,
+				23096300000550 /* OKUnifyBridgeAuthManager.h in Headers */,
+				23096300000580 /* OKWebViewBridgeEngine.h in Headers */,
+				23096300000570 /* OKWebViewBridgeEngine+AuthManager.h in Headers */,
+				230963000005B0 /* TTHttpRequest+OKSignature.h in Headers */,
+				230963000005C0 /* TTNetworkManager+IESWKAddition.h in Headers */,
+				23096300000460 /* WKWebView+OKJSBridgeExecutor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20BAE50FE4C2908A909BAB02BFE459AD /* OKJSBridgeToB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23096300000330 /* Build configuration list for PBXNativeTarget "OKJSBridgeToB" */;
+			buildPhases = (
+				23096300000370 /* Headers */,
+				23096300000380 /* Sources */,
+				23096300000390 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230963000006B0 /* PBXTargetDependency */,
+				23096300000650 /* PBXTargetDependency */,
+				23096300000680 /* PBXTargetDependency */,
+			);
+			name = OKJSBridgeToB;
+			productName = OKJSBridgeToB;
+			productReference = 3CDCEEC75AF36C13C25FDADD19C6A758 /* OKJSBridgeToB */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23096300000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 23096300000030 /* Build configuration list for PBXProject "OKJSBridgeToB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 23096300000010;
+			productRefGroup = 23096300000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 23096300000630 /* OneKit */;
+				},
+				{
+					ProjectRef = 23096300000660 /* TTNetworkManager */;
+				},
+				{
+					ProjectRef = 23096300000690 /* BDWebCoreToB */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				20BAE50FE4C2908A909BAB02BFE459AD /* OKJSBridgeToB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23096300000380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230963000003A0 /* OKJSBridgeToB-bitdummy.m in Sources */,
+				23096300000620 /* OKJSBridgeToB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23096300000650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = 23096300000640 /* PBXContainerItemProxy */;
+		};
+		23096300000680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTNetworkManager;
+			targetProxy = 23096300000670 /* PBXContainerItemProxy */;
+		};
+		230963000006B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDWebCoreToB;
+			targetProxy = 230963000006A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23096300000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		23096300000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		23096300000340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230963000005F0 /* OKJSBridgeToB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OKJSBridgeToB/OKJSBridgeToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OKJSBridgeToB;
+				PRODUCT_NAME = OKJSBridgeToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23096300000350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230963000005E0 /* OKJSBridgeToB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OKJSBridgeToB/OKJSBridgeToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OKJSBridgeToB;
+				PRODUCT_NAME = OKJSBridgeToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23096300000030 /* Build configuration list for PBXProject "OKJSBridgeToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23096300000040 /* Debug */,
+				23096300000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23096300000330 /* Build configuration list for PBXNativeTarget "OKJSBridgeToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23096300000350 /* Debug */,
+				23096300000340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23096300000000 /* Project object */;
+}

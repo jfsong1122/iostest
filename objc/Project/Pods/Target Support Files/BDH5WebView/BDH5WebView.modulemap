@@ -1,0 +1,6 @@
+module BDH5WebView {
+  umbrella header "BDH5WebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7C36500000280 /* BDWebCoreToB-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C365000000C0 /* BDWebCoreToB-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B7C36500000290 /* BDWPluginScriptMessageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C365000000E0 /* BDWPluginScriptMessageHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C365000002A0 /* BDWPluginScriptMessageHandlerProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C365000000F0 /* BDWPluginScriptMessageHandlerProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C365000002B0 /* BDWPluginUserContentController.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000100 /* BDWPluginUserContentController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C365000002C0 /* BDWPluginWebViewEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000110 /* BDWPluginWebViewEvaluator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C365000002D0 /* IWKDelegateCompletionProbe.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000120 /* IWKDelegateCompletionProbe.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C365000002E0 /* IWKPluginHandleResultObj.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000130 /* IWKPluginHandleResultObj.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C365000002F0 /* IWKPluginNavigationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000140 /* IWKPluginNavigationDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000300 /* IWKPluginNavigationDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000150 /* IWKPluginNavigationDelegateProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000310 /* IWKPluginObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000160 /* IWKPluginObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000320 /* IWKPluginUIDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000170 /* IWKPluginUIDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000330 /* IWKPluginUIDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000180 /* IWKPluginUIDelegateProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000340 /* IWKPluginWebViewBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C36500000190 /* IWKPluginWebViewBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000350 /* IWKPluginWebViewLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C365000001A0 /* IWKPluginWebViewLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000360 /* IWKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C365000001B0 /* IWKUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000370 /* IWKWebViewPluginHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C365000001C0 /* IWKWebViewPluginHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000380 /* WKWebView+Plugins.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C365000001D0 /* WKWebView+Plugins.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C365000003E0 /* BDWebCoreToB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C365000003D0 /* BDWebCoreToB-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7C36500000410 /* BDWebCoreToB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C36500000400 /* BDWebCoreToB-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00659BA404C0582D1E2A888BD59953D1 /* BDWebCoreToB */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BDWebCoreToB; path = libBDWebCoreToB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C365000000C0 /* BDWebCoreToB-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDWebCoreToB-bitdummy.m"; sourceTree = "<group>"; };
+		B7C365000000E0 /* BDWPluginScriptMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWPluginScriptMessageHandler.h; path = BDWebCore/Core/BDWPluginScriptMessageHandler.h; sourceTree = "<group>"; };
+		B7C365000000F0 /* BDWPluginScriptMessageHandlerProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWPluginScriptMessageHandlerProxy.h; path = BDWebCore/Core/BDWPluginScriptMessageHandlerProxy.h; sourceTree = "<group>"; };
+		B7C36500000100 /* BDWPluginUserContentController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWPluginUserContentController.h; path = BDWebCore/Core/BDWPluginUserContentController.h; sourceTree = "<group>"; };
+		B7C36500000110 /* BDWPluginWebViewEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDWPluginWebViewEvaluator.h; path = BDWebCore/Core/BDWPluginWebViewEvaluator.h; sourceTree = "<group>"; };
+		B7C36500000120 /* IWKDelegateCompletionProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKDelegateCompletionProbe.h; path = BDWebCore/Core/IWKDelegateCompletionProbe.h; sourceTree = "<group>"; };
+		B7C36500000130 /* IWKPluginHandleResultObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKPluginHandleResultObj.h; path = BDWebCore/Core/IWKPluginHandleResultObj.h; sourceTree = "<group>"; };
+		B7C36500000140 /* IWKPluginNavigationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKPluginNavigationDelegate.h; path = BDWebCore/Core/IWKPluginNavigationDelegate.h; sourceTree = "<group>"; };
+		B7C36500000150 /* IWKPluginNavigationDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKPluginNavigationDelegateProxy.h; path = BDWebCore/Core/IWKPluginNavigationDelegateProxy.h; sourceTree = "<group>"; };
+		B7C36500000160 /* IWKPluginObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKPluginObject.h; path = BDWebCore/Core/IWKPluginObject.h; sourceTree = "<group>"; };
+		B7C36500000170 /* IWKPluginUIDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKPluginUIDelegate.h; path = BDWebCore/Core/IWKPluginUIDelegate.h; sourceTree = "<group>"; };
+		B7C36500000180 /* IWKPluginUIDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKPluginUIDelegateProxy.h; path = BDWebCore/Core/IWKPluginUIDelegateProxy.h; sourceTree = "<group>"; };
+		B7C36500000190 /* IWKPluginWebViewBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKPluginWebViewBuilder.h; path = BDWebCore/Core/IWKPluginWebViewBuilder.h; sourceTree = "<group>"; };
+		B7C365000001A0 /* IWKPluginWebViewLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKPluginWebViewLoader.h; path = BDWebCore/Core/IWKPluginWebViewLoader.h; sourceTree = "<group>"; };
+		B7C365000001B0 /* IWKUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKUtils.h; path = BDWebCore/Core/IWKUtils.h; sourceTree = "<group>"; };
+		B7C365000001C0 /* IWKWebViewPluginHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWKWebViewPluginHelper.h; path = BDWebCore/Core/IWKWebViewPluginHelper.h; sourceTree = "<group>"; };
+		B7C365000001D0 /* WKWebView+Plugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+Plugins.h"; path = "BDWebCore/Core/WKWebView+Plugins.h"; sourceTree = "<group>"; };
+		B7C365000001F0 /* libBDWebCoreToB_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDWebCoreToB_Core_awesome_ios.a; path = "ios-arch-iphone/libBDWebCoreToB_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		B7C365000003A0 /* BDWebCoreToB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDWebCoreToB.debug.xcconfig; sourceTree = "<group>"; };
+		B7C365000003B0 /* BDWebCoreToB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDWebCoreToB.release.xcconfig; sourceTree = "<group>"; };
+		B7C365000003C0 /* BDWebCoreToB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BDWebCoreToB.modulemap; sourceTree = "<group>"; };
+		B7C365000003D0 /* BDWebCoreToB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDWebCoreToB-umbrella.h"; sourceTree = "<group>"; };
+		B7C365000003F0 /* BDWebCoreToB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDWebCoreToB-prefix.pch"; sourceTree = "<group>"; };
+		B7C36500000400 /* BDWebCoreToB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDWebCoreToB-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7C36500000270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7C36500000010 = {
+			isa = PBXGroup;
+			children = (
+				B7C365000000B0 /* BDWebCoreToB */,
+				B7C36500000060 /* Frameworks */,
+				B7C36500000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7C36500000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00659BA404C0582D1E2A888BD59953D1 /* BDWebCoreToB */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7C36500000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7C365000000B0 /* BDWebCoreToB */ = {
+			isa = PBXGroup;
+			children = (
+				B7C365000000C0 /* BDWebCoreToB-bitdummy.m */,
+				B7C365000000D0 /* Core */,
+				B7C36500000390 /* Support Files */,
+			);
+			name = BDWebCoreToB;
+			path = BDWebCoreToB;
+			sourceTree = "<group>";
+		};
+		B7C365000000D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B7C365000000E0 /* BDWPluginScriptMessageHandler.h */,
+				B7C365000000F0 /* BDWPluginScriptMessageHandlerProxy.h */,
+				B7C36500000100 /* BDWPluginUserContentController.h */,
+				B7C36500000110 /* BDWPluginWebViewEvaluator.h */,
+				B7C36500000120 /* IWKDelegateCompletionProbe.h */,
+				B7C36500000130 /* IWKPluginHandleResultObj.h */,
+				B7C36500000140 /* IWKPluginNavigationDelegate.h */,
+				B7C36500000150 /* IWKPluginNavigationDelegateProxy.h */,
+				B7C36500000160 /* IWKPluginObject.h */,
+				B7C36500000170 /* IWKPluginUIDelegate.h */,
+				B7C36500000180 /* IWKPluginUIDelegateProxy.h */,
+				B7C36500000190 /* IWKPluginWebViewBuilder.h */,
+				B7C365000001A0 /* IWKPluginWebViewLoader.h */,
+				B7C365000001B0 /* IWKUtils.h */,
+				B7C365000001C0 /* IWKWebViewPluginHelper.h */,
+				B7C365000001D0 /* WKWebView+Plugins.h */,
+				B7C365000001E0 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B7C365000001E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7C365000001F0 /* libBDWebCoreToB_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7C36500000390 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7C365000003C0 /* BDWebCoreToB.modulemap */,
+				B7C36500000400 /* BDWebCoreToB-dummy.m */,
+				B7C365000003F0 /* BDWebCoreToB-prefix.pch */,
+				B7C365000003D0 /* BDWebCoreToB-umbrella.h */,
+				B7C365000003A0 /* BDWebCoreToB.debug.xcconfig */,
+				B7C365000003B0 /* BDWebCoreToB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BDWebCoreToB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7C36500000250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C365000003E0 /* BDWebCoreToB-umbrella.h in Headers */,
+				B7C36500000290 /* BDWPluginScriptMessageHandler.h in Headers */,
+				B7C365000002A0 /* BDWPluginScriptMessageHandlerProxy.h in Headers */,
+				B7C365000002B0 /* BDWPluginUserContentController.h in Headers */,
+				B7C365000002C0 /* BDWPluginWebViewEvaluator.h in Headers */,
+				B7C365000002D0 /* IWKDelegateCompletionProbe.h in Headers */,
+				B7C365000002E0 /* IWKPluginHandleResultObj.h in Headers */,
+				B7C365000002F0 /* IWKPluginNavigationDelegate.h in Headers */,
+				B7C36500000300 /* IWKPluginNavigationDelegateProxy.h in Headers */,
+				B7C36500000310 /* IWKPluginObject.h in Headers */,
+				B7C36500000320 /* IWKPluginUIDelegate.h in Headers */,
+				B7C36500000330 /* IWKPluginUIDelegateProxy.h in Headers */,
+				B7C36500000340 /* IWKPluginWebViewBuilder.h in Headers */,
+				B7C36500000350 /* IWKPluginWebViewLoader.h in Headers */,
+				B7C36500000360 /* IWKUtils.h in Headers */,
+				B7C36500000370 /* IWKWebViewPluginHelper.h in Headers */,
+				B7C36500000380 /* WKWebView+Plugins.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13F3DE11DD6D38DEA9B7CB523D518C0C /* BDWebCoreToB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C36500000210 /* Build configuration list for PBXNativeTarget "BDWebCoreToB" */;
+			buildPhases = (
+				B7C36500000250 /* Headers */,
+				B7C36500000260 /* Sources */,
+				B7C36500000270 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDWebCoreToB;
+			productName = BDWebCoreToB;
+			productReference = 00659BA404C0582D1E2A888BD59953D1 /* BDWebCoreToB */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7C36500000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = B7C36500000030 /* Build configuration list for PBXProject "BDWebCoreToB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B7C36500000010;
+			productRefGroup = B7C36500000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F3DE11DD6D38DEA9B7CB523D518C0C /* BDWebCoreToB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7C36500000260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C36500000280 /* BDWebCoreToB-bitdummy.m in Sources */,
+				B7C36500000410 /* BDWebCoreToB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7C36500000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7C36500000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7C36500000220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C365000003B0 /* BDWebCoreToB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDWebCoreToB/BDWebCoreToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/BDWebCoreToB/BDWebCoreToB.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDWebCoreToB;
+				PRODUCT_NAME = BDWebCoreToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7C36500000230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C365000003A0 /* BDWebCoreToB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDWebCoreToB/BDWebCoreToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/BDWebCoreToB/BDWebCoreToB.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDWebCoreToB;
+				PRODUCT_NAME = BDWebCoreToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7C36500000030 /* Build configuration list for PBXProject "BDWebCoreToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C36500000040 /* Debug */,
+				B7C36500000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C36500000210 /* Build configuration list for PBXNativeTarget "BDWebCoreToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C36500000230 /* Debug */,
+				B7C36500000220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7C36500000000 /* Project object */;
+}

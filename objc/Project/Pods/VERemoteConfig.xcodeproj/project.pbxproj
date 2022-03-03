@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A577100000390 /* blank@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A577100000230 /* blank@3x.png */; };
+		1A5771000003A0 /* clean@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A577100000240 /* clean@3x.png */; };
+		1A5771000003B0 /* clientInfo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A577100000250 /* clientInfo@3x.png */; };
+		1A5771000003C0 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A577100000260 /* close@3x.png */; };
+		1A5771000003D0 /* parameter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A577100000270 /* parameter@3x.png */; };
+		1A5771000003E0 /* persist@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A577100000280 /* persist@3x.png */; };
+		1A577100000410 /* VERemoteConfig-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5771000000D0 /* VERemoteConfig-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A577100000420 /* VERemoteConfigCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A577100000110 /* VERemoteConfigCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A577100000430 /* VERemoteConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A577100000120 /* VERemoteConfigManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A577100000440 /* TestPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A577100000150 /* TestPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A577100000490 /* VERemoteConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A577100000480 /* VERemoteConfig-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5771000004A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A577100000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F3BB30C0923E39ACE86147C0C3CE89;
+			remoteInfo = "VERemoteConfig-TestPageResource";
+		};
+		1A5771000004D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5771000004C0 /* MMKV.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F811D3AC87F4D64B1375E5A914346DB;
+			remoteInfo = MMKV;
+		};
+		1A577100000500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5771000004F0 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5771000000D0 /* VERemoteConfig-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VERemoteConfig-bitdummy.m"; sourceTree = "<group>"; };
+		1A577100000110 /* VERemoteConfigCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VERemoteConfigCommon.h; path = VERemoteConfig/Classes/Core/VERemoteConfigCommon.h; sourceTree = "<group>"; };
+		1A577100000120 /* VERemoteConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VERemoteConfigManager.h; path = VERemoteConfig/Classes/Core/VERemoteConfigManager.h; sourceTree = "<group>"; };
+		1A577100000150 /* TestPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestPageViewController.h; path = VERemoteConfig/Classes/TestPage/TestPageViewController.h; sourceTree = "<group>"; };
+		1A577100000170 /* libVERemoteConfig_BaseNetwork_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVERemoteConfig_BaseNetwork_awesome_ios.a; path = "ios-arch-iphone/libVERemoteConfig_BaseNetwork_awesome_ios.a"; sourceTree = "<group>"; };
+		1A577100000190 /* libVERemoteConfig_ConfigCacher_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVERemoteConfig_ConfigCacher_awesome_ios.a; path = "ios-arch-iphone/libVERemoteConfig_ConfigCacher_awesome_ios.a"; sourceTree = "<group>"; };
+		1A5771000001B0 /* libVERemoteConfig_ConfigFetcher_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVERemoteConfig_ConfigFetcher_awesome_ios.a; path = "ios-arch-iphone/libVERemoteConfig_ConfigFetcher_awesome_ios.a"; sourceTree = "<group>"; };
+		1A5771000001D0 /* libVERemoteConfig_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVERemoteConfig_Core_awesome_ios.a; path = "ios-arch-iphone/libVERemoteConfig_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		1A5771000001F0 /* libVERemoteConfig_OneKit_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVERemoteConfig_OneKit_awesome_ios.a; path = "ios-arch-iphone/libVERemoteConfig_OneKit_awesome_ios.a"; sourceTree = "<group>"; };
+		1A577100000210 /* libVERemoteConfig_TestPage_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libVERemoteConfig_TestPage_awesome_ios.a; path = "ios-arch-iphone/libVERemoteConfig_TestPage_awesome_ios.a"; sourceTree = "<group>"; };
+		1A577100000230 /* blank@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "blank@3x.png"; path = "VERemoteConfig/Assets/blank@3x.png"; sourceTree = "<group>"; };
+		1A577100000240 /* clean@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clean@3x.png"; path = "VERemoteConfig/Assets/clean@3x.png"; sourceTree = "<group>"; };
+		1A577100000250 /* clientInfo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clientInfo@3x.png"; path = "VERemoteConfig/Assets/clientInfo@3x.png"; sourceTree = "<group>"; };
+		1A577100000260 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@3x.png"; path = "VERemoteConfig/Assets/close@3x.png"; sourceTree = "<group>"; };
+		1A577100000270 /* parameter@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "parameter@3x.png"; path = "VERemoteConfig/Assets/parameter@3x.png"; sourceTree = "<group>"; };
+		1A577100000280 /* persist@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "persist@3x.png"; path = "VERemoteConfig/Assets/persist@3x.png"; sourceTree = "<group>"; };
+		1A577100000400 /* ResourceBundle-TestPageResource-VERemoteConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestPageResource-VERemoteConfig-Info.plist"; sourceTree = "<group>"; };
+		1A577100000450 /* VERemoteConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VERemoteConfig.debug.xcconfig; sourceTree = "<group>"; };
+		1A577100000460 /* VERemoteConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VERemoteConfig.release.xcconfig; sourceTree = "<group>"; };
+		1A577100000470 /* VERemoteConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VERemoteConfig-prefix.pch"; sourceTree = "<group>"; };
+		1A577100000480 /* VERemoteConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VERemoteConfig-dummy.m"; sourceTree = "<group>"; };
+		1A5771000004C0 /* MMKV */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MMKV; path = MMKV.xcodeproj; sourceTree = "<group>"; };
+		1A5771000004F0 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		8839BCB04C482A06D39D5ED0A80EE87C /* VERemoteConfig-TestPageResource */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "VERemoteConfig-TestPageResource"; path = TestPageResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E40989D1704FC960A27A43E5AFA197 /* VERemoteConfig */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = VERemoteConfig; path = libVERemoteConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A577100000300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A577100000370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A577100000010 = {
+			isa = PBXGroup;
+			children = (
+				1A5771000000A0 /* Dependencies */,
+				1A577100000060 /* Frameworks */,
+				1A577100000020 /* Products */,
+				1A5771000000B0 /* VERemoteConfig */,
+			);
+			sourceTree = "<group>";
+		};
+		1A577100000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E40989D1704FC960A27A43E5AFA197 /* VERemoteConfig */,
+				8839BCB04C482A06D39D5ED0A80EE87C /* VERemoteConfig-TestPageResource */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A577100000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5771000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1A5771000004C0 /* MMKV */,
+				1A5771000004F0 /* OneKit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		1A5771000000B0 /* VERemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				1A5771000000C0 /* BaseNetwork */,
+				1A5771000000E0 /* ConfigCacher */,
+				1A5771000000F0 /* ConfigFetcher */,
+				1A577100000100 /* Core */,
+				1A577100000130 /* OneKit */,
+				1A5771000003F0 /* Support Files */,
+				1A577100000140 /* TestPage */,
+			);
+			name = VERemoteConfig;
+			path = VERemoteConfig;
+			sourceTree = "<group>";
+		};
+		1A5771000000C0 /* BaseNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				1A5771000000D0 /* VERemoteConfig-bitdummy.m */,
+				1A577100000160 /* Frameworks */,
+			);
+			name = BaseNetwork;
+			sourceTree = "<group>";
+		};
+		1A5771000000E0 /* ConfigCacher */ = {
+			isa = PBXGroup;
+			children = (
+				1A577100000180 /* Frameworks */,
+			);
+			name = ConfigCacher;
+			sourceTree = "<group>";
+		};
+		1A5771000000F0 /* ConfigFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				1A5771000001A0 /* Frameworks */,
+			);
+			name = ConfigFetcher;
+			sourceTree = "<group>";
+		};
+		1A577100000100 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A577100000110 /* VERemoteConfigCommon.h */,
+				1A577100000120 /* VERemoteConfigManager.h */,
+				1A5771000001C0 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1A577100000130 /* OneKit */ = {
+			isa = PBXGroup;
+			children = (
+				1A5771000001E0 /* Frameworks */,
+			);
+			name = OneKit;
+			sourceTree = "<group>";
+		};
+		1A577100000140 /* TestPage */ = {
+			isa = PBXGroup;
+			children = (
+				1A577100000150 /* TestPageViewController.h */,
+				1A577100000200 /* Frameworks */,
+				1A577100000220 /* Resources */,
+			);
+			name = TestPage;
+			sourceTree = "<group>";
+		};
+		1A577100000160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A577100000170 /* libVERemoteConfig_BaseNetwork_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A577100000180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A577100000190 /* libVERemoteConfig_ConfigCacher_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5771000001A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5771000001B0 /* libVERemoteConfig_ConfigFetcher_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5771000001C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5771000001D0 /* libVERemoteConfig_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5771000001E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5771000001F0 /* libVERemoteConfig_OneKit_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A577100000200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A577100000210 /* libVERemoteConfig_TestPage_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A577100000220 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A577100000230 /* blank@3x.png */,
+				1A577100000240 /* clean@3x.png */,
+				1A577100000250 /* clientInfo@3x.png */,
+				1A577100000260 /* close@3x.png */,
+				1A577100000270 /* parameter@3x.png */,
+				1A577100000280 /* persist@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1A5771000003F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A577100000400 /* ResourceBundle-TestPageResource-VERemoteConfig-Info.plist */,
+				1A577100000480 /* VERemoteConfig-dummy.m */,
+				1A577100000470 /* VERemoteConfig-prefix.pch */,
+				1A577100000450 /* VERemoteConfig.debug.xcconfig */,
+				1A577100000460 /* VERemoteConfig.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VERemoteConfig";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A5771000002E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A577100000440 /* TestPageViewController.h in Headers */,
+				1A577100000420 /* VERemoteConfigCommon.h in Headers */,
+				1A577100000430 /* VERemoteConfigManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A5E9B88ACF00E8ACFEDE8DEDE58CF15 /* VERemoteConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5771000002A0 /* Build configuration list for PBXNativeTarget "VERemoteConfig" */;
+			buildPhases = (
+				1A5771000002E0 /* Headers */,
+				1A5771000002F0 /* Sources */,
+				1A577100000300 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5771000004E0 /* PBXTargetDependency */,
+				1A577100000510 /* PBXTargetDependency */,
+				1A5771000004B0 /* PBXTargetDependency */,
+			);
+			name = VERemoteConfig;
+			productName = VERemoteConfig;
+			productReference = B3E40989D1704FC960A27A43E5AFA197 /* VERemoteConfig */;
+			productType = "com.apple.product-type.library.static";
+		};
+		28F3BB30C0923E39ACE86147C0C3CE89 /* VERemoteConfig-TestPageResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A577100000320 /* Build configuration list for PBXNativeTarget "VERemoteConfig-TestPageResource" */;
+			buildPhases = (
+				1A577100000360 /* Sources */,
+				1A577100000370 /* Frameworks */,
+				1A577100000380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VERemoteConfig-TestPageResource";
+			productName = TestPageResource;
+			productReference = 8839BCB04C482A06D39D5ED0A80EE87C /* VERemoteConfig-TestPageResource */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A577100000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 1A577100000030 /* Build configuration list for PBXProject "VERemoteConfig" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1A577100000010;
+			productRefGroup = 1A577100000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 1A5771000004C0 /* MMKV */;
+				},
+				{
+					ProjectRef = 1A5771000004F0 /* OneKit */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0A5E9B88ACF00E8ACFEDE8DEDE58CF15 /* VERemoteConfig */,
+				28F3BB30C0923E39ACE86147C0C3CE89 /* VERemoteConfig-TestPageResource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A577100000380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A577100000390 /* blank@3x.png in Resources */,
+				1A5771000003A0 /* clean@3x.png in Resources */,
+				1A5771000003B0 /* clientInfo@3x.png in Resources */,
+				1A5771000003C0 /* close@3x.png in Resources */,
+				1A5771000003D0 /* parameter@3x.png in Resources */,
+				1A5771000003E0 /* persist@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5771000002F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A577100000410 /* VERemoteConfig-bitdummy.m in Sources */,
+				1A577100000490 /* VERemoteConfig-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A577100000360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A5771000004B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VERemoteConfig-TestPageResource";
+			target = 28F3BB30C0923E39ACE86147C0C3CE89 /* VERemoteConfig-TestPageResource */;
+			targetProxy = 1A5771000004A0 /* PBXContainerItemProxy */;
+		};
+		1A5771000004E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMKV;
+			targetProxy = 1A5771000004D0 /* PBXContainerItemProxy */;
+		};
+		1A577100000510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = 1A577100000500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A577100000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A577100000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1A5771000002B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A577100000460 /* VERemoteConfig.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/VERemoteConfig/VERemoteConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VERemoteConfig;
+				PRODUCT_NAME = VERemoteConfig;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A5771000002C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A577100000450 /* VERemoteConfig.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/VERemoteConfig/VERemoteConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VERemoteConfig;
+				PRODUCT_NAME = VERemoteConfig;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A577100000330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A577100000460 /* VERemoteConfig.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VERemoteConfig";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = VERemoteConfig;
+				INFOPLIST_FILE = "Target Support Files/VERemoteConfig/ResourceBundle-TestPageResource-VERemoteConfig-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TestPageResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1A577100000340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A577100000450 /* VERemoteConfig.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VERemoteConfig";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = VERemoteConfig;
+				INFOPLIST_FILE = "Target Support Files/VERemoteConfig/ResourceBundle-TestPageResource-VERemoteConfig-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TestPageResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A577100000030 /* Build configuration list for PBXProject "VERemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A577100000040 /* Debug */,
+				1A577100000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5771000002A0 /* Build configuration list for PBXNativeTarget "VERemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5771000002C0 /* Debug */,
+				1A5771000002B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A577100000320 /* Build configuration list for PBXNativeTarget "VERemoteConfig-TestPageResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A577100000340 /* Debug */,
+				1A577100000330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A577100000000 /* Project object */;
+}

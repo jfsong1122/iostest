@@ -1,0 +1,1 @@
+../../../Godzippa/Sources/NSFileManager+Godzippa.h

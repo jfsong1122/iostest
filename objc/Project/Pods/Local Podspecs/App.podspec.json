@@ -1,0 +1,64 @@
+{
+  "name": "App",
+  "version": "0.1.0",
+  "summary": "ByteDance App Demo.",
+  "description": "ByteDance App Demo..",
+  "homepage": "https://github.com/volcengine/ve_Template_iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "duanwenbin": "duanwenbin@bytedance.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "default_subspecs": [
+    "Base",
+    "Debug"
+  ],
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "App/Base/**/*.{h,m,c}",
+      "public_header_files": "App/Base/**/*.h",
+      "frameworks": [
+        "Foundation",
+        "UIKit"
+      ],
+      "dependencies": {
+        "OneKit/StartUp": [
+
+        ],
+        "TTNetworkManager": [
+
+        ]
+      }
+    },
+    {
+      "name": "Debug",
+      "source_files": "App/Debug/**/*.{h,m,c,mm}",
+      "resources": "App/Debug/**/*.js",
+      "dependencies": {
+        "App/Base": [
+
+        ],
+        "TTNetworkManager": [
+
+        ],
+        "OneKit/Defaults": [
+
+        ]
+      }
+    }
+  ]
+}

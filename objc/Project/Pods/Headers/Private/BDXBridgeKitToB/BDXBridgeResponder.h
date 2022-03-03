@@ -1,0 +1,1 @@
+../../../BDXBridgeKitToB/BDXBridgeKitToB/Classes/Core/BDXBridgeResponder.h

@@ -1,0 +1,1 @@
+../../../BDNativeWebComponentToB/BDNativeWebComponentToB/Core/NativeComponent/BDNativeBaseComponent+Private.h

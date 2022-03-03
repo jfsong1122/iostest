@@ -1,0 +1,6 @@
+framework module TTNetworkManager {
+  umbrella header "TTNetworkManager.h"
+
+  export *
+  module * { export * }
+}

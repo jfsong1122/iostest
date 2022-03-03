@@ -1,0 +1,6 @@
+module BDWebKitToB {
+  umbrella header "BDWebKitToB-umbrella.h"
+
+  export *
+  module * { export * }
+}

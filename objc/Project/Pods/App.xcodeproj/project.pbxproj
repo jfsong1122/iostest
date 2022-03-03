@@ -1,0 +1,1324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A3C900000C90 /* MPaasSchemeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000000F0 /* MPaasSchemeHandler.m */; };
+		F4A3C900000CA0 /* LoggerStartUpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000120 /* LoggerStartUpTask.m */; };
+		F4A3C900000CB0 /* MPaasTaskConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000140 /* MPaasTaskConfig.m */; };
+		F4A3C900000CC0 /* OKFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000160 /* OKFeedViewController.m */; };
+		F4A3C900000CD0 /* OKStartUpUITask.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000180 /* OKStartUpUITask.m */; };
+		F4A3C900000CE0 /* APMStartUpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000001B0 /* APMStartUpTask.m */; };
+		F4A3C900000CF0 /* TTNetStartUpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000001E0 /* TTNetStartUpTask.m */; };
+		F4A3C900000D00 /* VEH5StartUpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000210 /* VEH5StartUpTask.m */; };
+		F4A3C900000D10 /* MPaasSchemeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000000E0 /* MPaasSchemeHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900000D20 /* LoggerStartUpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000110 /* LoggerStartUpTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900000D30 /* MPaasTaskConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000130 /* MPaasTaskConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900000D40 /* OKFeedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000150 /* OKFeedViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900000D50 /* OKStartUpUITask.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000170 /* OKStartUpUITask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900000D60 /* APMStartUpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000001A0 /* APMStartUpTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900000D70 /* TTNetStartUpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000001D0 /* TTNetStartUpTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900000D80 /* VEH5StartUpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000200 /* VEH5StartUpTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900000D90 /* BDHTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000250 /* BDHTestViewController.m */; };
+		F4A3C900000DA0 /* OKDebugFeedInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000280 /* OKDebugFeedInputCell.m */; };
+		F4A3C900000DB0 /* OKDebugFeedSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000002A0 /* OKDebugFeedSwitchCell.m */; };
+		F4A3C900000DC0 /* OKDebugFeedTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000002C0 /* OKDebugFeedTextCell.m */; };
+		F4A3C900000DD0 /* OKDebugFeedAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000002E0 /* OKDebugFeedAdapter.m */; };
+		F4A3C900000DE0 /* OKDebugFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000300 /* OKDebugFooterView.m */; };
+		F4A3C900000DF0 /* OKDebugDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000340 /* OKDebugDefaults.m */; };
+		F4A3C900000E00 /* OKDebugDefaultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000360 /* OKDebugDefaultsModel.m */; };
+		F4A3C900000E10 /* OKScreenshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000390 /* OKScreenshotViewController.m */; };
+		F4A3C900000E20 /* BDAbstractModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000003C0 /* BDAbstractModel.m */; };
+		F4A3C900000E30 /* BDConfigViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000003E0 /* BDConfigViewModel.m */; };
+		F4A3C900000E40 /* BDFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000400 /* BDFeedModel.m */; };
+		F4A3C900000E50 /* BDFeedModelDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000420 /* BDFeedModelDictionary.m */; };
+		F4A3C900000E60 /* BDModelSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000440 /* BDModelSectionHeader.m */; };
+		F4A3C900000E70 /* BDTesterIntroducerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000460 /* BDTesterIntroducerBase.m */; };
+		F4A3C900000E80 /* OKDebugFeedLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000480 /* OKDebugFeedLoader.m */; };
+		F4A3C900000E90 /* OKDebugFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000004A0 /* OKDebugFeedModel.m */; };
+		F4A3C900000EA0 /* OKDebugFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000004C0 /* OKDebugFeedViewController.m */; };
+		F4A3C900000EB0 /* OKDebugFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000004E0 /* OKDebugFooter.m */; };
+		F4A3C900000EC0 /* OKDebugNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000500 /* OKDebugNetworkManager.m */; };
+		F4A3C900000ED0 /* OKDebugTextResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000520 /* OKDebugTextResultViewController.m */; };
+		F4A3C900000EE0 /* OKDebugToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000540 /* OKDebugToast.m */; };
+		F4A3C900000EF0 /* UIViewController+OKDebugAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000560 /* UIViewController+OKDebugAlert.m */; };
+		F4A3C900000F00 /* APMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000590 /* APMHomeViewController.m */; };
+		F4A3C900000F10 /* RangersAPMCrashViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000005C0 /* RangersAPMCrashViewController.mm */; };
+		F4A3C900000F20 /* EventRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000005F0 /* EventRecordManager.m */; };
+		F4A3C900000F30 /* RangersAPMEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000610 /* RangersAPMEventViewController.m */; };
+		F4A3C900000F40 /* RangersAPMHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000640 /* RangersAPMHybridViewController.m */; };
+		F4A3C900000F50 /* RangersAPMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000660 /* RangersAPMWebViewController.m */; };
+		F4A3C900000F60 /* RangersAPMLagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000690 /* RangersAPMLagViewController.m */; };
+		F4A3C900000F70 /* RangersAPMMemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000006C0 /* RangersAPMMemoryViewController.m */; };
+		F4A3C900000F80 /* RangersAPMPerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000006F0 /* RangersAPMPerformanceViewController.m */; };
+		F4A3C900000F90 /* RangersAPMNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000720 /* RangersAPMNetworkViewController.m */; };
+		F4A3C900000FA0 /* RangersAPMOOMViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000750 /* RangersAPMOOMViewController.mm */; };
+		F4A3C900000FB0 /* RangersAPMCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000770 /* RangersAPMCellItem.m */; };
+		F4A3C900000FC0 /* RangersAPMUITrackersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000007A0 /* RangersAPMUITrackersViewController.m */; };
+		F4A3C900000FD0 /* RangersAPMExceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000007D0 /* RangersAPMExceptionViewController.m */; };
+		F4A3C900000FE0 /* RangersAPMWatchDogViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000800 /* RangersAPMWatchDogViewController.mm */; };
+		F4A3C900000FF0 /* BDAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000830 /* BDAdapter.m */; };
+		F4A3C900001000 /* BDColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000850 /* BDColors.m */; };
+		F4A3C900001010 /* BDDemoTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000870 /* BDDemoTextCell.m */; };
+		F4A3C900001020 /* BDTestIntroducerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000008B0 /* BDTestIntroducerViewController.m */; };
+		F4A3C900001030 /* BDFinderTesterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000008E0 /* BDFinderTesterImp.m */; };
+		F4A3C900001040 /* BDNativeH5TesterImpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000910 /* BDNativeH5TesterImpViewController.m */; };
+		F4A3C900001050 /* BDTestPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000940 /* BDTestPickerViewController.m */; };
+		F4A3C900001060 /* BDPlayerTesterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000970 /* BDPlayerTesterImp.m */; };
+		F4A3C900001070 /* BDUICompatibilityTesterSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000009A0 /* BDUICompatibilityTesterSuite.m */; };
+		F4A3C900001080 /* BDOverlapWindowTesterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000009D0 /* BDOverlapWindowTesterImp.m */; };
+		F4A3C900001090 /* BDSubviewToWindowTesterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000A00 /* BDSubviewToWindowTesterImp.m */; };
+		F4A3C9000010A0 /* TTNetCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000A30 /* TTNetCellItem.m */; };
+		F4A3C9000010B0 /* TTNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000A50 /* TTNetViewController.m */; };
+		F4A3C9000010C0 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000A80 /* TTViewController.m */; };
+		F4A3C9000010D0 /* BTDEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000AB0 /* BTDEntryViewController.m */; };
+		F4A3C9000010E0 /* BTDExampleAnotherActionMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000AD0 /* BTDExampleAnotherActionMethod.m */; };
+		F4A3C9000010F0 /* BTDExampleLogService.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000AF0 /* BTDExampleLogService.m */; };
+		F4A3C900001100 /* BTDExampleSomeActionMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000B10 /* BTDExampleSomeActionMethod.m */; };
+		F4A3C900001110 /* BTDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000B30 /* BTDViewController.m */; };
+		F4A3C900001120 /* VEH5WebDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000B50 /* VEH5WebDebugViewController.m */; };
+		F4A3C900001130 /* VEInstallResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000B80 /* VEInstallResultViewController.m */; };
+		F4A3C900001140 /* VEInstallTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000BA0 /* VEInstallTestViewController.m */; };
+		F4A3C900001150 /* VERemoteConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C900000BD0 /* VERemoteConfigViewController.m */; };
+		F4A3C900001160 /* BDHTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000240 /* BDHTestViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001170 /* OKDebugFeedInputCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000270 /* OKDebugFeedInputCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001180 /* OKDebugFeedSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000290 /* OKDebugFeedSwitchCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001190 /* OKDebugFeedTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000002B0 /* OKDebugFeedTextCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000011A0 /* OKDebugFeedAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000002D0 /* OKDebugFeedAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000011B0 /* OKDebugFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000002F0 /* OKDebugFooterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000011C0 /* OKDebugDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000330 /* OKDebugDefaults.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000011D0 /* OKDebugDefaultsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000350 /* OKDebugDefaultsModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000011E0 /* OKScreenshotViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000380 /* OKScreenshotViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000011F0 /* BDAbstractModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000003B0 /* BDAbstractModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001200 /* BDConfigViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000003D0 /* BDConfigViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001210 /* BDFeedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000003F0 /* BDFeedModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001220 /* BDFeedModelDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000410 /* BDFeedModelDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001230 /* BDModelSectionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000430 /* BDModelSectionHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001240 /* BDTesterIntroducerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000450 /* BDTesterIntroducerBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001250 /* OKDebugFeedLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000470 /* OKDebugFeedLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001260 /* OKDebugFeedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000490 /* OKDebugFeedModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001270 /* OKDebugFeedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000004B0 /* OKDebugFeedViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001280 /* OKDebugFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000004D0 /* OKDebugFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001290 /* OKDebugNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000004F0 /* OKDebugNetworkManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000012A0 /* OKDebugTextResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000510 /* OKDebugTextResultViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000012B0 /* OKDebugToast.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000530 /* OKDebugToast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000012C0 /* UIViewController+OKDebugAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000550 /* UIViewController+OKDebugAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000012D0 /* APMHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000580 /* APMHomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000012E0 /* RangersAPMCrashViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000005B0 /* RangersAPMCrashViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000012F0 /* EventRecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000005E0 /* EventRecordManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001300 /* RangersAPMEventViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000600 /* RangersAPMEventViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001310 /* RangersAPMHybridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000630 /* RangersAPMHybridViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001320 /* RangersAPMWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000650 /* RangersAPMWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001330 /* RangersAPMLagViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000680 /* RangersAPMLagViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001340 /* RangersAPMMemoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000006B0 /* RangersAPMMemoryViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001350 /* RangersAPMPerformanceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000006E0 /* RangersAPMPerformanceViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001360 /* RangersAPMNetworkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000710 /* RangersAPMNetworkViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001370 /* RangersAPMOOMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000740 /* RangersAPMOOMViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001380 /* RangersAPMCellItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000760 /* RangersAPMCellItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001390 /* RangersAPMUITrackersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000790 /* RangersAPMUITrackersViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000013A0 /* RangersAPMExceptionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000007C0 /* RangersAPMExceptionViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000013B0 /* RangersAPMWatchDogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000007F0 /* RangersAPMWatchDogViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000013C0 /* BDAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000820 /* BDAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000013D0 /* BDColors.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000840 /* BDColors.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000013E0 /* BDDemoTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000860 /* BDDemoTextCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000013F0 /* BDTesterControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000890 /* BDTesterControllers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001400 /* BDTestIntroducerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000008A0 /* BDTestIntroducerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001410 /* BDFinderTesterImp.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000008D0 /* BDFinderTesterImp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001420 /* BDNativeH5TesterImpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000900 /* BDNativeH5TesterImpViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001430 /* BDTestPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000930 /* BDTestPickerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001440 /* BDPlayerTesterImp.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000960 /* BDPlayerTesterImp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001450 /* BDUICompatibilityTesterSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000990 /* BDUICompatibilityTesterSuite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001460 /* BDOverlapWindowTesterImp.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000009C0 /* BDOverlapWindowTesterImp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001470 /* BDSubviewToWindowTesterImp.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C9000009F0 /* BDSubviewToWindowTesterImp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001480 /* TTNetCellItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000A20 /* TTNetCellItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001490 /* TTNetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000A40 /* TTNetViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000014A0 /* TTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000A70 /* TTViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000014B0 /* BTDEntryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000AA0 /* BTDEntryViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000014C0 /* BTDExampleAnotherActionMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000AC0 /* BTDExampleAnotherActionMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000014D0 /* BTDExampleLogService.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000AE0 /* BTDExampleLogService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000014E0 /* BTDExampleSomeActionMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000B00 /* BTDExampleSomeActionMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000014F0 /* BTDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000B20 /* BTDViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001500 /* VEH5WebDebugViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000B40 /* VEH5WebDebugViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001510 /* VEInstallResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000B70 /* VEInstallResultViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001520 /* VEInstallTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000B90 /* VEInstallTestViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001530 /* VERemoteConfigViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900000BC0 /* VERemoteConfigViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C900001590 /* App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A3C900001580 /* App-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A3C9000015C0 /* App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3C9000015B0 /* App-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4A3C9000015E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A3C9000015D0 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		F4A3C900001610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A3C900001600 /* TTNetworkManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73119DD701757B40837515F362586977;
+			remoteInfo = TTNetworkManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8308597E64C41B67C6E682D7D51003A /* App */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = App; path = libApp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A3C9000000E0 /* MPaasSchemeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPaasSchemeHandler.h; sourceTree = "<group>"; };
+		F4A3C9000000F0 /* MPaasSchemeHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPaasSchemeHandler.m; sourceTree = "<group>"; };
+		F4A3C900000110 /* LoggerStartUpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoggerStartUpTask.h; sourceTree = "<group>"; };
+		F4A3C900000120 /* LoggerStartUpTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoggerStartUpTask.m; sourceTree = "<group>"; };
+		F4A3C900000130 /* MPaasTaskConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPaasTaskConfig.h; sourceTree = "<group>"; };
+		F4A3C900000140 /* MPaasTaskConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPaasTaskConfig.m; sourceTree = "<group>"; };
+		F4A3C900000150 /* OKFeedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKFeedViewController.h; sourceTree = "<group>"; };
+		F4A3C900000160 /* OKFeedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKFeedViewController.m; sourceTree = "<group>"; };
+		F4A3C900000170 /* OKStartUpUITask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKStartUpUITask.h; sourceTree = "<group>"; };
+		F4A3C900000180 /* OKStartUpUITask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKStartUpUITask.m; sourceTree = "<group>"; };
+		F4A3C9000001A0 /* APMStartUpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APMStartUpTask.h; sourceTree = "<group>"; };
+		F4A3C9000001B0 /* APMStartUpTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APMStartUpTask.m; sourceTree = "<group>"; };
+		F4A3C9000001D0 /* TTNetStartUpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTNetStartUpTask.h; sourceTree = "<group>"; };
+		F4A3C9000001E0 /* TTNetStartUpTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTNetStartUpTask.m; sourceTree = "<group>"; };
+		F4A3C900000200 /* VEH5StartUpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VEH5StartUpTask.h; sourceTree = "<group>"; };
+		F4A3C900000210 /* VEH5StartUpTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VEH5StartUpTask.m; sourceTree = "<group>"; };
+		F4A3C900000240 /* BDHTestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDHTestViewController.h; sourceTree = "<group>"; };
+		F4A3C900000250 /* BDHTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDHTestViewController.m; sourceTree = "<group>"; };
+		F4A3C900000270 /* OKDebugFeedInputCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugFeedInputCell.h; sourceTree = "<group>"; };
+		F4A3C900000280 /* OKDebugFeedInputCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugFeedInputCell.m; sourceTree = "<group>"; };
+		F4A3C900000290 /* OKDebugFeedSwitchCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugFeedSwitchCell.h; sourceTree = "<group>"; };
+		F4A3C9000002A0 /* OKDebugFeedSwitchCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugFeedSwitchCell.m; sourceTree = "<group>"; };
+		F4A3C9000002B0 /* OKDebugFeedTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugFeedTextCell.h; sourceTree = "<group>"; };
+		F4A3C9000002C0 /* OKDebugFeedTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugFeedTextCell.m; sourceTree = "<group>"; };
+		F4A3C9000002D0 /* OKDebugFeedAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKDebugFeedAdapter.h; path = App/Debug/OKDebugFeedAdapter.h; sourceTree = "<group>"; };
+		F4A3C9000002E0 /* OKDebugFeedAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OKDebugFeedAdapter.m; path = App/Debug/OKDebugFeedAdapter.m; sourceTree = "<group>"; };
+		F4A3C9000002F0 /* OKDebugFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKDebugFooterView.h; path = App/Debug/OKDebugFooterView.h; sourceTree = "<group>"; };
+		F4A3C900000300 /* OKDebugFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OKDebugFooterView.m; path = App/Debug/OKDebugFooterView.m; sourceTree = "<group>"; };
+		F4A3C900000330 /* OKDebugDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugDefaults.h; sourceTree = "<group>"; };
+		F4A3C900000340 /* OKDebugDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugDefaults.m; sourceTree = "<group>"; };
+		F4A3C900000350 /* OKDebugDefaultsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugDefaultsModel.h; sourceTree = "<group>"; };
+		F4A3C900000360 /* OKDebugDefaultsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugDefaultsModel.m; sourceTree = "<group>"; };
+		F4A3C900000380 /* OKScreenshotViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKScreenshotViewController.h; sourceTree = "<group>"; };
+		F4A3C900000390 /* OKScreenshotViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKScreenshotViewController.m; sourceTree = "<group>"; };
+		F4A3C9000003B0 /* BDAbstractModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDAbstractModel.h; sourceTree = "<group>"; };
+		F4A3C9000003C0 /* BDAbstractModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDAbstractModel.m; sourceTree = "<group>"; };
+		F4A3C9000003D0 /* BDConfigViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDConfigViewModel.h; sourceTree = "<group>"; };
+		F4A3C9000003E0 /* BDConfigViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDConfigViewModel.m; sourceTree = "<group>"; };
+		F4A3C9000003F0 /* BDFeedModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFeedModel.h; sourceTree = "<group>"; };
+		F4A3C900000400 /* BDFeedModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFeedModel.m; sourceTree = "<group>"; };
+		F4A3C900000410 /* BDFeedModelDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFeedModelDictionary.h; sourceTree = "<group>"; };
+		F4A3C900000420 /* BDFeedModelDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFeedModelDictionary.m; sourceTree = "<group>"; };
+		F4A3C900000430 /* BDModelSectionHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDModelSectionHeader.h; sourceTree = "<group>"; };
+		F4A3C900000440 /* BDModelSectionHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDModelSectionHeader.m; sourceTree = "<group>"; };
+		F4A3C900000450 /* BDTesterIntroducerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDTesterIntroducerBase.h; sourceTree = "<group>"; };
+		F4A3C900000460 /* BDTesterIntroducerBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDTesterIntroducerBase.m; sourceTree = "<group>"; };
+		F4A3C900000470 /* OKDebugFeedLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugFeedLoader.h; sourceTree = "<group>"; };
+		F4A3C900000480 /* OKDebugFeedLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugFeedLoader.m; sourceTree = "<group>"; };
+		F4A3C900000490 /* OKDebugFeedModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugFeedModel.h; sourceTree = "<group>"; };
+		F4A3C9000004A0 /* OKDebugFeedModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugFeedModel.m; sourceTree = "<group>"; };
+		F4A3C9000004B0 /* OKDebugFeedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugFeedViewController.h; sourceTree = "<group>"; };
+		F4A3C9000004C0 /* OKDebugFeedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugFeedViewController.m; sourceTree = "<group>"; };
+		F4A3C9000004D0 /* OKDebugFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugFooter.h; sourceTree = "<group>"; };
+		F4A3C9000004E0 /* OKDebugFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugFooter.m; sourceTree = "<group>"; };
+		F4A3C9000004F0 /* OKDebugNetworkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugNetworkManager.h; sourceTree = "<group>"; };
+		F4A3C900000500 /* OKDebugNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugNetworkManager.m; sourceTree = "<group>"; };
+		F4A3C900000510 /* OKDebugTextResultViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugTextResultViewController.h; sourceTree = "<group>"; };
+		F4A3C900000520 /* OKDebugTextResultViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugTextResultViewController.m; sourceTree = "<group>"; };
+		F4A3C900000530 /* OKDebugToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKDebugToast.h; sourceTree = "<group>"; };
+		F4A3C900000540 /* OKDebugToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKDebugToast.m; sourceTree = "<group>"; };
+		F4A3C900000550 /* UIViewController+OKDebugAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+OKDebugAlert.h"; sourceTree = "<group>"; };
+		F4A3C900000560 /* UIViewController+OKDebugAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+OKDebugAlert.m"; sourceTree = "<group>"; };
+		F4A3C900000580 /* APMHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APMHomeViewController.h; sourceTree = "<group>"; };
+		F4A3C900000590 /* APMHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APMHomeViewController.m; sourceTree = "<group>"; };
+		F4A3C9000005B0 /* RangersAPMCrashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMCrashViewController.h; sourceTree = "<group>"; };
+		F4A3C9000005C0 /* RangersAPMCrashViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RangersAPMCrashViewController.mm; sourceTree = "<group>"; };
+		F4A3C9000005E0 /* EventRecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EventRecordManager.h; sourceTree = "<group>"; };
+		F4A3C9000005F0 /* EventRecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EventRecordManager.m; sourceTree = "<group>"; };
+		F4A3C900000600 /* RangersAPMEventViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMEventViewController.h; sourceTree = "<group>"; };
+		F4A3C900000610 /* RangersAPMEventViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMEventViewController.m; sourceTree = "<group>"; };
+		F4A3C900000630 /* RangersAPMHybridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMHybridViewController.h; sourceTree = "<group>"; };
+		F4A3C900000640 /* RangersAPMHybridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMHybridViewController.m; sourceTree = "<group>"; };
+		F4A3C900000650 /* RangersAPMWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMWebViewController.h; sourceTree = "<group>"; };
+		F4A3C900000660 /* RangersAPMWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMWebViewController.m; sourceTree = "<group>"; };
+		F4A3C900000680 /* RangersAPMLagViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMLagViewController.h; sourceTree = "<group>"; };
+		F4A3C900000690 /* RangersAPMLagViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMLagViewController.m; sourceTree = "<group>"; };
+		F4A3C9000006B0 /* RangersAPMMemoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMMemoryViewController.h; sourceTree = "<group>"; };
+		F4A3C9000006C0 /* RangersAPMMemoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMMemoryViewController.m; sourceTree = "<group>"; };
+		F4A3C9000006E0 /* RangersAPMPerformanceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMPerformanceViewController.h; sourceTree = "<group>"; };
+		F4A3C9000006F0 /* RangersAPMPerformanceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMPerformanceViewController.m; sourceTree = "<group>"; };
+		F4A3C900000710 /* RangersAPMNetworkViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMNetworkViewController.h; sourceTree = "<group>"; };
+		F4A3C900000720 /* RangersAPMNetworkViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMNetworkViewController.m; sourceTree = "<group>"; };
+		F4A3C900000740 /* RangersAPMOOMViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMOOMViewController.h; sourceTree = "<group>"; };
+		F4A3C900000750 /* RangersAPMOOMViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RangersAPMOOMViewController.mm; sourceTree = "<group>"; };
+		F4A3C900000760 /* RangersAPMCellItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMCellItem.h; sourceTree = "<group>"; };
+		F4A3C900000770 /* RangersAPMCellItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMCellItem.m; sourceTree = "<group>"; };
+		F4A3C900000790 /* RangersAPMUITrackersViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMUITrackersViewController.h; sourceTree = "<group>"; };
+		F4A3C9000007A0 /* RangersAPMUITrackersViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMUITrackersViewController.m; sourceTree = "<group>"; };
+		F4A3C9000007C0 /* RangersAPMExceptionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMExceptionViewController.h; sourceTree = "<group>"; };
+		F4A3C9000007D0 /* RangersAPMExceptionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RangersAPMExceptionViewController.m; sourceTree = "<group>"; };
+		F4A3C9000007F0 /* RangersAPMWatchDogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RangersAPMWatchDogViewController.h; sourceTree = "<group>"; };
+		F4A3C900000800 /* RangersAPMWatchDogViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RangersAPMWatchDogViewController.mm; sourceTree = "<group>"; };
+		F4A3C900000820 /* BDAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDAdapter.h; sourceTree = "<group>"; };
+		F4A3C900000830 /* BDAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDAdapter.m; sourceTree = "<group>"; };
+		F4A3C900000840 /* BDColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDColors.h; sourceTree = "<group>"; };
+		F4A3C900000850 /* BDColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDColors.m; sourceTree = "<group>"; };
+		F4A3C900000860 /* BDDemoTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDDemoTextCell.h; sourceTree = "<group>"; };
+		F4A3C900000870 /* BDDemoTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDDemoTextCell.m; sourceTree = "<group>"; };
+		F4A3C900000890 /* BDTesterControllers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDTesterControllers.h; sourceTree = "<group>"; };
+		F4A3C9000008A0 /* BDTestIntroducerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDTestIntroducerViewController.h; sourceTree = "<group>"; };
+		F4A3C9000008B0 /* BDTestIntroducerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDTestIntroducerViewController.m; sourceTree = "<group>"; };
+		F4A3C9000008D0 /* BDFinderTesterImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDFinderTesterImp.h; sourceTree = "<group>"; };
+		F4A3C9000008E0 /* BDFinderTesterImp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDFinderTesterImp.m; sourceTree = "<group>"; };
+		F4A3C900000900 /* BDNativeH5TesterImpViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDNativeH5TesterImpViewController.h; sourceTree = "<group>"; };
+		F4A3C900000910 /* BDNativeH5TesterImpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDNativeH5TesterImpViewController.m; sourceTree = "<group>"; };
+		F4A3C900000930 /* BDTestPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDTestPickerViewController.h; sourceTree = "<group>"; };
+		F4A3C900000940 /* BDTestPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDTestPickerViewController.m; sourceTree = "<group>"; };
+		F4A3C900000960 /* BDPlayerTesterImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDPlayerTesterImp.h; sourceTree = "<group>"; };
+		F4A3C900000970 /* BDPlayerTesterImp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDPlayerTesterImp.m; sourceTree = "<group>"; };
+		F4A3C900000990 /* BDUICompatibilityTesterSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDUICompatibilityTesterSuite.h; sourceTree = "<group>"; };
+		F4A3C9000009A0 /* BDUICompatibilityTesterSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDUICompatibilityTesterSuite.m; sourceTree = "<group>"; };
+		F4A3C9000009C0 /* BDOverlapWindowTesterImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDOverlapWindowTesterImp.h; sourceTree = "<group>"; };
+		F4A3C9000009D0 /* BDOverlapWindowTesterImp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDOverlapWindowTesterImp.m; sourceTree = "<group>"; };
+		F4A3C9000009F0 /* BDSubviewToWindowTesterImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDSubviewToWindowTesterImp.h; sourceTree = "<group>"; };
+		F4A3C900000A00 /* BDSubviewToWindowTesterImp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BDSubviewToWindowTesterImp.m; sourceTree = "<group>"; };
+		F4A3C900000A20 /* TTNetCellItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTNetCellItem.h; sourceTree = "<group>"; };
+		F4A3C900000A30 /* TTNetCellItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTNetCellItem.m; sourceTree = "<group>"; };
+		F4A3C900000A40 /* TTNetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTNetViewController.h; sourceTree = "<group>"; };
+		F4A3C900000A50 /* TTNetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTNetViewController.m; sourceTree = "<group>"; };
+		F4A3C900000A70 /* TTViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		F4A3C900000A80 /* TTViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		F4A3C900000AA0 /* BTDEntryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTDEntryViewController.h; sourceTree = "<group>"; };
+		F4A3C900000AB0 /* BTDEntryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTDEntryViewController.m; sourceTree = "<group>"; };
+		F4A3C900000AC0 /* BTDExampleAnotherActionMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTDExampleAnotherActionMethod.h; sourceTree = "<group>"; };
+		F4A3C900000AD0 /* BTDExampleAnotherActionMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTDExampleAnotherActionMethod.m; sourceTree = "<group>"; };
+		F4A3C900000AE0 /* BTDExampleLogService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTDExampleLogService.h; sourceTree = "<group>"; };
+		F4A3C900000AF0 /* BTDExampleLogService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTDExampleLogService.m; sourceTree = "<group>"; };
+		F4A3C900000B00 /* BTDExampleSomeActionMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTDExampleSomeActionMethod.h; sourceTree = "<group>"; };
+		F4A3C900000B10 /* BTDExampleSomeActionMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTDExampleSomeActionMethod.m; sourceTree = "<group>"; };
+		F4A3C900000B20 /* BTDViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTDViewController.h; sourceTree = "<group>"; };
+		F4A3C900000B30 /* BTDViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTDViewController.m; sourceTree = "<group>"; };
+		F4A3C900000B40 /* VEH5WebDebugViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VEH5WebDebugViewController.h; sourceTree = "<group>"; };
+		F4A3C900000B50 /* VEH5WebDebugViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VEH5WebDebugViewController.m; sourceTree = "<group>"; };
+		F4A3C900000B70 /* VEInstallResultViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VEInstallResultViewController.h; sourceTree = "<group>"; };
+		F4A3C900000B80 /* VEInstallResultViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VEInstallResultViewController.m; sourceTree = "<group>"; };
+		F4A3C900000B90 /* VEInstallTestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VEInstallTestViewController.h; sourceTree = "<group>"; };
+		F4A3C900000BA0 /* VEInstallTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VEInstallTestViewController.m; sourceTree = "<group>"; };
+		F4A3C900000BC0 /* VERemoteConfigViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VERemoteConfigViewController.h; sourceTree = "<group>"; };
+		F4A3C900000BD0 /* VERemoteConfigViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VERemoteConfigViewController.m; sourceTree = "<group>"; };
+		F4A3C900000BF0 /* App.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = App.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F4A3C900000C00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4A3C900001550 /* App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = App.debug.xcconfig; sourceTree = "<group>"; };
+		F4A3C900001560 /* App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = App.release.xcconfig; sourceTree = "<group>"; };
+		F4A3C900001570 /* App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = App.modulemap; sourceTree = "<group>"; };
+		F4A3C900001580 /* App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "App-umbrella.h"; sourceTree = "<group>"; };
+		F4A3C9000015A0 /* App-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "App-prefix.pch"; sourceTree = "<group>"; };
+		F4A3C9000015B0 /* App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "App-dummy.m"; sourceTree = "<group>"; };
+		F4A3C9000015D0 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		F4A3C900001600 /* TTNetworkManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TTNetworkManager; path = TTNetworkManager.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A3C900000C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A3C900000010 = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000000B0 /* App */,
+				F4A3C9000000A0 /* Dependencies */,
+				F4A3C900000060 /* Frameworks */,
+				F4A3C900000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A3C900000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8308597E64C41B67C6E682D7D51003A /* App */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A3C900000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4A3C9000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000015D0 /* OneKit */,
+				F4A3C900001600 /* TTNetworkManager */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		F4A3C9000000B0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000000C0 /* Base */,
+				F4A3C900000220 /* Debug */,
+				F4A3C900000BE0 /* Pod */,
+				F4A3C900001540 /* Support Files */,
+			);
+			name = App;
+			path = ../../../DevPods;
+			sourceTree = "<group>";
+		};
+		F4A3C9000000C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000000D0 /* Scheme */,
+				F4A3C900000100 /* Tasks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F4A3C9000000D0 /* Scheme */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000000E0 /* MPaasSchemeHandler.h */,
+				F4A3C9000000F0 /* MPaasSchemeHandler.m */,
+			);
+			name = Scheme;
+			path = App/Base/Scheme;
+			sourceTree = "<group>";
+		};
+		F4A3C900000100 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000110 /* LoggerStartUpTask.h */,
+				F4A3C900000120 /* LoggerStartUpTask.m */,
+				F4A3C900000130 /* MPaasTaskConfig.h */,
+				F4A3C900000140 /* MPaasTaskConfig.m */,
+				F4A3C900000150 /* OKFeedViewController.h */,
+				F4A3C900000160 /* OKFeedViewController.m */,
+				F4A3C900000170 /* OKStartUpUITask.h */,
+				F4A3C900000180 /* OKStartUpUITask.m */,
+				F4A3C900000190 /* RangersAPM */,
+				F4A3C9000001C0 /* TTNetworkManager */,
+				F4A3C9000001F0 /* VEH5Kit */,
+			);
+			name = Tasks;
+			path = App/Base/Tasks;
+			sourceTree = "<group>";
+		};
+		F4A3C900000190 /* RangersAPM */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000001A0 /* APMStartUpTask.h */,
+				F4A3C9000001B0 /* APMStartUpTask.m */,
+			);
+			name = RangersAPM;
+			path = RangersAPM;
+			sourceTree = "<group>";
+		};
+		F4A3C9000001C0 /* TTNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000001D0 /* TTNetStartUpTask.h */,
+				F4A3C9000001E0 /* TTNetStartUpTask.m */,
+			);
+			name = TTNetworkManager;
+			path = TTNetworkManager;
+			sourceTree = "<group>";
+		};
+		F4A3C9000001F0 /* VEH5Kit */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000200 /* VEH5StartUpTask.h */,
+				F4A3C900000210 /* VEH5StartUpTask.m */,
+			);
+			name = VEH5Kit;
+			path = VEH5Kit;
+			sourceTree = "<group>";
+		};
+		F4A3C900000220 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000002D0 /* OKDebugFeedAdapter.h */,
+				F4A3C9000002E0 /* OKDebugFeedAdapter.m */,
+				F4A3C9000002F0 /* OKDebugFooterView.h */,
+				F4A3C900000300 /* OKDebugFooterView.m */,
+				F4A3C900000230 /* BDHotfix */,
+				F4A3C900000260 /* Cell */,
+				F4A3C900000310 /* OneKit */,
+				F4A3C9000003A0 /* Public */,
+				F4A3C900000570 /* RangersAPM */,
+				F4A3C900000810 /* RangersAppLog */,
+				F4A3C900000A10 /* TTNetworkManager */,
+				F4A3C900000A60 /* VEAppUpdateHelper */,
+				F4A3C900000A90 /* VEH5Kit */,
+				F4A3C900000B60 /* VEInstall */,
+				F4A3C900000BB0 /* VERemoteConfig */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		F4A3C900000230 /* BDHotfix */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000240 /* BDHTestViewController.h */,
+				F4A3C900000250 /* BDHTestViewController.m */,
+			);
+			name = BDHotfix;
+			path = App/Debug/BDHotfix;
+			sourceTree = "<group>";
+		};
+		F4A3C900000260 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000270 /* OKDebugFeedInputCell.h */,
+				F4A3C900000280 /* OKDebugFeedInputCell.m */,
+				F4A3C900000290 /* OKDebugFeedSwitchCell.h */,
+				F4A3C9000002A0 /* OKDebugFeedSwitchCell.m */,
+				F4A3C9000002B0 /* OKDebugFeedTextCell.h */,
+				F4A3C9000002C0 /* OKDebugFeedTextCell.m */,
+			);
+			name = Cell;
+			path = App/Debug/Cell;
+			sourceTree = "<group>";
+		};
+		F4A3C900000310 /* OneKit */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000320 /* Defaults */,
+				F4A3C900000370 /* Screenshot */,
+			);
+			name = OneKit;
+			path = App/Debug/OneKit;
+			sourceTree = "<group>";
+		};
+		F4A3C900000320 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000330 /* OKDebugDefaults.h */,
+				F4A3C900000340 /* OKDebugDefaults.m */,
+				F4A3C900000350 /* OKDebugDefaultsModel.h */,
+				F4A3C900000360 /* OKDebugDefaultsModel.m */,
+			);
+			name = Defaults;
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		F4A3C900000370 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000380 /* OKScreenshotViewController.h */,
+				F4A3C900000390 /* OKScreenshotViewController.m */,
+			);
+			name = Screenshot;
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
+		F4A3C9000003A0 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000003B0 /* BDAbstractModel.h */,
+				F4A3C9000003C0 /* BDAbstractModel.m */,
+				F4A3C9000003D0 /* BDConfigViewModel.h */,
+				F4A3C9000003E0 /* BDConfigViewModel.m */,
+				F4A3C9000003F0 /* BDFeedModel.h */,
+				F4A3C900000400 /* BDFeedModel.m */,
+				F4A3C900000410 /* BDFeedModelDictionary.h */,
+				F4A3C900000420 /* BDFeedModelDictionary.m */,
+				F4A3C900000430 /* BDModelSectionHeader.h */,
+				F4A3C900000440 /* BDModelSectionHeader.m */,
+				F4A3C900000450 /* BDTesterIntroducerBase.h */,
+				F4A3C900000460 /* BDTesterIntroducerBase.m */,
+				F4A3C900000470 /* OKDebugFeedLoader.h */,
+				F4A3C900000480 /* OKDebugFeedLoader.m */,
+				F4A3C900000490 /* OKDebugFeedModel.h */,
+				F4A3C9000004A0 /* OKDebugFeedModel.m */,
+				F4A3C9000004B0 /* OKDebugFeedViewController.h */,
+				F4A3C9000004C0 /* OKDebugFeedViewController.m */,
+				F4A3C9000004D0 /* OKDebugFooter.h */,
+				F4A3C9000004E0 /* OKDebugFooter.m */,
+				F4A3C9000004F0 /* OKDebugNetworkManager.h */,
+				F4A3C900000500 /* OKDebugNetworkManager.m */,
+				F4A3C900000510 /* OKDebugTextResultViewController.h */,
+				F4A3C900000520 /* OKDebugTextResultViewController.m */,
+				F4A3C900000530 /* OKDebugToast.h */,
+				F4A3C900000540 /* OKDebugToast.m */,
+				F4A3C900000550 /* UIViewController+OKDebugAlert.h */,
+				F4A3C900000560 /* UIViewController+OKDebugAlert.m */,
+			);
+			name = Public;
+			path = App/Debug/Public;
+			sourceTree = "<group>";
+		};
+		F4A3C900000570 /* RangersAPM */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000580 /* APMHomeViewController.h */,
+				F4A3C900000590 /* APMHomeViewController.m */,
+				F4A3C900000760 /* RangersAPMCellItem.h */,
+				F4A3C900000770 /* RangersAPMCellItem.m */,
+				F4A3C9000005A0 /* Crash */,
+				F4A3C9000005D0 /* EventMonitor */,
+				F4A3C900000620 /* Hybrid */,
+				F4A3C900000670 /* LAG */,
+				F4A3C9000006A0 /* MemoryGraph */,
+				F4A3C9000006D0 /* Monitors */,
+				F4A3C900000700 /* Network */,
+				F4A3C900000730 /* OOM */,
+				F4A3C900000780 /* UITrackers */,
+				F4A3C9000007B0 /* UserException */,
+				F4A3C9000007E0 /* WatchDog */,
+			);
+			name = RangersAPM;
+			path = App/Debug/RangersAPM;
+			sourceTree = "<group>";
+		};
+		F4A3C9000005A0 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000005B0 /* RangersAPMCrashViewController.h */,
+				F4A3C9000005C0 /* RangersAPMCrashViewController.mm */,
+			);
+			name = Crash;
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		F4A3C9000005D0 /* EventMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000005E0 /* EventRecordManager.h */,
+				F4A3C9000005F0 /* EventRecordManager.m */,
+				F4A3C900000600 /* RangersAPMEventViewController.h */,
+				F4A3C900000610 /* RangersAPMEventViewController.m */,
+			);
+			name = EventMonitor;
+			path = EventMonitor;
+			sourceTree = "<group>";
+		};
+		F4A3C900000620 /* Hybrid */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000630 /* RangersAPMHybridViewController.h */,
+				F4A3C900000640 /* RangersAPMHybridViewController.m */,
+				F4A3C900000650 /* RangersAPMWebViewController.h */,
+				F4A3C900000660 /* RangersAPMWebViewController.m */,
+			);
+			name = Hybrid;
+			path = Hybrid;
+			sourceTree = "<group>";
+		};
+		F4A3C900000670 /* LAG */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000680 /* RangersAPMLagViewController.h */,
+				F4A3C900000690 /* RangersAPMLagViewController.m */,
+			);
+			name = LAG;
+			path = LAG;
+			sourceTree = "<group>";
+		};
+		F4A3C9000006A0 /* MemoryGraph */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000006B0 /* RangersAPMMemoryViewController.h */,
+				F4A3C9000006C0 /* RangersAPMMemoryViewController.m */,
+			);
+			name = MemoryGraph;
+			path = MemoryGraph;
+			sourceTree = "<group>";
+		};
+		F4A3C9000006D0 /* Monitors */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000006E0 /* RangersAPMPerformanceViewController.h */,
+				F4A3C9000006F0 /* RangersAPMPerformanceViewController.m */,
+			);
+			name = Monitors;
+			path = Monitors;
+			sourceTree = "<group>";
+		};
+		F4A3C900000700 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000710 /* RangersAPMNetworkViewController.h */,
+				F4A3C900000720 /* RangersAPMNetworkViewController.m */,
+			);
+			name = Network;
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F4A3C900000730 /* OOM */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000740 /* RangersAPMOOMViewController.h */,
+				F4A3C900000750 /* RangersAPMOOMViewController.mm */,
+			);
+			name = OOM;
+			path = OOM;
+			sourceTree = "<group>";
+		};
+		F4A3C900000780 /* UITrackers */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000790 /* RangersAPMUITrackersViewController.h */,
+				F4A3C9000007A0 /* RangersAPMUITrackersViewController.m */,
+			);
+			name = UITrackers;
+			path = UITrackers;
+			sourceTree = "<group>";
+		};
+		F4A3C9000007B0 /* UserException */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000007C0 /* RangersAPMExceptionViewController.h */,
+				F4A3C9000007D0 /* RangersAPMExceptionViewController.m */,
+			);
+			name = UserException;
+			path = UserException;
+			sourceTree = "<group>";
+		};
+		F4A3C9000007E0 /* WatchDog */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000007F0 /* RangersAPMWatchDogViewController.h */,
+				F4A3C900000800 /* RangersAPMWatchDogViewController.mm */,
+			);
+			name = WatchDog;
+			path = WatchDog;
+			sourceTree = "<group>";
+		};
+		F4A3C900000810 /* RangersAppLog */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000820 /* BDAdapter.h */,
+				F4A3C900000830 /* BDAdapter.m */,
+				F4A3C900000840 /* BDColors.h */,
+				F4A3C900000850 /* BDColors.m */,
+				F4A3C900000860 /* BDDemoTextCell.h */,
+				F4A3C900000870 /* BDDemoTextCell.m */,
+				F4A3C900000880 /* Controllers */,
+			);
+			name = RangersAppLog;
+			path = App/Debug/RangersAppLog;
+			sourceTree = "<group>";
+		};
+		F4A3C900000880 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000890 /* BDTesterControllers.h */,
+				F4A3C9000008A0 /* BDTestIntroducerViewController.h */,
+				F4A3C9000008B0 /* BDTestIntroducerViewController.m */,
+				F4A3C9000008C0 /* FinderTester */,
+				F4A3C9000008F0 /* H5Tester */,
+				F4A3C900000920 /* PickerTester */,
+				F4A3C900000950 /* PlayerTester */,
+				F4A3C900000980 /* UICompatibilityTester */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4A3C9000008C0 /* FinderTester */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000008D0 /* BDFinderTesterImp.h */,
+				F4A3C9000008E0 /* BDFinderTesterImp.m */,
+			);
+			name = FinderTester;
+			path = FinderTester;
+			sourceTree = "<group>";
+		};
+		F4A3C9000008F0 /* H5Tester */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000900 /* BDNativeH5TesterImpViewController.h */,
+				F4A3C900000910 /* BDNativeH5TesterImpViewController.m */,
+			);
+			name = H5Tester;
+			path = H5Tester;
+			sourceTree = "<group>";
+		};
+		F4A3C900000920 /* PickerTester */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000930 /* BDTestPickerViewController.h */,
+				F4A3C900000940 /* BDTestPickerViewController.m */,
+			);
+			name = PickerTester;
+			path = PickerTester;
+			sourceTree = "<group>";
+		};
+		F4A3C900000950 /* PlayerTester */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000960 /* BDPlayerTesterImp.h */,
+				F4A3C900000970 /* BDPlayerTesterImp.m */,
+			);
+			name = PlayerTester;
+			path = PlayerTester;
+			sourceTree = "<group>";
+		};
+		F4A3C900000980 /* UICompatibilityTester */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000990 /* BDUICompatibilityTesterSuite.h */,
+				F4A3C9000009A0 /* BDUICompatibilityTesterSuite.m */,
+				F4A3C9000009B0 /* OverlapWindowTester */,
+				F4A3C9000009E0 /* SubviewToWindow */,
+			);
+			name = UICompatibilityTester;
+			path = UICompatibilityTester;
+			sourceTree = "<group>";
+		};
+		F4A3C9000009B0 /* OverlapWindowTester */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000009C0 /* BDOverlapWindowTesterImp.h */,
+				F4A3C9000009D0 /* BDOverlapWindowTesterImp.m */,
+			);
+			name = OverlapWindowTester;
+			path = OverlapWindowTester;
+			sourceTree = "<group>";
+		};
+		F4A3C9000009E0 /* SubviewToWindow */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C9000009F0 /* BDSubviewToWindowTesterImp.h */,
+				F4A3C900000A00 /* BDSubviewToWindowTesterImp.m */,
+			);
+			name = SubviewToWindow;
+			path = SubviewToWindow;
+			sourceTree = "<group>";
+		};
+		F4A3C900000A10 /* TTNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000A20 /* TTNetCellItem.h */,
+				F4A3C900000A30 /* TTNetCellItem.m */,
+				F4A3C900000A40 /* TTNetViewController.h */,
+				F4A3C900000A50 /* TTNetViewController.m */,
+			);
+			name = TTNetworkManager;
+			path = App/Debug/TTNetworkManager;
+			sourceTree = "<group>";
+		};
+		F4A3C900000A60 /* VEAppUpdateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000A70 /* TTViewController.h */,
+				F4A3C900000A80 /* TTViewController.m */,
+			);
+			name = VEAppUpdateHelper;
+			path = App/Debug/VEAppUpdateHelper;
+			sourceTree = "<group>";
+		};
+		F4A3C900000A90 /* VEH5Kit */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000AA0 /* BTDEntryViewController.h */,
+				F4A3C900000AB0 /* BTDEntryViewController.m */,
+				F4A3C900000AC0 /* BTDExampleAnotherActionMethod.h */,
+				F4A3C900000AD0 /* BTDExampleAnotherActionMethod.m */,
+				F4A3C900000AE0 /* BTDExampleLogService.h */,
+				F4A3C900000AF0 /* BTDExampleLogService.m */,
+				F4A3C900000B00 /* BTDExampleSomeActionMethod.h */,
+				F4A3C900000B10 /* BTDExampleSomeActionMethod.m */,
+				F4A3C900000B20 /* BTDViewController.h */,
+				F4A3C900000B30 /* BTDViewController.m */,
+				F4A3C900000B40 /* VEH5WebDebugViewController.h */,
+				F4A3C900000B50 /* VEH5WebDebugViewController.m */,
+			);
+			name = VEH5Kit;
+			path = App/Debug/VEH5Kit;
+			sourceTree = "<group>";
+		};
+		F4A3C900000B60 /* VEInstall */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000B70 /* VEInstallResultViewController.h */,
+				F4A3C900000B80 /* VEInstallResultViewController.m */,
+				F4A3C900000B90 /* VEInstallTestViewController.h */,
+				F4A3C900000BA0 /* VEInstallTestViewController.m */,
+			);
+			name = VEInstall;
+			path = App/Debug/VEInstall;
+			sourceTree = "<group>";
+		};
+		F4A3C900000BB0 /* VERemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000BC0 /* VERemoteConfigViewController.h */,
+				F4A3C900000BD0 /* VERemoteConfigViewController.m */,
+			);
+			name = VERemoteConfig;
+			path = App/Debug/VERemoteConfig;
+			sourceTree = "<group>";
+		};
+		F4A3C900000BE0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900000BF0 /* App.podspec */,
+				F4A3C900000C00 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F4A3C900001540 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3C900001570 /* App.modulemap */,
+				F4A3C9000015B0 /* App-dummy.m */,
+				F4A3C9000015A0 /* App-prefix.pch */,
+				F4A3C900001580 /* App-umbrella.h */,
+				F4A3C900001550 /* App.debug.xcconfig */,
+				F4A3C900001560 /* App.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../objc/Project/Pods/Target Support Files/App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4A3C900000C60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A3C9000012D0 /* APMHomeViewController.h in Headers */,
+				F4A3C900000D60 /* APMStartUpTask.h in Headers */,
+				F4A3C900001590 /* App-umbrella.h in Headers */,
+				F4A3C9000011F0 /* BDAbstractModel.h in Headers */,
+				F4A3C9000013C0 /* BDAdapter.h in Headers */,
+				F4A3C9000013D0 /* BDColors.h in Headers */,
+				F4A3C900001200 /* BDConfigViewModel.h in Headers */,
+				F4A3C9000013E0 /* BDDemoTextCell.h in Headers */,
+				F4A3C900001210 /* BDFeedModel.h in Headers */,
+				F4A3C900001220 /* BDFeedModelDictionary.h in Headers */,
+				F4A3C900001410 /* BDFinderTesterImp.h in Headers */,
+				F4A3C900001160 /* BDHTestViewController.h in Headers */,
+				F4A3C900001230 /* BDModelSectionHeader.h in Headers */,
+				F4A3C900001420 /* BDNativeH5TesterImpViewController.h in Headers */,
+				F4A3C900001460 /* BDOverlapWindowTesterImp.h in Headers */,
+				F4A3C900001440 /* BDPlayerTesterImp.h in Headers */,
+				F4A3C900001470 /* BDSubviewToWindowTesterImp.h in Headers */,
+				F4A3C9000013F0 /* BDTesterControllers.h in Headers */,
+				F4A3C900001240 /* BDTesterIntroducerBase.h in Headers */,
+				F4A3C900001400 /* BDTestIntroducerViewController.h in Headers */,
+				F4A3C900001430 /* BDTestPickerViewController.h in Headers */,
+				F4A3C900001450 /* BDUICompatibilityTesterSuite.h in Headers */,
+				F4A3C9000014B0 /* BTDEntryViewController.h in Headers */,
+				F4A3C9000014C0 /* BTDExampleAnotherActionMethod.h in Headers */,
+				F4A3C9000014D0 /* BTDExampleLogService.h in Headers */,
+				F4A3C9000014E0 /* BTDExampleSomeActionMethod.h in Headers */,
+				F4A3C9000014F0 /* BTDViewController.h in Headers */,
+				F4A3C9000012F0 /* EventRecordManager.h in Headers */,
+				F4A3C900000D20 /* LoggerStartUpTask.h in Headers */,
+				F4A3C900000D10 /* MPaasSchemeHandler.h in Headers */,
+				F4A3C900000D30 /* MPaasTaskConfig.h in Headers */,
+				F4A3C9000011C0 /* OKDebugDefaults.h in Headers */,
+				F4A3C9000011D0 /* OKDebugDefaultsModel.h in Headers */,
+				F4A3C9000011A0 /* OKDebugFeedAdapter.h in Headers */,
+				F4A3C900001170 /* OKDebugFeedInputCell.h in Headers */,
+				F4A3C900001250 /* OKDebugFeedLoader.h in Headers */,
+				F4A3C900001260 /* OKDebugFeedModel.h in Headers */,
+				F4A3C900001180 /* OKDebugFeedSwitchCell.h in Headers */,
+				F4A3C900001190 /* OKDebugFeedTextCell.h in Headers */,
+				F4A3C900001270 /* OKDebugFeedViewController.h in Headers */,
+				F4A3C900001280 /* OKDebugFooter.h in Headers */,
+				F4A3C9000011B0 /* OKDebugFooterView.h in Headers */,
+				F4A3C900001290 /* OKDebugNetworkManager.h in Headers */,
+				F4A3C9000012A0 /* OKDebugTextResultViewController.h in Headers */,
+				F4A3C9000012B0 /* OKDebugToast.h in Headers */,
+				F4A3C900000D40 /* OKFeedViewController.h in Headers */,
+				F4A3C9000011E0 /* OKScreenshotViewController.h in Headers */,
+				F4A3C900000D50 /* OKStartUpUITask.h in Headers */,
+				F4A3C900001380 /* RangersAPMCellItem.h in Headers */,
+				F4A3C9000012E0 /* RangersAPMCrashViewController.h in Headers */,
+				F4A3C900001300 /* RangersAPMEventViewController.h in Headers */,
+				F4A3C9000013A0 /* RangersAPMExceptionViewController.h in Headers */,
+				F4A3C900001310 /* RangersAPMHybridViewController.h in Headers */,
+				F4A3C900001330 /* RangersAPMLagViewController.h in Headers */,
+				F4A3C900001340 /* RangersAPMMemoryViewController.h in Headers */,
+				F4A3C900001360 /* RangersAPMNetworkViewController.h in Headers */,
+				F4A3C900001370 /* RangersAPMOOMViewController.h in Headers */,
+				F4A3C900001350 /* RangersAPMPerformanceViewController.h in Headers */,
+				F4A3C900001390 /* RangersAPMUITrackersViewController.h in Headers */,
+				F4A3C9000013B0 /* RangersAPMWatchDogViewController.h in Headers */,
+				F4A3C900001320 /* RangersAPMWebViewController.h in Headers */,
+				F4A3C900001480 /* TTNetCellItem.h in Headers */,
+				F4A3C900000D70 /* TTNetStartUpTask.h in Headers */,
+				F4A3C900001490 /* TTNetViewController.h in Headers */,
+				F4A3C9000014A0 /* TTViewController.h in Headers */,
+				F4A3C9000012C0 /* UIViewController+OKDebugAlert.h in Headers */,
+				F4A3C900000D80 /* VEH5StartUpTask.h in Headers */,
+				F4A3C900001500 /* VEH5WebDebugViewController.h in Headers */,
+				F4A3C900001510 /* VEInstallResultViewController.h in Headers */,
+				F4A3C900001520 /* VEInstallTestViewController.h in Headers */,
+				F4A3C900001530 /* VERemoteConfigViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2DD356195C1EFA995AD95125C032D5A /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A3C900000C20 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				F4A3C900000C60 /* Headers */,
+				F4A3C900000C70 /* Sources */,
+				F4A3C900000C80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A3C9000015F0 /* PBXTargetDependency */,
+				F4A3C900001620 /* PBXTargetDependency */,
+			);
+			name = App;
+			productName = App;
+			productReference = C8308597E64C41B67C6E682D7D51003A /* App */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A3C900000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = F4A3C900000030 /* Build configuration list for PBXProject "App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F4A3C900000010;
+			productRefGroup = F4A3C900000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = F4A3C9000015D0 /* OneKit */;
+				},
+				{
+					ProjectRef = F4A3C900001600 /* TTNetworkManager */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C2DD356195C1EFA995AD95125C032D5A /* App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A3C900000C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A3C900000F00 /* APMHomeViewController.m in Sources */,
+				F4A3C900000CE0 /* APMStartUpTask.m in Sources */,
+				F4A3C9000015C0 /* App-dummy.m in Sources */,
+				F4A3C900000E20 /* BDAbstractModel.m in Sources */,
+				F4A3C900000FF0 /* BDAdapter.m in Sources */,
+				F4A3C900001000 /* BDColors.m in Sources */,
+				F4A3C900000E30 /* BDConfigViewModel.m in Sources */,
+				F4A3C900001010 /* BDDemoTextCell.m in Sources */,
+				F4A3C900000E40 /* BDFeedModel.m in Sources */,
+				F4A3C900000E50 /* BDFeedModelDictionary.m in Sources */,
+				F4A3C900001030 /* BDFinderTesterImp.m in Sources */,
+				F4A3C900000D90 /* BDHTestViewController.m in Sources */,
+				F4A3C900000E60 /* BDModelSectionHeader.m in Sources */,
+				F4A3C900001040 /* BDNativeH5TesterImpViewController.m in Sources */,
+				F4A3C900001080 /* BDOverlapWindowTesterImp.m in Sources */,
+				F4A3C900001060 /* BDPlayerTesterImp.m in Sources */,
+				F4A3C900001090 /* BDSubviewToWindowTesterImp.m in Sources */,
+				F4A3C900000E70 /* BDTesterIntroducerBase.m in Sources */,
+				F4A3C900001020 /* BDTestIntroducerViewController.m in Sources */,
+				F4A3C900001050 /* BDTestPickerViewController.m in Sources */,
+				F4A3C900001070 /* BDUICompatibilityTesterSuite.m in Sources */,
+				F4A3C9000010D0 /* BTDEntryViewController.m in Sources */,
+				F4A3C9000010E0 /* BTDExampleAnotherActionMethod.m in Sources */,
+				F4A3C9000010F0 /* BTDExampleLogService.m in Sources */,
+				F4A3C900001100 /* BTDExampleSomeActionMethod.m in Sources */,
+				F4A3C900001110 /* BTDViewController.m in Sources */,
+				F4A3C900000F20 /* EventRecordManager.m in Sources */,
+				F4A3C900000CA0 /* LoggerStartUpTask.m in Sources */,
+				F4A3C900000C90 /* MPaasSchemeHandler.m in Sources */,
+				F4A3C900000CB0 /* MPaasTaskConfig.m in Sources */,
+				F4A3C900000DF0 /* OKDebugDefaults.m in Sources */,
+				F4A3C900000E00 /* OKDebugDefaultsModel.m in Sources */,
+				F4A3C900000DD0 /* OKDebugFeedAdapter.m in Sources */,
+				F4A3C900000DA0 /* OKDebugFeedInputCell.m in Sources */,
+				F4A3C900000E80 /* OKDebugFeedLoader.m in Sources */,
+				F4A3C900000E90 /* OKDebugFeedModel.m in Sources */,
+				F4A3C900000DB0 /* OKDebugFeedSwitchCell.m in Sources */,
+				F4A3C900000DC0 /* OKDebugFeedTextCell.m in Sources */,
+				F4A3C900000EA0 /* OKDebugFeedViewController.m in Sources */,
+				F4A3C900000EB0 /* OKDebugFooter.m in Sources */,
+				F4A3C900000DE0 /* OKDebugFooterView.m in Sources */,
+				F4A3C900000EC0 /* OKDebugNetworkManager.m in Sources */,
+				F4A3C900000ED0 /* OKDebugTextResultViewController.m in Sources */,
+				F4A3C900000EE0 /* OKDebugToast.m in Sources */,
+				F4A3C900000CC0 /* OKFeedViewController.m in Sources */,
+				F4A3C900000E10 /* OKScreenshotViewController.m in Sources */,
+				F4A3C900000CD0 /* OKStartUpUITask.m in Sources */,
+				F4A3C900000FB0 /* RangersAPMCellItem.m in Sources */,
+				F4A3C900000F10 /* RangersAPMCrashViewController.mm in Sources */,
+				F4A3C900000F30 /* RangersAPMEventViewController.m in Sources */,
+				F4A3C900000FD0 /* RangersAPMExceptionViewController.m in Sources */,
+				F4A3C900000F40 /* RangersAPMHybridViewController.m in Sources */,
+				F4A3C900000F60 /* RangersAPMLagViewController.m in Sources */,
+				F4A3C900000F70 /* RangersAPMMemoryViewController.m in Sources */,
+				F4A3C900000F90 /* RangersAPMNetworkViewController.m in Sources */,
+				F4A3C900000FA0 /* RangersAPMOOMViewController.mm in Sources */,
+				F4A3C900000F80 /* RangersAPMPerformanceViewController.m in Sources */,
+				F4A3C900000FC0 /* RangersAPMUITrackersViewController.m in Sources */,
+				F4A3C900000FE0 /* RangersAPMWatchDogViewController.mm in Sources */,
+				F4A3C900000F50 /* RangersAPMWebViewController.m in Sources */,
+				F4A3C9000010A0 /* TTNetCellItem.m in Sources */,
+				F4A3C900000CF0 /* TTNetStartUpTask.m in Sources */,
+				F4A3C9000010B0 /* TTNetViewController.m in Sources */,
+				F4A3C9000010C0 /* TTViewController.m in Sources */,
+				F4A3C900000EF0 /* UIViewController+OKDebugAlert.m in Sources */,
+				F4A3C900000D00 /* VEH5StartUpTask.m in Sources */,
+				F4A3C900001120 /* VEH5WebDebugViewController.m in Sources */,
+				F4A3C900001130 /* VEInstallResultViewController.m in Sources */,
+				F4A3C900001140 /* VEInstallTestViewController.m in Sources */,
+				F4A3C900001150 /* VERemoteConfigViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4A3C9000015F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = F4A3C9000015E0 /* PBXContainerItemProxy */;
+		};
+		F4A3C900001620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTNetworkManager;
+			targetProxy = F4A3C900001610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4A3C900000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4A3C900000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F4A3C900000C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A3C900001560 /* App.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/App/App-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/App/App.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = App;
+				PRODUCT_NAME = App;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4A3C900000C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A3C900001550 /* App.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/App/App-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/App/App.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = App;
+				PRODUCT_NAME = App;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A3C900000030 /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A3C900000040 /* Debug */,
+				F4A3C900000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A3C900000C20 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A3C900000C40 /* Debug */,
+				F4A3C900000C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A3C900000000 /* Project object */;
+}

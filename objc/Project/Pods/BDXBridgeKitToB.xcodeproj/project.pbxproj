@@ -1,0 +1,1237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68BF9200000BC0 /* BDXBridgeKitToB-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF92000000C0 /* BDXBridgeKitToB-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		68BF9200000BD0 /* WKWebView+BDXBridgeContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000000F0 /* WKWebView+BDXBridgeContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000BE0 /* BDXBridge+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000110 /* BDXBridge+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000BF0 /* BDXBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000120 /* BDXBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C00 /* BDXBridgeContainerPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000130 /* BDXBridgeContainerPool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C10 /* BDXBridgeContainerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000140 /* BDXBridgeContainerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C20 /* BDXBridgeContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000150 /* BDXBridgeContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C30 /* BDXBridgeCustomValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000160 /* BDXBridgeCustomValueTransformer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C40 /* BDXBridgeDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000170 /* BDXBridgeDefinitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C50 /* BDXBridgeEngineProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000180 /* BDXBridgeEngineProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C60 /* BDXBridgeEvent+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000190 /* BDXBridgeEvent+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C70 /* BDXBridgeEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000001A0 /* BDXBridgeEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C80 /* BDXBridgeInvocationGuarder.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000001B0 /* BDXBridgeInvocationGuarder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000C90 /* BDXBridgeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000001C0 /* BDXBridgeKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000CA0 /* BDXBridgeMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000001D0 /* BDXBridgeMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000CB0 /* BDXBridgeMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000001E0 /* BDXBridgeMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000CC0 /* BDXBridgeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000001F0 /* BDXBridgeModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000CD0 /* BDXBridgeResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000200 /* BDXBridgeResponder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000CE0 /* BDXBridgeServiceDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000210 /* BDXBridgeServiceDefinitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000CF0 /* BDXBridgeServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000220 /* BDXBridgeServiceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D00 /* BDXBridgeStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000230 /* BDXBridgeStatus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D10 /* NSObject+BDXBridgeContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000240 /* NSObject+BDXBridgeContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D20 /* BDXBridgeEngineAdapter_TTBridgeUnify.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000280 /* BDXBridgeEngineAdapter_TTBridgeUnify.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D30 /* BDXBridgeGetUserInfoMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000002C0 /* BDXBridgeGetUserInfoMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D40 /* BDXBridgeGetUserInfoMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000002D0 /* BDXBridgeGetUserInfoMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D50 /* BDXBridgeLoginMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000002E0 /* BDXBridgeLoginMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D60 /* BDXBridgeLoginMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000002F0 /* BDXBridgeLoginMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D70 /* BDXBridgeLogoutMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000300 /* BDXBridgeLogoutMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D80 /* BDXBridgeLogoutMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000310 /* BDXBridgeLogoutMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000D90 /* BDXBridgeGetMethodListMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000330 /* BDXBridgeGetMethodListMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000DA0 /* BDXBridgeGetMethodListMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000340 /* BDXBridgeGetMethodListMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000DB0 /* BDXBridgeEventCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000360 /* BDXBridgeEventCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000DC0 /* BDXBridgeEventSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000370 /* BDXBridgeEventSubscriber.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000DD0 /* BDXBridgePublishEventMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000380 /* BDXBridgePublishEventMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000DE0 /* BDXBridgePublishEventMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000390 /* BDXBridgePublishEventMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000DF0 /* BDXBridgeSubscribeEventMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000003A0 /* BDXBridgeSubscribeEventMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E00 /* BDXBridgeSubscribeEventMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000003B0 /* BDXBridgeSubscribeEventMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E10 /* BDXBridgeUnsubscribeEventMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000003C0 /* BDXBridgeUnsubscribeEventMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E20 /* BDXBridgeUnsubscribeEventMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000003D0 /* BDXBridgeUnsubscribeEventMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E30 /* BDXBridgeCanIUseMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000003F0 /* BDXBridgeCanIUseMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E40 /* BDXBridgeCanIUseMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000400 /* BDXBridgeCanIUseMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E50 /* BDXBridgeGetContainerIDMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000410 /* BDXBridgeGetContainerIDMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E60 /* BDXBridgeGetContainerIDMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000420 /* BDXBridgeGetContainerIDMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E70 /* BDXBridgeGetAppInfoMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000440 /* BDXBridgeGetAppInfoMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E80 /* BDXBridgeGetAppInfoMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000450 /* BDXBridgeGetAppInfoMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000E90 /* BDXBridgeGetSettingsMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000460 /* BDXBridgeGetSettingsMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000EA0 /* BDXBridgeGetSettingsMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000470 /* BDXBridgeGetSettingsMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000EB0 /* BDXBridgeReportADLogMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000490 /* BDXBridgeReportADLogMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000EC0 /* BDXBridgeReportADLogMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000004A0 /* BDXBridgeReportADLogMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000ED0 /* BDXBridgeReportALogMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000004B0 /* BDXBridgeReportALogMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000EE0 /* BDXBridgeReportALogMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000004C0 /* BDXBridgeReportALogMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000EF0 /* BDXBridgeReportAppLogMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000004D0 /* BDXBridgeReportAppLogMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F00 /* BDXBridgeReportAppLogMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000004E0 /* BDXBridgeReportAppLogMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F10 /* BDXBridgeReportMonitorLogMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000004F0 /* BDXBridgeReportMonitorLogMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F20 /* BDXBridgeReportMonitorLogMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000500 /* BDXBridgeReportMonitorLogMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F30 /* BDXBridgeChooseMediaMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000520 /* BDXBridgeChooseMediaMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F40 /* BDXBridgeChooseMediaMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000530 /* BDXBridgeChooseMediaMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F50 /* BDXBridgeDefaultMediaPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000540 /* BDXBridgeDefaultMediaPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F60 /* BDXBridgeDownloadFileMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000550 /* BDXBridgeDownloadFileMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F70 /* BDXBridgeDownloadFileMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000560 /* BDXBridgeDownloadFileMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F80 /* BDXBridgeUploadImageMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000570 /* BDXBridgeUploadImageMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000F90 /* BDXBridgeUploadImageMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000580 /* BDXBridgeUploadImageMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000FA0 /* BDXBridgeGetAPIParamsMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000005A0 /* BDXBridgeGetAPIParamsMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000FB0 /* BDXBridgeGetAPIParamsMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000005B0 /* BDXBridgeGetAPIParamsMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000FC0 /* BDXBridgeRequestMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000005C0 /* BDXBridgeRequestMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000FD0 /* BDXBridgeRequestMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000005D0 /* BDXBridgeRequestMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000FE0 /* BDXBridgeOpenService.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000005F0 /* BDXBridgeOpenService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200000FF0 /* BDXBridgeScanCodeMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000600 /* BDXBridgeScanCodeMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001000 /* BDXBridgeScanCodeMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000610 /* BDXBridgeScanCodeMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001010 /* BDXBridgeShareMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000620 /* BDXBridgeShareMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001020 /* BDXBridgeCloseMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000640 /* BDXBridgeCloseMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001030 /* BDXBridgeCloseMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000650 /* BDXBridgeCloseMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001040 /* BDXBridgeOpenMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000660 /* BDXBridgeOpenMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001050 /* BDXBridgeOpenMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000670 /* BDXBridgeOpenMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001060 /* BDXBridgeScreenshotMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000690 /* BDXBridgeScreenshotMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001070 /* BDXBridgeScreenshotMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000006A0 /* BDXBridgeScreenshotMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001080 /* BDXBridgeGetStorageInfoMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000006C0 /* BDXBridgeGetStorageInfoMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001090 /* BDXBridgeGetStorageInfoMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000006D0 /* BDXBridgeGetStorageInfoMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000010A0 /* BDXBridgeGetStorageItemMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000006E0 /* BDXBridgeGetStorageItemMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000010B0 /* BDXBridgeGetStorageItemMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000006F0 /* BDXBridgeGetStorageItemMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000010C0 /* BDXBridgeRemoveStorageItemMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000700 /* BDXBridgeRemoveStorageItemMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000010D0 /* BDXBridgeRemoveStorageItemMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000710 /* BDXBridgeRemoveStorageItemMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000010E0 /* BDXBridgeSetStorageItemMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000720 /* BDXBridgeSetStorageItemMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000010F0 /* BDXBridgeSetStorageItemMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000730 /* BDXBridgeSetStorageItemMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001100 /* BDXBridgeStorageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000740 /* BDXBridgeStorageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001110 /* BDXBridgeCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000760 /* BDXBridgeCalendarManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001120 /* BDXBridgeCheckPermissionMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000770 /* BDXBridgeCheckPermissionMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001130 /* BDXBridgeCheckPermissionMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000780 /* BDXBridgeCheckPermissionMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001140 /* BDXBridgeMakePhoneCallMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000790 /* BDXBridgeMakePhoneCallMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001150 /* BDXBridgeMakePhoneCallMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000007A0 /* BDXBridgeMakePhoneCallMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001160 /* BDXBridgeRemoveCalendarEventMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000007B0 /* BDXBridgeRemoveCalendarEventMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001170 /* BDXBridgeRemoveCalendarEventMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000007C0 /* BDXBridgeRemoveCalendarEventMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001180 /* BDXBridgeScreenOrientationMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000007D0 /* BDXBridgeScreenOrientationMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001190 /* BDXBridgeSendSMSMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000007E0 /* BDXBridgeSendSMSMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000011A0 /* BDXBridgeSendSMSMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000007F0 /* BDXBridgeSendSMSMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000011B0 /* BDXBridgeSetCalendarEventMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000800 /* BDXBridgeSetCalendarEventMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000011C0 /* BDXBridgeSetCalendarEventMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000810 /* BDXBridgeSetCalendarEventMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000011D0 /* BDXBridgeVibrateMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000820 /* BDXBridgeVibrateMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000011E0 /* BDXBridgeVibrateMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000830 /* BDXBridgeVibrateMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000011F0 /* BDXBridgeConfigureStatusBarMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000850 /* BDXBridgeConfigureStatusBarMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001200 /* BDXBridgeConfigureStatusBarMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000860 /* BDXBridgeConfigureStatusBarMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001210 /* BDXBridgeHideLoadingMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000870 /* BDXBridgeHideLoadingMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001220 /* BDXBridgeHideLoadingMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000880 /* BDXBridgeHideLoadingMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001230 /* BDXBridgeShowActionSheetMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000890 /* BDXBridgeShowActionSheetMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001240 /* BDXBridgeShowActionSheetMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000008A0 /* BDXBridgeShowActionSheetMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001250 /* BDXBridgeShowLoadingMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000008B0 /* BDXBridgeShowLoadingMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001260 /* BDXBridgeShowLoadingMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000008C0 /* BDXBridgeShowLoadingMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001270 /* BDXBridgeShowModalMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000008D0 /* BDXBridgeShowModalMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001280 /* BDXBridgeShowModalMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000008E0 /* BDXBridgeShowModalMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001290 /* BDXBridgeShowToastMethod+BDXBridgeIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF92000008F0 /* BDXBridgeShowToastMethod+BDXBridgeIMP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000012A0 /* BDXBridgeShowToastMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000900 /* BDXBridgeShowToastMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF92000012B0 /* UIViewController+BDXBridgeStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200000910 /* UIViewController+BDXBridgeStatusBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001310 /* BDXBridgeKitToB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BF9200001300 /* BDXBridgeKitToB-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68BF9200001340 /* BDXBridgeKitToB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF9200001330 /* BDXBridgeKitToB-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68BF9200001360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BF9200001350 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		68BF9200001390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BF9200001380 /* OKJSBridgeToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BAE50FE4C2908A909BAB02BFE459AD;
+			remoteInfo = OKJSBridgeToB;
+		};
+		68BF92000013C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BF92000013B0 /* TTNetworkManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73119DD701757B40837515F362586977;
+			remoteInfo = TTNetworkManager;
+		};
+		68BF92000013F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BF92000013E0 /* QRCodeReaderViewController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D049C81F5D805EA622072684A362975A;
+			remoteInfo = QRCodeReaderViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40B11312DBEF07B803F561E82B0A58EA /* BDXBridgeKitToB */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BDXBridgeKitToB; path = libBDXBridgeKitToB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BF92000000C0 /* BDXBridgeKitToB-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDXBridgeKitToB-bitdummy.m"; sourceTree = "<group>"; };
+		68BF92000000F0 /* WKWebView+BDXBridgeContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BDXBridgeContainer.h"; path = "BDXBridgeKitToB/Classes/Containers/Web/WKWebView+BDXBridgeContainer.h"; sourceTree = "<group>"; };
+		68BF9200000110 /* BDXBridge+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridge+Internal.h"; path = "BDXBridgeKitToB/Classes/Core/BDXBridge+Internal.h"; sourceTree = "<group>"; };
+		68BF9200000120 /* BDXBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridge.h; path = BDXBridgeKitToB/Classes/Core/BDXBridge.h; sourceTree = "<group>"; };
+		68BF9200000130 /* BDXBridgeContainerPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeContainerPool.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeContainerPool.h; sourceTree = "<group>"; };
+		68BF9200000140 /* BDXBridgeContainerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeContainerProtocol.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeContainerProtocol.h; sourceTree = "<group>"; };
+		68BF9200000150 /* BDXBridgeContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeContext.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeContext.h; sourceTree = "<group>"; };
+		68BF9200000160 /* BDXBridgeCustomValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeCustomValueTransformer.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeCustomValueTransformer.h; sourceTree = "<group>"; };
+		68BF9200000170 /* BDXBridgeDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeDefinitions.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeDefinitions.h; sourceTree = "<group>"; };
+		68BF9200000180 /* BDXBridgeEngineProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeEngineProtocol.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeEngineProtocol.h; sourceTree = "<group>"; };
+		68BF9200000190 /* BDXBridgeEvent+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeEvent+Internal.h"; path = "BDXBridgeKitToB/Classes/Core/BDXBridgeEvent+Internal.h"; sourceTree = "<group>"; };
+		68BF92000001A0 /* BDXBridgeEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeEvent.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeEvent.h; sourceTree = "<group>"; };
+		68BF92000001B0 /* BDXBridgeInvocationGuarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeInvocationGuarder.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeInvocationGuarder.h; sourceTree = "<group>"; };
+		68BF92000001C0 /* BDXBridgeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeKit.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeKit.h; sourceTree = "<group>"; };
+		68BF92000001D0 /* BDXBridgeMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeMacros.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeMacros.h; sourceTree = "<group>"; };
+		68BF92000001E0 /* BDXBridgeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeMethod.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeMethod.h; sourceTree = "<group>"; };
+		68BF92000001F0 /* BDXBridgeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeModel.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeModel.h; sourceTree = "<group>"; };
+		68BF9200000200 /* BDXBridgeResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeResponder.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeResponder.h; sourceTree = "<group>"; };
+		68BF9200000210 /* BDXBridgeServiceDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeServiceDefinitions.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeServiceDefinitions.h; sourceTree = "<group>"; };
+		68BF9200000220 /* BDXBridgeServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeServiceManager.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeServiceManager.h; sourceTree = "<group>"; };
+		68BF9200000230 /* BDXBridgeStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeStatus.h; path = BDXBridgeKitToB/Classes/Core/BDXBridgeStatus.h; sourceTree = "<group>"; };
+		68BF9200000240 /* NSObject+BDXBridgeContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BDXBridgeContainer.h"; path = "BDXBridgeKitToB/Classes/Core/NSObject+BDXBridgeContainer.h"; sourceTree = "<group>"; };
+		68BF9200000280 /* BDXBridgeEngineAdapter_TTBridgeUnify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeEngineAdapter_TTBridgeUnify.h; path = BDXBridgeKitToB/Classes/Engines/TTBridgeUnifyAdapter/CoreEngine/BDXBridgeEngineAdapter_TTBridgeUnify.h; sourceTree = "<group>"; };
+		68BF92000002C0 /* BDXBridgeGetUserInfoMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeGetUserInfoMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Account/BDXBridgeGetUserInfoMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000002D0 /* BDXBridgeGetUserInfoMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeGetUserInfoMethod.h; path = BDXBridgeKitToB/Classes/Methods/Account/BDXBridgeGetUserInfoMethod.h; sourceTree = "<group>"; };
+		68BF92000002E0 /* BDXBridgeLoginMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeLoginMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Account/BDXBridgeLoginMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000002F0 /* BDXBridgeLoginMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeLoginMethod.h; path = BDXBridgeKitToB/Classes/Methods/Account/BDXBridgeLoginMethod.h; sourceTree = "<group>"; };
+		68BF9200000300 /* BDXBridgeLogoutMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeLogoutMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Account/BDXBridgeLogoutMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000310 /* BDXBridgeLogoutMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeLogoutMethod.h; path = BDXBridgeKitToB/Classes/Methods/Account/BDXBridgeLogoutMethod.h; sourceTree = "<group>"; };
+		68BF9200000330 /* BDXBridgeGetMethodListMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeGetMethodListMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Development/BDXBridgeGetMethodListMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000340 /* BDXBridgeGetMethodListMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeGetMethodListMethod.h; path = BDXBridgeKitToB/Classes/Methods/Development/BDXBridgeGetMethodListMethod.h; sourceTree = "<group>"; };
+		68BF9200000360 /* BDXBridgeEventCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeEventCenter.h; path = BDXBridgeKitToB/Classes/Methods/Event/BDXBridgeEventCenter.h; sourceTree = "<group>"; };
+		68BF9200000370 /* BDXBridgeEventSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeEventSubscriber.h; path = BDXBridgeKitToB/Classes/Methods/Event/BDXBridgeEventSubscriber.h; sourceTree = "<group>"; };
+		68BF9200000380 /* BDXBridgePublishEventMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgePublishEventMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Event/BDXBridgePublishEventMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000390 /* BDXBridgePublishEventMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgePublishEventMethod.h; path = BDXBridgeKitToB/Classes/Methods/Event/BDXBridgePublishEventMethod.h; sourceTree = "<group>"; };
+		68BF92000003A0 /* BDXBridgeSubscribeEventMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeSubscribeEventMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Event/BDXBridgeSubscribeEventMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000003B0 /* BDXBridgeSubscribeEventMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeSubscribeEventMethod.h; path = BDXBridgeKitToB/Classes/Methods/Event/BDXBridgeSubscribeEventMethod.h; sourceTree = "<group>"; };
+		68BF92000003C0 /* BDXBridgeUnsubscribeEventMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeUnsubscribeEventMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Event/BDXBridgeUnsubscribeEventMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000003D0 /* BDXBridgeUnsubscribeEventMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeUnsubscribeEventMethod.h; path = BDXBridgeKitToB/Classes/Methods/Event/BDXBridgeUnsubscribeEventMethod.h; sourceTree = "<group>"; };
+		68BF92000003F0 /* BDXBridgeCanIUseMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeCanIUseMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Framework/BDXBridgeCanIUseMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000400 /* BDXBridgeCanIUseMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeCanIUseMethod.h; path = BDXBridgeKitToB/Classes/Methods/Framework/BDXBridgeCanIUseMethod.h; sourceTree = "<group>"; };
+		68BF9200000410 /* BDXBridgeGetContainerIDMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeGetContainerIDMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Framework/BDXBridgeGetContainerIDMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000420 /* BDXBridgeGetContainerIDMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeGetContainerIDMethod.h; path = BDXBridgeKitToB/Classes/Methods/Framework/BDXBridgeGetContainerIDMethod.h; sourceTree = "<group>"; };
+		68BF9200000440 /* BDXBridgeGetAppInfoMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeGetAppInfoMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Info/BDXBridgeGetAppInfoMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000450 /* BDXBridgeGetAppInfoMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeGetAppInfoMethod.h; path = BDXBridgeKitToB/Classes/Methods/Info/BDXBridgeGetAppInfoMethod.h; sourceTree = "<group>"; };
+		68BF9200000460 /* BDXBridgeGetSettingsMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeGetSettingsMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Info/BDXBridgeGetSettingsMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000470 /* BDXBridgeGetSettingsMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeGetSettingsMethod.h; path = BDXBridgeKitToB/Classes/Methods/Info/BDXBridgeGetSettingsMethod.h; sourceTree = "<group>"; };
+		68BF9200000490 /* BDXBridgeReportADLogMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeReportADLogMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Log/BDXBridgeReportADLogMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000004A0 /* BDXBridgeReportADLogMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeReportADLogMethod.h; path = BDXBridgeKitToB/Classes/Methods/Log/BDXBridgeReportADLogMethod.h; sourceTree = "<group>"; };
+		68BF92000004B0 /* BDXBridgeReportALogMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeReportALogMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Log/BDXBridgeReportALogMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000004C0 /* BDXBridgeReportALogMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeReportALogMethod.h; path = BDXBridgeKitToB/Classes/Methods/Log/BDXBridgeReportALogMethod.h; sourceTree = "<group>"; };
+		68BF92000004D0 /* BDXBridgeReportAppLogMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeReportAppLogMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Log/BDXBridgeReportAppLogMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000004E0 /* BDXBridgeReportAppLogMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeReportAppLogMethod.h; path = BDXBridgeKitToB/Classes/Methods/Log/BDXBridgeReportAppLogMethod.h; sourceTree = "<group>"; };
+		68BF92000004F0 /* BDXBridgeReportMonitorLogMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeReportMonitorLogMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Log/BDXBridgeReportMonitorLogMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000500 /* BDXBridgeReportMonitorLogMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeReportMonitorLogMethod.h; path = BDXBridgeKitToB/Classes/Methods/Log/BDXBridgeReportMonitorLogMethod.h; sourceTree = "<group>"; };
+		68BF9200000520 /* BDXBridgeChooseMediaMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeChooseMediaMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Media/BDXBridgeChooseMediaMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000530 /* BDXBridgeChooseMediaMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeChooseMediaMethod.h; path = BDXBridgeKitToB/Classes/Methods/Media/BDXBridgeChooseMediaMethod.h; sourceTree = "<group>"; };
+		68BF9200000540 /* BDXBridgeDefaultMediaPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeDefaultMediaPicker.h; path = BDXBridgeKitToB/Classes/Methods/Media/BDXBridgeDefaultMediaPicker.h; sourceTree = "<group>"; };
+		68BF9200000550 /* BDXBridgeDownloadFileMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeDownloadFileMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Media/BDXBridgeDownloadFileMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000560 /* BDXBridgeDownloadFileMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeDownloadFileMethod.h; path = BDXBridgeKitToB/Classes/Methods/Media/BDXBridgeDownloadFileMethod.h; sourceTree = "<group>"; };
+		68BF9200000570 /* BDXBridgeUploadImageMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeUploadImageMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Media/BDXBridgeUploadImageMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000580 /* BDXBridgeUploadImageMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeUploadImageMethod.h; path = BDXBridgeKitToB/Classes/Methods/Media/BDXBridgeUploadImageMethod.h; sourceTree = "<group>"; };
+		68BF92000005A0 /* BDXBridgeGetAPIParamsMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeGetAPIParamsMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Network/BDXBridgeGetAPIParamsMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000005B0 /* BDXBridgeGetAPIParamsMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeGetAPIParamsMethod.h; path = BDXBridgeKitToB/Classes/Methods/Network/BDXBridgeGetAPIParamsMethod.h; sourceTree = "<group>"; };
+		68BF92000005C0 /* BDXBridgeRequestMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeRequestMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Network/BDXBridgeRequestMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000005D0 /* BDXBridgeRequestMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeRequestMethod.h; path = BDXBridgeKitToB/Classes/Methods/Network/BDXBridgeRequestMethod.h; sourceTree = "<group>"; };
+		68BF92000005F0 /* BDXBridgeOpenService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeOpenService.h; path = BDXBridgeKitToB/Classes/Methods/Open/BDXBridgeOpenService.h; sourceTree = "<group>"; };
+		68BF9200000600 /* BDXBridgeScanCodeMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeScanCodeMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Open/BDXBridgeScanCodeMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000610 /* BDXBridgeScanCodeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeScanCodeMethod.h; path = BDXBridgeKitToB/Classes/Methods/Open/BDXBridgeScanCodeMethod.h; sourceTree = "<group>"; };
+		68BF9200000620 /* BDXBridgeShareMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeShareMethod.h; path = BDXBridgeKitToB/Classes/Methods/Open/BDXBridgeShareMethod.h; sourceTree = "<group>"; };
+		68BF9200000640 /* BDXBridgeCloseMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeCloseMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Route/BDXBridgeCloseMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000650 /* BDXBridgeCloseMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeCloseMethod.h; path = BDXBridgeKitToB/Classes/Methods/Route/BDXBridgeCloseMethod.h; sourceTree = "<group>"; };
+		68BF9200000660 /* BDXBridgeOpenMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeOpenMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Route/BDXBridgeOpenMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000670 /* BDXBridgeOpenMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeOpenMethod.h; path = BDXBridgeKitToB/Classes/Methods/Route/BDXBridgeOpenMethod.h; sourceTree = "<group>"; };
+		68BF9200000690 /* BDXBridgeScreenshotMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeScreenshotMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/ScreenShot/BDXBridgeScreenshotMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000006A0 /* BDXBridgeScreenshotMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeScreenshotMethod.h; path = BDXBridgeKitToB/Classes/Methods/ScreenShot/BDXBridgeScreenshotMethod.h; sourceTree = "<group>"; };
+		68BF92000006C0 /* BDXBridgeGetStorageInfoMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeGetStorageInfoMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeGetStorageInfoMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000006D0 /* BDXBridgeGetStorageInfoMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeGetStorageInfoMethod.h; path = BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeGetStorageInfoMethod.h; sourceTree = "<group>"; };
+		68BF92000006E0 /* BDXBridgeGetStorageItemMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeGetStorageItemMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeGetStorageItemMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000006F0 /* BDXBridgeGetStorageItemMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeGetStorageItemMethod.h; path = BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeGetStorageItemMethod.h; sourceTree = "<group>"; };
+		68BF9200000700 /* BDXBridgeRemoveStorageItemMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeRemoveStorageItemMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeRemoveStorageItemMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000710 /* BDXBridgeRemoveStorageItemMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeRemoveStorageItemMethod.h; path = BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeRemoveStorageItemMethod.h; sourceTree = "<group>"; };
+		68BF9200000720 /* BDXBridgeSetStorageItemMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeSetStorageItemMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeSetStorageItemMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000730 /* BDXBridgeSetStorageItemMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeSetStorageItemMethod.h; path = BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeSetStorageItemMethod.h; sourceTree = "<group>"; };
+		68BF9200000740 /* BDXBridgeStorageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeStorageManager.h; path = BDXBridgeKitToB/Classes/Methods/Storage/BDXBridgeStorageManager.h; sourceTree = "<group>"; };
+		68BF9200000760 /* BDXBridgeCalendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeCalendarManager.h; path = BDXBridgeKitToB/Classes/Methods/System/BDXBridgeCalendarManager.h; sourceTree = "<group>"; };
+		68BF9200000770 /* BDXBridgeCheckPermissionMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeCheckPermissionMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/System/BDXBridgeCheckPermissionMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000780 /* BDXBridgeCheckPermissionMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeCheckPermissionMethod.h; path = BDXBridgeKitToB/Classes/Methods/System/BDXBridgeCheckPermissionMethod.h; sourceTree = "<group>"; };
+		68BF9200000790 /* BDXBridgeMakePhoneCallMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeMakePhoneCallMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/System/BDXBridgeMakePhoneCallMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000007A0 /* BDXBridgeMakePhoneCallMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeMakePhoneCallMethod.h; path = BDXBridgeKitToB/Classes/Methods/System/BDXBridgeMakePhoneCallMethod.h; sourceTree = "<group>"; };
+		68BF92000007B0 /* BDXBridgeRemoveCalendarEventMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeRemoveCalendarEventMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/System/BDXBridgeRemoveCalendarEventMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000007C0 /* BDXBridgeRemoveCalendarEventMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeRemoveCalendarEventMethod.h; path = BDXBridgeKitToB/Classes/Methods/System/BDXBridgeRemoveCalendarEventMethod.h; sourceTree = "<group>"; };
+		68BF92000007D0 /* BDXBridgeScreenOrientationMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeScreenOrientationMethod.h; path = BDXBridgeKitToB/Classes/Methods/System/BDXBridgeScreenOrientationMethod.h; sourceTree = "<group>"; };
+		68BF92000007E0 /* BDXBridgeSendSMSMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeSendSMSMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/System/BDXBridgeSendSMSMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000007F0 /* BDXBridgeSendSMSMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeSendSMSMethod.h; path = BDXBridgeKitToB/Classes/Methods/System/BDXBridgeSendSMSMethod.h; sourceTree = "<group>"; };
+		68BF9200000800 /* BDXBridgeSetCalendarEventMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeSetCalendarEventMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/System/BDXBridgeSetCalendarEventMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000810 /* BDXBridgeSetCalendarEventMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeSetCalendarEventMethod.h; path = BDXBridgeKitToB/Classes/Methods/System/BDXBridgeSetCalendarEventMethod.h; sourceTree = "<group>"; };
+		68BF9200000820 /* BDXBridgeVibrateMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeVibrateMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/System/BDXBridgeVibrateMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000830 /* BDXBridgeVibrateMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeVibrateMethod.h; path = BDXBridgeKitToB/Classes/Methods/System/BDXBridgeVibrateMethod.h; sourceTree = "<group>"; };
+		68BF9200000850 /* BDXBridgeConfigureStatusBarMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeConfigureStatusBarMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeConfigureStatusBarMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000860 /* BDXBridgeConfigureStatusBarMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeConfigureStatusBarMethod.h; path = BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeConfigureStatusBarMethod.h; sourceTree = "<group>"; };
+		68BF9200000870 /* BDXBridgeHideLoadingMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeHideLoadingMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeHideLoadingMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000880 /* BDXBridgeHideLoadingMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeHideLoadingMethod.h; path = BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeHideLoadingMethod.h; sourceTree = "<group>"; };
+		68BF9200000890 /* BDXBridgeShowActionSheetMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeShowActionSheetMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeShowActionSheetMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000008A0 /* BDXBridgeShowActionSheetMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeShowActionSheetMethod.h; path = BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeShowActionSheetMethod.h; sourceTree = "<group>"; };
+		68BF92000008B0 /* BDXBridgeShowLoadingMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeShowLoadingMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeShowLoadingMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000008C0 /* BDXBridgeShowLoadingMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeShowLoadingMethod.h; path = BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeShowLoadingMethod.h; sourceTree = "<group>"; };
+		68BF92000008D0 /* BDXBridgeShowModalMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeShowModalMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeShowModalMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF92000008E0 /* BDXBridgeShowModalMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeShowModalMethod.h; path = BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeShowModalMethod.h; sourceTree = "<group>"; };
+		68BF92000008F0 /* BDXBridgeShowToastMethod+BDXBridgeIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDXBridgeShowToastMethod+BDXBridgeIMP.h"; path = "BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeShowToastMethod+BDXBridgeIMP.h"; sourceTree = "<group>"; };
+		68BF9200000900 /* BDXBridgeShowToastMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDXBridgeShowToastMethod.h; path = BDXBridgeKitToB/Classes/Methods/UI/BDXBridgeShowToastMethod.h; sourceTree = "<group>"; };
+		68BF9200000910 /* UIViewController+BDXBridgeStatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BDXBridgeStatusBar.h"; path = "BDXBridgeKitToB/Classes/Methods/UI/UIViewController+BDXBridgeStatusBar.h"; sourceTree = "<group>"; };
+		68BF9200000930 /* libBDXBridgeKitToB_Web_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Web_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Web_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000950 /* libBDXBridgeKitToB_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Core_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000970 /* libBDXBridgeKitToB_CoreEngine_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_CoreEngine_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_CoreEngine_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000990 /* libBDXBridgeKitToB_Account_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Account_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Account_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF92000009B0 /* libBDXBridgeKitToB_Development_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Development_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Development_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF92000009D0 /* libBDXBridgeKitToB_Event_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Event_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Event_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF92000009F0 /* libBDXBridgeKitToB_Framework_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Framework_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Framework_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000A10 /* libBDXBridgeKitToB_Info_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Info_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Info_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000A30 /* libBDXBridgeKitToB_Log_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Log_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Log_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000A50 /* libBDXBridgeKitToB_Media_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Media_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Media_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000A70 /* libBDXBridgeKitToB_Network_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Network_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Network_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000A90 /* libBDXBridgeKitToB_Open_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Open_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Open_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000AB0 /* libBDXBridgeKitToB_Route_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Route_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Route_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000AD0 /* libBDXBridgeKitToB_ScreenShot_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_ScreenShot_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_ScreenShot_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000AF0 /* libBDXBridgeKitToB_Storage_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_Storage_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_Storage_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000B10 /* libBDXBridgeKitToB_System_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_System_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_System_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF9200000B30 /* libBDXBridgeKitToB_UI_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDXBridgeKitToB_UI_awesome_ios.a; path = "ios-arch-iphone/libBDXBridgeKitToB_UI_awesome_ios.a"; sourceTree = "<group>"; };
+		68BF92000012D0 /* BDXBridgeKitToB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDXBridgeKitToB.debug.xcconfig; sourceTree = "<group>"; };
+		68BF92000012E0 /* BDXBridgeKitToB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDXBridgeKitToB.release.xcconfig; sourceTree = "<group>"; };
+		68BF92000012F0 /* BDXBridgeKitToB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BDXBridgeKitToB.modulemap; sourceTree = "<group>"; };
+		68BF9200001300 /* BDXBridgeKitToB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDXBridgeKitToB-umbrella.h"; sourceTree = "<group>"; };
+		68BF9200001320 /* BDXBridgeKitToB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDXBridgeKitToB-prefix.pch"; sourceTree = "<group>"; };
+		68BF9200001330 /* BDXBridgeKitToB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDXBridgeKitToB-dummy.m"; sourceTree = "<group>"; };
+		68BF9200001350 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		68BF9200001380 /* OKJSBridgeToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OKJSBridgeToB; path = OKJSBridgeToB.xcodeproj; sourceTree = "<group>"; };
+		68BF92000013B0 /* TTNetworkManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TTNetworkManager; path = TTNetworkManager.xcodeproj; sourceTree = "<group>"; };
+		68BF92000013E0 /* QRCodeReaderViewController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QRCodeReaderViewController; path = QRCodeReaderViewController.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68BF9200000BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68BF9200000010 = {
+			isa = PBXGroup;
+			children = (
+				68BF92000000B0 /* BDXBridgeKitToB */,
+				68BF92000000A0 /* Dependencies */,
+				68BF9200000060 /* Frameworks */,
+				68BF9200000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68BF9200000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B11312DBEF07B803F561E82B0A58EA /* BDXBridgeKitToB */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68BF9200000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF92000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200001380 /* OKJSBridgeToB */,
+				68BF9200001350 /* OneKit */,
+				68BF92000013E0 /* QRCodeReaderViewController */,
+				68BF92000013B0 /* TTNetworkManager */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		68BF92000000B0 /* BDXBridgeKitToB */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000000C0 /* BDXBridgeKitToB-bitdummy.m */,
+				68BF92000000D0 /* Containers */,
+				68BF9200000100 /* Core */,
+				68BF9200000250 /* Engines */,
+				68BF92000002A0 /* Methods */,
+				68BF92000012C0 /* Support Files */,
+			);
+			name = BDXBridgeKitToB;
+			path = BDXBridgeKitToB;
+			sourceTree = "<group>";
+		};
+		68BF92000000D0 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000000E0 /* Web */,
+			);
+			name = Containers;
+			sourceTree = "<group>";
+		};
+		68BF92000000E0 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000000F0 /* WKWebView+BDXBridgeContainer.h */,
+				68BF9200000920 /* Frameworks */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		68BF9200000100 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000120 /* BDXBridge.h */,
+				68BF9200000110 /* BDXBridge+Internal.h */,
+				68BF9200000130 /* BDXBridgeContainerPool.h */,
+				68BF9200000140 /* BDXBridgeContainerProtocol.h */,
+				68BF9200000150 /* BDXBridgeContext.h */,
+				68BF9200000160 /* BDXBridgeCustomValueTransformer.h */,
+				68BF9200000170 /* BDXBridgeDefinitions.h */,
+				68BF9200000180 /* BDXBridgeEngineProtocol.h */,
+				68BF92000001A0 /* BDXBridgeEvent.h */,
+				68BF9200000190 /* BDXBridgeEvent+Internal.h */,
+				68BF92000001B0 /* BDXBridgeInvocationGuarder.h */,
+				68BF92000001C0 /* BDXBridgeKit.h */,
+				68BF92000001D0 /* BDXBridgeMacros.h */,
+				68BF92000001E0 /* BDXBridgeMethod.h */,
+				68BF92000001F0 /* BDXBridgeModel.h */,
+				68BF9200000200 /* BDXBridgeResponder.h */,
+				68BF9200000210 /* BDXBridgeServiceDefinitions.h */,
+				68BF9200000220 /* BDXBridgeServiceManager.h */,
+				68BF9200000230 /* BDXBridgeStatus.h */,
+				68BF9200000240 /* NSObject+BDXBridgeContainer.h */,
+				68BF9200000940 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		68BF9200000250 /* Engines */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000260 /* TTBridgeUnifyAdapter */,
+			);
+			name = Engines;
+			sourceTree = "<group>";
+		};
+		68BF9200000260 /* TTBridgeUnifyAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000270 /* CoreEngine */,
+				68BF9200000290 /* WebEngine */,
+			);
+			name = TTBridgeUnifyAdapter;
+			sourceTree = "<group>";
+		};
+		68BF9200000270 /* CoreEngine */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000280 /* BDXBridgeEngineAdapter_TTBridgeUnify.h */,
+				68BF9200000960 /* Frameworks */,
+			);
+			name = CoreEngine;
+			sourceTree = "<group>";
+		};
+		68BF9200000290 /* WebEngine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebEngine;
+			sourceTree = "<group>";
+		};
+		68BF92000002A0 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000002B0 /* Account */,
+				68BF9200000320 /* Development */,
+				68BF9200000350 /* Event */,
+				68BF92000003E0 /* Framework */,
+				68BF9200000430 /* Info */,
+				68BF9200000480 /* Log */,
+				68BF9200000510 /* Media */,
+				68BF9200000590 /* Network */,
+				68BF92000005E0 /* Open */,
+				68BF9200000630 /* Route */,
+				68BF9200000680 /* ScreenShot */,
+				68BF92000006B0 /* Storage */,
+				68BF9200000750 /* System */,
+				68BF9200000840 /* UI */,
+			);
+			name = Methods;
+			sourceTree = "<group>";
+		};
+		68BF92000002B0 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000002D0 /* BDXBridgeGetUserInfoMethod.h */,
+				68BF92000002C0 /* BDXBridgeGetUserInfoMethod+BDXBridgeIMP.h */,
+				68BF92000002F0 /* BDXBridgeLoginMethod.h */,
+				68BF92000002E0 /* BDXBridgeLoginMethod+BDXBridgeIMP.h */,
+				68BF9200000310 /* BDXBridgeLogoutMethod.h */,
+				68BF9200000300 /* BDXBridgeLogoutMethod+BDXBridgeIMP.h */,
+				68BF9200000980 /* Frameworks */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		68BF9200000320 /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000340 /* BDXBridgeGetMethodListMethod.h */,
+				68BF9200000330 /* BDXBridgeGetMethodListMethod+BDXBridgeIMP.h */,
+				68BF92000009A0 /* Frameworks */,
+			);
+			name = Development;
+			sourceTree = "<group>";
+		};
+		68BF9200000350 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000360 /* BDXBridgeEventCenter.h */,
+				68BF9200000370 /* BDXBridgeEventSubscriber.h */,
+				68BF9200000390 /* BDXBridgePublishEventMethod.h */,
+				68BF9200000380 /* BDXBridgePublishEventMethod+BDXBridgeIMP.h */,
+				68BF92000003B0 /* BDXBridgeSubscribeEventMethod.h */,
+				68BF92000003A0 /* BDXBridgeSubscribeEventMethod+BDXBridgeIMP.h */,
+				68BF92000003D0 /* BDXBridgeUnsubscribeEventMethod.h */,
+				68BF92000003C0 /* BDXBridgeUnsubscribeEventMethod+BDXBridgeIMP.h */,
+				68BF92000009C0 /* Frameworks */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		68BF92000003E0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000400 /* BDXBridgeCanIUseMethod.h */,
+				68BF92000003F0 /* BDXBridgeCanIUseMethod+BDXBridgeIMP.h */,
+				68BF9200000420 /* BDXBridgeGetContainerIDMethod.h */,
+				68BF9200000410 /* BDXBridgeGetContainerIDMethod+BDXBridgeIMP.h */,
+				68BF92000009E0 /* Frameworks */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		68BF9200000430 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000450 /* BDXBridgeGetAppInfoMethod.h */,
+				68BF9200000440 /* BDXBridgeGetAppInfoMethod+BDXBridgeIMP.h */,
+				68BF9200000470 /* BDXBridgeGetSettingsMethod.h */,
+				68BF9200000460 /* BDXBridgeGetSettingsMethod+BDXBridgeIMP.h */,
+				68BF9200000A00 /* Frameworks */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		68BF9200000480 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000004A0 /* BDXBridgeReportADLogMethod.h */,
+				68BF9200000490 /* BDXBridgeReportADLogMethod+BDXBridgeIMP.h */,
+				68BF92000004C0 /* BDXBridgeReportALogMethod.h */,
+				68BF92000004B0 /* BDXBridgeReportALogMethod+BDXBridgeIMP.h */,
+				68BF92000004E0 /* BDXBridgeReportAppLogMethod.h */,
+				68BF92000004D0 /* BDXBridgeReportAppLogMethod+BDXBridgeIMP.h */,
+				68BF9200000500 /* BDXBridgeReportMonitorLogMethod.h */,
+				68BF92000004F0 /* BDXBridgeReportMonitorLogMethod+BDXBridgeIMP.h */,
+				68BF9200000A20 /* Frameworks */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
+		68BF9200000510 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000530 /* BDXBridgeChooseMediaMethod.h */,
+				68BF9200000520 /* BDXBridgeChooseMediaMethod+BDXBridgeIMP.h */,
+				68BF9200000540 /* BDXBridgeDefaultMediaPicker.h */,
+				68BF9200000560 /* BDXBridgeDownloadFileMethod.h */,
+				68BF9200000550 /* BDXBridgeDownloadFileMethod+BDXBridgeIMP.h */,
+				68BF9200000580 /* BDXBridgeUploadImageMethod.h */,
+				68BF9200000570 /* BDXBridgeUploadImageMethod+BDXBridgeIMP.h */,
+				68BF9200000A40 /* Frameworks */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		68BF9200000590 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000005B0 /* BDXBridgeGetAPIParamsMethod.h */,
+				68BF92000005A0 /* BDXBridgeGetAPIParamsMethod+BDXBridgeIMP.h */,
+				68BF92000005D0 /* BDXBridgeRequestMethod.h */,
+				68BF92000005C0 /* BDXBridgeRequestMethod+BDXBridgeIMP.h */,
+				68BF9200000A60 /* Frameworks */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		68BF92000005E0 /* Open */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000005F0 /* BDXBridgeOpenService.h */,
+				68BF9200000610 /* BDXBridgeScanCodeMethod.h */,
+				68BF9200000600 /* BDXBridgeScanCodeMethod+BDXBridgeIMP.h */,
+				68BF9200000620 /* BDXBridgeShareMethod.h */,
+				68BF9200000A80 /* Frameworks */,
+			);
+			name = Open;
+			sourceTree = "<group>";
+		};
+		68BF9200000630 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000650 /* BDXBridgeCloseMethod.h */,
+				68BF9200000640 /* BDXBridgeCloseMethod+BDXBridgeIMP.h */,
+				68BF9200000670 /* BDXBridgeOpenMethod.h */,
+				68BF9200000660 /* BDXBridgeOpenMethod+BDXBridgeIMP.h */,
+				68BF9200000AA0 /* Frameworks */,
+			);
+			name = Route;
+			sourceTree = "<group>";
+		};
+		68BF9200000680 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000006A0 /* BDXBridgeScreenshotMethod.h */,
+				68BF9200000690 /* BDXBridgeScreenshotMethod+BDXBridgeIMP.h */,
+				68BF9200000AC0 /* Frameworks */,
+			);
+			name = ScreenShot;
+			sourceTree = "<group>";
+		};
+		68BF92000006B0 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000006D0 /* BDXBridgeGetStorageInfoMethod.h */,
+				68BF92000006C0 /* BDXBridgeGetStorageInfoMethod+BDXBridgeIMP.h */,
+				68BF92000006F0 /* BDXBridgeGetStorageItemMethod.h */,
+				68BF92000006E0 /* BDXBridgeGetStorageItemMethod+BDXBridgeIMP.h */,
+				68BF9200000710 /* BDXBridgeRemoveStorageItemMethod.h */,
+				68BF9200000700 /* BDXBridgeRemoveStorageItemMethod+BDXBridgeIMP.h */,
+				68BF9200000730 /* BDXBridgeSetStorageItemMethod.h */,
+				68BF9200000720 /* BDXBridgeSetStorageItemMethod+BDXBridgeIMP.h */,
+				68BF9200000740 /* BDXBridgeStorageManager.h */,
+				68BF9200000AE0 /* Frameworks */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		68BF9200000750 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000760 /* BDXBridgeCalendarManager.h */,
+				68BF9200000780 /* BDXBridgeCheckPermissionMethod.h */,
+				68BF9200000770 /* BDXBridgeCheckPermissionMethod+BDXBridgeIMP.h */,
+				68BF92000007A0 /* BDXBridgeMakePhoneCallMethod.h */,
+				68BF9200000790 /* BDXBridgeMakePhoneCallMethod+BDXBridgeIMP.h */,
+				68BF92000007C0 /* BDXBridgeRemoveCalendarEventMethod.h */,
+				68BF92000007B0 /* BDXBridgeRemoveCalendarEventMethod+BDXBridgeIMP.h */,
+				68BF92000007D0 /* BDXBridgeScreenOrientationMethod.h */,
+				68BF92000007F0 /* BDXBridgeSendSMSMethod.h */,
+				68BF92000007E0 /* BDXBridgeSendSMSMethod+BDXBridgeIMP.h */,
+				68BF9200000810 /* BDXBridgeSetCalendarEventMethod.h */,
+				68BF9200000800 /* BDXBridgeSetCalendarEventMethod+BDXBridgeIMP.h */,
+				68BF9200000830 /* BDXBridgeVibrateMethod.h */,
+				68BF9200000820 /* BDXBridgeVibrateMethod+BDXBridgeIMP.h */,
+				68BF9200000B00 /* Frameworks */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		68BF9200000840 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000860 /* BDXBridgeConfigureStatusBarMethod.h */,
+				68BF9200000850 /* BDXBridgeConfigureStatusBarMethod+BDXBridgeIMP.h */,
+				68BF9200000880 /* BDXBridgeHideLoadingMethod.h */,
+				68BF9200000870 /* BDXBridgeHideLoadingMethod+BDXBridgeIMP.h */,
+				68BF92000008A0 /* BDXBridgeShowActionSheetMethod.h */,
+				68BF9200000890 /* BDXBridgeShowActionSheetMethod+BDXBridgeIMP.h */,
+				68BF92000008C0 /* BDXBridgeShowLoadingMethod.h */,
+				68BF92000008B0 /* BDXBridgeShowLoadingMethod+BDXBridgeIMP.h */,
+				68BF92000008E0 /* BDXBridgeShowModalMethod.h */,
+				68BF92000008D0 /* BDXBridgeShowModalMethod+BDXBridgeIMP.h */,
+				68BF9200000900 /* BDXBridgeShowToastMethod.h */,
+				68BF92000008F0 /* BDXBridgeShowToastMethod+BDXBridgeIMP.h */,
+				68BF9200000910 /* UIViewController+BDXBridgeStatusBar.h */,
+				68BF9200000B20 /* Frameworks */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		68BF9200000920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000930 /* libBDXBridgeKitToB_Web_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000950 /* libBDXBridgeKitToB_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000970 /* libBDXBridgeKitToB_CoreEngine_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000990 /* libBDXBridgeKitToB_Account_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF92000009A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000009B0 /* libBDXBridgeKitToB_Development_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF92000009C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000009D0 /* libBDXBridgeKitToB_Event_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF92000009E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000009F0 /* libBDXBridgeKitToB_Framework_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000A10 /* libBDXBridgeKitToB_Info_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000A20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000A30 /* libBDXBridgeKitToB_Log_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000A40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000A50 /* libBDXBridgeKitToB_Media_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000A70 /* libBDXBridgeKitToB_Network_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000A80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000A90 /* libBDXBridgeKitToB_Open_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000AB0 /* libBDXBridgeKitToB_Route_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000AD0 /* libBDXBridgeKitToB_ScreenShot_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000AF0 /* libBDXBridgeKitToB_Storage_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000B00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000B10 /* libBDXBridgeKitToB_System_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF9200000B20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BF9200000B30 /* libBDXBridgeKitToB_UI_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BF92000012C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68BF92000012F0 /* BDXBridgeKitToB.modulemap */,
+				68BF9200001330 /* BDXBridgeKitToB-dummy.m */,
+				68BF9200001320 /* BDXBridgeKitToB-prefix.pch */,
+				68BF9200001300 /* BDXBridgeKitToB-umbrella.h */,
+				68BF92000012D0 /* BDXBridgeKitToB.debug.xcconfig */,
+				68BF92000012E0 /* BDXBridgeKitToB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BDXBridgeKitToB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68BF9200000B90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BF9200000BF0 /* BDXBridge.h in Headers */,
+				68BF9200000BE0 /* BDXBridge+Internal.h in Headers */,
+				68BF9200001110 /* BDXBridgeCalendarManager.h in Headers */,
+				68BF9200000E40 /* BDXBridgeCanIUseMethod.h in Headers */,
+				68BF9200000E30 /* BDXBridgeCanIUseMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001130 /* BDXBridgeCheckPermissionMethod.h in Headers */,
+				68BF9200001120 /* BDXBridgeCheckPermissionMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000F40 /* BDXBridgeChooseMediaMethod.h in Headers */,
+				68BF9200000F30 /* BDXBridgeChooseMediaMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001030 /* BDXBridgeCloseMethod.h in Headers */,
+				68BF9200001020 /* BDXBridgeCloseMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001200 /* BDXBridgeConfigureStatusBarMethod.h in Headers */,
+				68BF92000011F0 /* BDXBridgeConfigureStatusBarMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000C00 /* BDXBridgeContainerPool.h in Headers */,
+				68BF9200000C10 /* BDXBridgeContainerProtocol.h in Headers */,
+				68BF9200000C20 /* BDXBridgeContext.h in Headers */,
+				68BF9200000C30 /* BDXBridgeCustomValueTransformer.h in Headers */,
+				68BF9200000F50 /* BDXBridgeDefaultMediaPicker.h in Headers */,
+				68BF9200000C40 /* BDXBridgeDefinitions.h in Headers */,
+				68BF9200000F70 /* BDXBridgeDownloadFileMethod.h in Headers */,
+				68BF9200000F60 /* BDXBridgeDownloadFileMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000D20 /* BDXBridgeEngineAdapter_TTBridgeUnify.h in Headers */,
+				68BF9200000C50 /* BDXBridgeEngineProtocol.h in Headers */,
+				68BF9200000C70 /* BDXBridgeEvent.h in Headers */,
+				68BF9200000C60 /* BDXBridgeEvent+Internal.h in Headers */,
+				68BF9200000DB0 /* BDXBridgeEventCenter.h in Headers */,
+				68BF9200000DC0 /* BDXBridgeEventSubscriber.h in Headers */,
+				68BF9200000FB0 /* BDXBridgeGetAPIParamsMethod.h in Headers */,
+				68BF9200000FA0 /* BDXBridgeGetAPIParamsMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000E80 /* BDXBridgeGetAppInfoMethod.h in Headers */,
+				68BF9200000E70 /* BDXBridgeGetAppInfoMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000E60 /* BDXBridgeGetContainerIDMethod.h in Headers */,
+				68BF9200000E50 /* BDXBridgeGetContainerIDMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000DA0 /* BDXBridgeGetMethodListMethod.h in Headers */,
+				68BF9200000D90 /* BDXBridgeGetMethodListMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000EA0 /* BDXBridgeGetSettingsMethod.h in Headers */,
+				68BF9200000E90 /* BDXBridgeGetSettingsMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001090 /* BDXBridgeGetStorageInfoMethod.h in Headers */,
+				68BF9200001080 /* BDXBridgeGetStorageInfoMethod+BDXBridgeIMP.h in Headers */,
+				68BF92000010B0 /* BDXBridgeGetStorageItemMethod.h in Headers */,
+				68BF92000010A0 /* BDXBridgeGetStorageItemMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000D40 /* BDXBridgeGetUserInfoMethod.h in Headers */,
+				68BF9200000D30 /* BDXBridgeGetUserInfoMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001220 /* BDXBridgeHideLoadingMethod.h in Headers */,
+				68BF9200001210 /* BDXBridgeHideLoadingMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000C80 /* BDXBridgeInvocationGuarder.h in Headers */,
+				68BF9200000C90 /* BDXBridgeKit.h in Headers */,
+				68BF9200001310 /* BDXBridgeKitToB-umbrella.h in Headers */,
+				68BF9200000D60 /* BDXBridgeLoginMethod.h in Headers */,
+				68BF9200000D50 /* BDXBridgeLoginMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000D80 /* BDXBridgeLogoutMethod.h in Headers */,
+				68BF9200000D70 /* BDXBridgeLogoutMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000CA0 /* BDXBridgeMacros.h in Headers */,
+				68BF9200001150 /* BDXBridgeMakePhoneCallMethod.h in Headers */,
+				68BF9200001140 /* BDXBridgeMakePhoneCallMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000CB0 /* BDXBridgeMethod.h in Headers */,
+				68BF9200000CC0 /* BDXBridgeModel.h in Headers */,
+				68BF9200001050 /* BDXBridgeOpenMethod.h in Headers */,
+				68BF9200001040 /* BDXBridgeOpenMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000FE0 /* BDXBridgeOpenService.h in Headers */,
+				68BF9200000DE0 /* BDXBridgePublishEventMethod.h in Headers */,
+				68BF9200000DD0 /* BDXBridgePublishEventMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001170 /* BDXBridgeRemoveCalendarEventMethod.h in Headers */,
+				68BF9200001160 /* BDXBridgeRemoveCalendarEventMethod+BDXBridgeIMP.h in Headers */,
+				68BF92000010D0 /* BDXBridgeRemoveStorageItemMethod.h in Headers */,
+				68BF92000010C0 /* BDXBridgeRemoveStorageItemMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000EC0 /* BDXBridgeReportADLogMethod.h in Headers */,
+				68BF9200000EB0 /* BDXBridgeReportADLogMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000EE0 /* BDXBridgeReportALogMethod.h in Headers */,
+				68BF9200000ED0 /* BDXBridgeReportALogMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000F00 /* BDXBridgeReportAppLogMethod.h in Headers */,
+				68BF9200000EF0 /* BDXBridgeReportAppLogMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000F20 /* BDXBridgeReportMonitorLogMethod.h in Headers */,
+				68BF9200000F10 /* BDXBridgeReportMonitorLogMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000FD0 /* BDXBridgeRequestMethod.h in Headers */,
+				68BF9200000FC0 /* BDXBridgeRequestMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000CD0 /* BDXBridgeResponder.h in Headers */,
+				68BF9200001000 /* BDXBridgeScanCodeMethod.h in Headers */,
+				68BF9200000FF0 /* BDXBridgeScanCodeMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001180 /* BDXBridgeScreenOrientationMethod.h in Headers */,
+				68BF9200001070 /* BDXBridgeScreenshotMethod.h in Headers */,
+				68BF9200001060 /* BDXBridgeScreenshotMethod+BDXBridgeIMP.h in Headers */,
+				68BF92000011A0 /* BDXBridgeSendSMSMethod.h in Headers */,
+				68BF9200001190 /* BDXBridgeSendSMSMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000CE0 /* BDXBridgeServiceDefinitions.h in Headers */,
+				68BF9200000CF0 /* BDXBridgeServiceManager.h in Headers */,
+				68BF92000011C0 /* BDXBridgeSetCalendarEventMethod.h in Headers */,
+				68BF92000011B0 /* BDXBridgeSetCalendarEventMethod+BDXBridgeIMP.h in Headers */,
+				68BF92000010F0 /* BDXBridgeSetStorageItemMethod.h in Headers */,
+				68BF92000010E0 /* BDXBridgeSetStorageItemMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001010 /* BDXBridgeShareMethod.h in Headers */,
+				68BF9200001240 /* BDXBridgeShowActionSheetMethod.h in Headers */,
+				68BF9200001230 /* BDXBridgeShowActionSheetMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001260 /* BDXBridgeShowLoadingMethod.h in Headers */,
+				68BF9200001250 /* BDXBridgeShowLoadingMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200001280 /* BDXBridgeShowModalMethod.h in Headers */,
+				68BF9200001270 /* BDXBridgeShowModalMethod+BDXBridgeIMP.h in Headers */,
+				68BF92000012A0 /* BDXBridgeShowToastMethod.h in Headers */,
+				68BF9200001290 /* BDXBridgeShowToastMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000D00 /* BDXBridgeStatus.h in Headers */,
+				68BF9200001100 /* BDXBridgeStorageManager.h in Headers */,
+				68BF9200000E00 /* BDXBridgeSubscribeEventMethod.h in Headers */,
+				68BF9200000DF0 /* BDXBridgeSubscribeEventMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000E20 /* BDXBridgeUnsubscribeEventMethod.h in Headers */,
+				68BF9200000E10 /* BDXBridgeUnsubscribeEventMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000F90 /* BDXBridgeUploadImageMethod.h in Headers */,
+				68BF9200000F80 /* BDXBridgeUploadImageMethod+BDXBridgeIMP.h in Headers */,
+				68BF92000011E0 /* BDXBridgeVibrateMethod.h in Headers */,
+				68BF92000011D0 /* BDXBridgeVibrateMethod+BDXBridgeIMP.h in Headers */,
+				68BF9200000D10 /* NSObject+BDXBridgeContainer.h in Headers */,
+				68BF92000012B0 /* UIViewController+BDXBridgeStatusBar.h in Headers */,
+				68BF9200000BD0 /* WKWebView+BDXBridgeContainer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		51D37C5ECE147FED94BEB3B62E11E78D /* BDXBridgeKitToB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BF9200000B50 /* Build configuration list for PBXNativeTarget "BDXBridgeKitToB" */;
+			buildPhases = (
+				68BF9200000B90 /* Headers */,
+				68BF9200000BA0 /* Sources */,
+				68BF9200000BB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68BF92000013A0 /* PBXTargetDependency */,
+				68BF9200001370 /* PBXTargetDependency */,
+				68BF9200001400 /* PBXTargetDependency */,
+				68BF92000013D0 /* PBXTargetDependency */,
+			);
+			name = BDXBridgeKitToB;
+			productName = BDXBridgeKitToB;
+			productReference = 40B11312DBEF07B803F561E82B0A58EA /* BDXBridgeKitToB */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68BF9200000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 68BF9200000030 /* Build configuration list for PBXProject "BDXBridgeKitToB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 68BF9200000010;
+			productRefGroup = 68BF9200000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 68BF9200001350 /* OneKit */;
+				},
+				{
+					ProjectRef = 68BF9200001380 /* OKJSBridgeToB */;
+				},
+				{
+					ProjectRef = 68BF92000013B0 /* TTNetworkManager */;
+				},
+				{
+					ProjectRef = 68BF92000013E0 /* QRCodeReaderViewController */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				51D37C5ECE147FED94BEB3B62E11E78D /* BDXBridgeKitToB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68BF9200000BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BF9200000BC0 /* BDXBridgeKitToB-bitdummy.m in Sources */,
+				68BF9200001340 /* BDXBridgeKitToB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68BF9200001370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = 68BF9200001360 /* PBXContainerItemProxy */;
+		};
+		68BF92000013A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OKJSBridgeToB;
+			targetProxy = 68BF9200001390 /* PBXContainerItemProxy */;
+		};
+		68BF92000013D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTNetworkManager;
+			targetProxy = 68BF92000013C0 /* PBXContainerItemProxy */;
+		};
+		68BF9200001400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReaderViewController;
+			targetProxy = 68BF92000013F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68BF9200000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		68BF9200000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		68BF9200000B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BF92000012E0 /* BDXBridgeKitToB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDXBridgeKitToB/BDXBridgeKitToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/BDXBridgeKitToB/BDXBridgeKitToB.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDXBridgeKitToB;
+				PRODUCT_NAME = BDXBridgeKitToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68BF9200000B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BF92000012D0 /* BDXBridgeKitToB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDXBridgeKitToB/BDXBridgeKitToB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/BDXBridgeKitToB/BDXBridgeKitToB.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDXBridgeKitToB;
+				PRODUCT_NAME = BDXBridgeKitToB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68BF9200000030 /* Build configuration list for PBXProject "BDXBridgeKitToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BF9200000040 /* Debug */,
+				68BF9200000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BF9200000B50 /* Build configuration list for PBXNativeTarget "BDXBridgeKitToB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BF9200000B70 /* Debug */,
+				68BF9200000B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68BF9200000000 /* Project object */;
+}

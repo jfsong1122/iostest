@@ -1,0 +1,1 @@
+../../../BDXBridgeKitToB/BDXBridgeKitToB/Classes/Methods/Media/BDXBridgeUploadImageMethod.h

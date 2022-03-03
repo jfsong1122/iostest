@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0DD94000006C0 /* RangersAPM+CrashCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000000D0 /* RangersAPM+CrashCallback.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000006D0 /* RangersAPM+EventMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000000F0 /* RangersAPM+EventMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000006E0 /* RangersAPMForSDK+EventMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000100 /* RangersAPMForSDK+EventMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000006F0 /* RangersAPM+PerformanceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000120 /* RangersAPM+PerformanceAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000700 /* RangersAPMPerformanceErrorType.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000130 /* RangersAPMPerformanceErrorType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000710 /* RangersAPM+Network.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000150 /* RangersAPM+Network.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000720 /* RangersAPM+NetworkPro.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000170 /* RangersAPM+NetworkPro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000730 /* RangersAPMPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD9400000250 /* RangersAPMPublic.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C0DD9400000740 /* RangersAddressRange.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000190 /* RangersAddressRange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000750 /* RangersAPM+DebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000001A0 /* RangersAPM+DebugLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000760 /* RangersAPMAddressConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000001B0 /* RangersAPMAddressConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000770 /* RangersAPMCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000001C0 /* RangersAPMCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000780 /* RangersAPMNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000001D0 /* RangersAPMNotifications.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000790 /* RangersAPM+PrivatizationDeployment.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000001E0 /* RangersAPM+PrivatizationDeployment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000007A0 /* RangersAPM.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000001F0 /* RangersAPM.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000007B0 /* RangersAPMConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000200 /* RangersAPMConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000007C0 /* RangersAPMForSDK+PrivatizationDeployment.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000210 /* RangersAPMForSDK+PrivatizationDeployment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000007D0 /* RangersAPMForSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000220 /* RangersAPMForSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000007E0 /* RangersAPMForSDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000230 /* RangersAPMForSDKConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000007F0 /* RangersAPMPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000240 /* RangersAPMPublic.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000800 /* RangersAPM+UITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000270 /* RangersAPM+UITracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000810 /* RangersAPM+UserException.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000290 /* RangersAPM+UserException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000820 /* RangersAPMForSDK+UserException.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000002A0 /* RangersAPMForSDK+UserException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000830 /* RangersAPMUserExceptionErrorType.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD94000002B0 /* RangersAPMUserExceptionErrorType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD9400000890 /* RangersAPM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD9400000880 /* RangersAPM-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DD94000008C0 /* RangersAPM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DD94000008B0 /* RangersAPM-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0DD94000008E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0DD94000008D0 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70CC5A44D52983592FC6726DAA22912A /* RangersAPM */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RangersAPM; path = libRangersAPM.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DD94000000D0 /* RangersAPM+CrashCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+CrashCallback.h"; path = "RangersAPM/Crash/RangersAPM+CrashCallback.h"; sourceTree = "<group>"; };
+		C0DD94000000F0 /* RangersAPM+EventMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+EventMonitor.h"; path = "RangersAPM/EventMonitor/RangersAPM+EventMonitor.h"; sourceTree = "<group>"; };
+		C0DD9400000100 /* RangersAPMForSDK+EventMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPMForSDK+EventMonitor.h"; path = "RangersAPM/EventMonitor/RangersAPMForSDK+EventMonitor.h"; sourceTree = "<group>"; };
+		C0DD9400000120 /* RangersAPM+PerformanceAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+PerformanceAPI.h"; path = "RangersAPM/Monitors/RangersAPM+PerformanceAPI.h"; sourceTree = "<group>"; };
+		C0DD9400000130 /* RangersAPMPerformanceErrorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMPerformanceErrorType.h; path = RangersAPM/Monitors/RangersAPMPerformanceErrorType.h; sourceTree = "<group>"; };
+		C0DD9400000150 /* RangersAPM+Network.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+Network.h"; path = "RangersAPM/Network/RangersAPM+Network.h"; sourceTree = "<group>"; };
+		C0DD9400000170 /* RangersAPM+NetworkPro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+NetworkPro.h"; path = "RangersAPM/NetworkBasic/RangersAPM+NetworkPro.h"; sourceTree = "<group>"; };
+		C0DD9400000190 /* RangersAddressRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAddressRange.h; path = RangersAPM/Public/Common/RangersAddressRange.h; sourceTree = "<group>"; };
+		C0DD94000001A0 /* RangersAPM+DebugLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+DebugLog.h"; path = "RangersAPM/Public/Common/RangersAPM+DebugLog.h"; sourceTree = "<group>"; };
+		C0DD94000001B0 /* RangersAPMAddressConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMAddressConfig.h; path = RangersAPM/Public/Common/RangersAPMAddressConfig.h; sourceTree = "<group>"; };
+		C0DD94000001C0 /* RangersAPMCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMCommon.h; path = RangersAPM/Public/Common/RangersAPMCommon.h; sourceTree = "<group>"; };
+		C0DD94000001D0 /* RangersAPMNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMNotifications.h; path = RangersAPM/Public/Common/RangersAPMNotifications.h; sourceTree = "<group>"; };
+		C0DD94000001E0 /* RangersAPM+PrivatizationDeployment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+PrivatizationDeployment.h"; path = "RangersAPM/Public/ForAPP/RangersAPM+PrivatizationDeployment.h"; sourceTree = "<group>"; };
+		C0DD94000001F0 /* RangersAPM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPM.h; path = RangersAPM/Public/ForAPP/RangersAPM.h; sourceTree = "<group>"; };
+		C0DD9400000200 /* RangersAPMConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMConfig.h; path = RangersAPM/Public/ForAPP/RangersAPMConfig.h; sourceTree = "<group>"; };
+		C0DD9400000210 /* RangersAPMForSDK+PrivatizationDeployment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPMForSDK+PrivatizationDeployment.h"; path = "RangersAPM/Public/ForSDK/RangersAPMForSDK+PrivatizationDeployment.h"; sourceTree = "<group>"; };
+		C0DD9400000220 /* RangersAPMForSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMForSDK.h; path = RangersAPM/Public/ForSDK/RangersAPMForSDK.h; sourceTree = "<group>"; };
+		C0DD9400000230 /* RangersAPMForSDKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMForSDKConfig.h; path = RangersAPM/Public/ForSDK/RangersAPMForSDKConfig.h; sourceTree = "<group>"; };
+		C0DD9400000240 /* RangersAPMPublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMPublic.h; path = RangersAPM/Public/RangersAPMPublic.h; sourceTree = "<group>"; };
+		C0DD9400000250 /* RangersAPMPublic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RangersAPMPublic.m; path = RangersAPM/Public/RangersAPMPublic.m; sourceTree = "<group>"; };
+		C0DD9400000270 /* RangersAPM+UITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+UITracker.h"; path = "RangersAPM/UITrackers/RangersAPM+UITracker.h"; sourceTree = "<group>"; };
+		C0DD9400000290 /* RangersAPM+UserException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPM+UserException.h"; path = "RangersAPM/UserException/RangersAPM+UserException.h"; sourceTree = "<group>"; };
+		C0DD94000002A0 /* RangersAPMForSDK+UserException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RangersAPMForSDK+UserException.h"; path = "RangersAPM/UserException/RangersAPMForSDK+UserException.h"; sourceTree = "<group>"; };
+		C0DD94000002B0 /* RangersAPMUserExceptionErrorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAPMUserExceptionErrorType.h; path = RangersAPM/UserException/RangersAPMUserExceptionErrorType.h; sourceTree = "<group>"; };
+		C0DD94000002E0 /* libRangersAPM_Above.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Above.a; path = RangersAPM/Above/libRangersAPM_Above.a; sourceTree = "<group>"; };
+		C0DD9400000310 /* libRangersAPM_CN.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_CN.a; path = RangersAPM/CN/libRangersAPM_CN.a; sourceTree = "<group>"; };
+		C0DD9400000340 /* libRangersAPM_Core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Core.a; path = RangersAPM/Core/libRangersAPM_Core.a; sourceTree = "<group>"; };
+		C0DD9400000360 /* libRangersAPM_Crash.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Crash.a; path = RangersAPM/Crash/libRangersAPM_Crash.a; sourceTree = "<group>"; };
+		C0DD9400000380 /* libRangersAPM_EventMonitor.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_EventMonitor.a; path = RangersAPM/EventMonitor/libRangersAPM_EventMonitor.a; sourceTree = "<group>"; };
+		C0DD94000003B0 /* libRangersAPM_HMD.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_HMD.a; path = RangersAPM/HMD/libRangersAPM_HMD.a; sourceTree = "<group>"; };
+		C0DD94000003E0 /* libRangersAPM_Hybrid.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Hybrid.a; path = RangersAPM/Hybrid/libRangersAPM_Hybrid.a; sourceTree = "<group>"; };
+		C0DD9400000410 /* libRangersAPM_LAG.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_LAG.a; path = RangersAPM/LAG/libRangersAPM_LAG.a; sourceTree = "<group>"; };
+		C0DD9400000440 /* libRangersAPM_MemoryGraph.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_MemoryGraph.a; path = RangersAPM/MemoryGraph/libRangersAPM_MemoryGraph.a; sourceTree = "<group>"; };
+		C0DD9400000450 /* libRangersAPM_MemoryGraphCapture.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_MemoryGraphCapture.a; path = RangersAPM/MemoryGraph/libRangersAPM_MemoryGraphCapture.a; sourceTree = "<group>"; };
+		C0DD9400000470 /* libRangersAPM_Monitors.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Monitors.a; path = RangersAPM/Monitors/libRangersAPM_Monitors.a; sourceTree = "<group>"; };
+		C0DD9400000490 /* libRangersAPM_Network.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Network.a; path = RangersAPM/Network/libRangersAPM_Network.a; sourceTree = "<group>"; };
+		C0DD94000004B0 /* libRangersAPM_NetworkBasic.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_NetworkBasic.a; path = RangersAPM/NetworkBasic/libRangersAPM_NetworkBasic.a; sourceTree = "<group>"; };
+		C0DD94000004E0 /* libRangersAPM_OOM.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_OOM.a; path = RangersAPM/OOM/libRangersAPM_OOM.a; sourceTree = "<group>"; };
+		C0DD9400000500 /* libRangersAPM_Public.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Public.a; path = RangersAPM/Public/libRangersAPM_Public.a; sourceTree = "<group>"; };
+		C0DD9400000520 /* libRangersAPM_UITrackers.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_UITrackers.a; path = RangersAPM/UITrackers/libRangersAPM_UITrackers.a; sourceTree = "<group>"; };
+		C0DD9400000540 /* libRangersAPM_UserException.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_UserException.a; path = RangersAPM/UserException/libRangersAPM_UserException.a; sourceTree = "<group>"; };
+		C0DD9400000570 /* libRangersAPM_WatchDog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_WatchDog.a; path = RangersAPM/WatchDog/libRangersAPM_WatchDog.a; sourceTree = "<group>"; };
+		C0DD94000005A0 /* libRangersAPM_Zip.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Zip.a; path = RangersAPM/Zip/libRangersAPM_Zip.a; sourceTree = "<group>"; };
+		C0DD94000005D0 /* libRangersAPM_Zyone.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAPM_Zyone.a; path = RangersAPM/Zyone/libRangersAPM_Zyone.a; sourceTree = "<group>"; };
+		C0DD94000005F0 /* APMInsightCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = APMInsightCore.bundle; path = RangersAPM/Assets/Core/APMInsightCore.bundle; sourceTree = "<group>"; };
+		C0DD9400000610 /* APMInsightCrash.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = APMInsightCrash.bundle; path = RangersAPM/Assets/Crash/APMInsightCrash.bundle; sourceTree = "<group>"; };
+		C0DD9400000630 /* APMInsightHybrid.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = APMInsightHybrid.bundle; path = RangersAPM/Assets/Hybrid/APMInsightHybrid.bundle; sourceTree = "<group>"; };
+		C0DD9400000850 /* RangersAPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangersAPM.debug.xcconfig; sourceTree = "<group>"; };
+		C0DD9400000860 /* RangersAPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangersAPM.release.xcconfig; sourceTree = "<group>"; };
+		C0DD9400000870 /* RangersAPM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RangersAPM.modulemap; sourceTree = "<group>"; };
+		C0DD9400000880 /* RangersAPM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangersAPM-umbrella.h"; sourceTree = "<group>"; };
+		C0DD94000008A0 /* RangersAPM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangersAPM-prefix.pch"; sourceTree = "<group>"; };
+		C0DD94000008B0 /* RangersAPM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangersAPM-dummy.m"; sourceTree = "<group>"; };
+		C0DD94000008D0 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0DD94000006B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0DD9400000010 = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000000A0 /* Dependencies */,
+				C0DD9400000060 /* Frameworks */,
+				C0DD9400000020 /* Products */,
+				C0DD94000000B0 /* RangersAPM */,
+			);
+			sourceTree = "<group>";
+		};
+		C0DD9400000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CC5A44D52983592FC6726DAA22912A /* RangersAPM */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0DD9400000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000008D0 /* OneKit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		C0DD94000000B0 /* RangersAPM */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000002C0 /* Above */,
+				C0DD94000002F0 /* CN */,
+				C0DD9400000320 /* Core */,
+				C0DD94000000C0 /* Crash */,
+				C0DD94000000E0 /* EventMonitor */,
+				C0DD9400000390 /* HMD */,
+				C0DD94000003C0 /* Hybrid */,
+				C0DD94000003F0 /* LAG */,
+				C0DD9400000420 /* MemoryGraph */,
+				C0DD9400000110 /* Monitors */,
+				C0DD9400000140 /* Network */,
+				C0DD9400000160 /* NetworkBasic */,
+				C0DD94000004C0 /* OOM */,
+				C0DD9400000180 /* Public */,
+				C0DD9400000840 /* Support Files */,
+				C0DD9400000260 /* UITrackers */,
+				C0DD9400000280 /* UserException */,
+				C0DD9400000550 /* WatchDog */,
+				C0DD9400000580 /* Zip */,
+				C0DD94000005B0 /* Zyone */,
+			);
+			name = RangersAPM;
+			path = RangersAPM;
+			sourceTree = "<group>";
+		};
+		C0DD94000000C0 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000000D0 /* RangersAPM+CrashCallback.h */,
+				C0DD9400000350 /* Frameworks */,
+				C0DD9400000600 /* Resources */,
+			);
+			name = Crash;
+			sourceTree = "<group>";
+		};
+		C0DD94000000E0 /* EventMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000000F0 /* RangersAPM+EventMonitor.h */,
+				C0DD9400000100 /* RangersAPMForSDK+EventMonitor.h */,
+				C0DD9400000370 /* Frameworks */,
+			);
+			name = EventMonitor;
+			sourceTree = "<group>";
+		};
+		C0DD9400000110 /* Monitors */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000120 /* RangersAPM+PerformanceAPI.h */,
+				C0DD9400000130 /* RangersAPMPerformanceErrorType.h */,
+				C0DD9400000460 /* Frameworks */,
+			);
+			name = Monitors;
+			sourceTree = "<group>";
+		};
+		C0DD9400000140 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000150 /* RangersAPM+Network.h */,
+				C0DD9400000480 /* Frameworks */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C0DD9400000160 /* NetworkBasic */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000170 /* RangersAPM+NetworkPro.h */,
+				C0DD94000004A0 /* Frameworks */,
+			);
+			name = NetworkBasic;
+			sourceTree = "<group>";
+		};
+		C0DD9400000180 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000190 /* RangersAddressRange.h */,
+				C0DD94000001F0 /* RangersAPM.h */,
+				C0DD94000001A0 /* RangersAPM+DebugLog.h */,
+				C0DD94000001E0 /* RangersAPM+PrivatizationDeployment.h */,
+				C0DD94000001B0 /* RangersAPMAddressConfig.h */,
+				C0DD94000001C0 /* RangersAPMCommon.h */,
+				C0DD9400000200 /* RangersAPMConfig.h */,
+				C0DD9400000220 /* RangersAPMForSDK.h */,
+				C0DD9400000210 /* RangersAPMForSDK+PrivatizationDeployment.h */,
+				C0DD9400000230 /* RangersAPMForSDKConfig.h */,
+				C0DD94000001D0 /* RangersAPMNotifications.h */,
+				C0DD9400000240 /* RangersAPMPublic.h */,
+				C0DD9400000250 /* RangersAPMPublic.m */,
+				C0DD94000004F0 /* Frameworks */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		C0DD9400000260 /* UITrackers */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000270 /* RangersAPM+UITracker.h */,
+				C0DD9400000510 /* Frameworks */,
+			);
+			name = UITrackers;
+			sourceTree = "<group>";
+		};
+		C0DD9400000280 /* UserException */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000290 /* RangersAPM+UserException.h */,
+				C0DD94000002A0 /* RangersAPMForSDK+UserException.h */,
+				C0DD94000002B0 /* RangersAPMUserExceptionErrorType.h */,
+				C0DD9400000530 /* Frameworks */,
+			);
+			name = UserException;
+			sourceTree = "<group>";
+		};
+		C0DD94000002C0 /* Above */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000002D0 /* Frameworks */,
+			);
+			name = Above;
+			sourceTree = "<group>";
+		};
+		C0DD94000002D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000002E0 /* libRangersAPM_Above.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000002F0 /* CN */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000300 /* Frameworks */,
+			);
+			name = CN;
+			sourceTree = "<group>";
+		};
+		C0DD9400000300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000310 /* libRangersAPM_CN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000320 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000330 /* Frameworks */,
+				C0DD94000005E0 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C0DD9400000330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000340 /* libRangersAPM_Core.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000360 /* libRangersAPM_Crash.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000370 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000380 /* libRangersAPM_EventMonitor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000390 /* HMD */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000003A0 /* Frameworks */,
+			);
+			name = HMD;
+			sourceTree = "<group>";
+		};
+		C0DD94000003A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000003B0 /* libRangersAPM_HMD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000003C0 /* Hybrid */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000003D0 /* Frameworks */,
+				C0DD9400000620 /* Resources */,
+			);
+			name = Hybrid;
+			sourceTree = "<group>";
+		};
+		C0DD94000003D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000003E0 /* libRangersAPM_Hybrid.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000003F0 /* LAG */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000400 /* Frameworks */,
+			);
+			name = LAG;
+			sourceTree = "<group>";
+		};
+		C0DD9400000400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000410 /* libRangersAPM_LAG.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000420 /* MemoryGraph */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000430 /* Frameworks */,
+			);
+			name = MemoryGraph;
+			sourceTree = "<group>";
+		};
+		C0DD9400000430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000440 /* libRangersAPM_MemoryGraph.a */,
+				C0DD9400000450 /* libRangersAPM_MemoryGraphCapture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000470 /* libRangersAPM_Monitors.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000490 /* libRangersAPM_Network.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000004A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000004B0 /* libRangersAPM_NetworkBasic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000004C0 /* OOM */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000004D0 /* Frameworks */,
+			);
+			name = OOM;
+			sourceTree = "<group>";
+		};
+		C0DD94000004D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000004E0 /* libRangersAPM_OOM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000004F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000500 /* libRangersAPM_Public.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000520 /* libRangersAPM_UITrackers.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000540 /* libRangersAPM_UserException.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000550 /* WatchDog */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000560 /* Frameworks */,
+			);
+			name = WatchDog;
+			sourceTree = "<group>";
+		};
+		C0DD9400000560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000570 /* libRangersAPM_WatchDog.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD9400000580 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000590 /* Frameworks */,
+			);
+			name = Zip;
+			sourceTree = "<group>";
+		};
+		C0DD9400000590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000005A0 /* libRangersAPM_Zip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000005B0 /* Zyone */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000005C0 /* Frameworks */,
+			);
+			name = Zyone;
+			sourceTree = "<group>";
+		};
+		C0DD94000005C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000005D0 /* libRangersAPM_Zyone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DD94000005E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD94000005F0 /* APMInsightCore.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0DD9400000600 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000610 /* APMInsightCrash.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0DD9400000620 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000630 /* APMInsightHybrid.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0DD9400000840 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD9400000870 /* RangersAPM.modulemap */,
+				C0DD94000008B0 /* RangersAPM-dummy.m */,
+				C0DD94000008A0 /* RangersAPM-prefix.pch */,
+				C0DD9400000880 /* RangersAPM-umbrella.h */,
+				C0DD9400000850 /* RangersAPM.debug.xcconfig */,
+				C0DD9400000860 /* RangersAPM.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RangersAPM";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C0DD9400000690 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DD9400000740 /* RangersAddressRange.h in Headers */,
+				C0DD94000007A0 /* RangersAPM.h in Headers */,
+				C0DD94000006C0 /* RangersAPM+CrashCallback.h in Headers */,
+				C0DD9400000750 /* RangersAPM+DebugLog.h in Headers */,
+				C0DD94000006D0 /* RangersAPM+EventMonitor.h in Headers */,
+				C0DD9400000710 /* RangersAPM+Network.h in Headers */,
+				C0DD9400000720 /* RangersAPM+NetworkPro.h in Headers */,
+				C0DD94000006F0 /* RangersAPM+PerformanceAPI.h in Headers */,
+				C0DD9400000790 /* RangersAPM+PrivatizationDeployment.h in Headers */,
+				C0DD9400000800 /* RangersAPM+UITracker.h in Headers */,
+				C0DD9400000810 /* RangersAPM+UserException.h in Headers */,
+				C0DD9400000890 /* RangersAPM-umbrella.h in Headers */,
+				C0DD9400000760 /* RangersAPMAddressConfig.h in Headers */,
+				C0DD9400000770 /* RangersAPMCommon.h in Headers */,
+				C0DD94000007B0 /* RangersAPMConfig.h in Headers */,
+				C0DD94000007D0 /* RangersAPMForSDK.h in Headers */,
+				C0DD94000006E0 /* RangersAPMForSDK+EventMonitor.h in Headers */,
+				C0DD94000007C0 /* RangersAPMForSDK+PrivatizationDeployment.h in Headers */,
+				C0DD9400000820 /* RangersAPMForSDK+UserException.h in Headers */,
+				C0DD94000007E0 /* RangersAPMForSDKConfig.h in Headers */,
+				C0DD9400000780 /* RangersAPMNotifications.h in Headers */,
+				C0DD9400000700 /* RangersAPMPerformanceErrorType.h in Headers */,
+				C0DD94000007F0 /* RangersAPMPublic.h in Headers */,
+				C0DD9400000830 /* RangersAPMUserExceptionErrorType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71D2FD6042B867813CF053D010A6167F /* RangersAPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DD9400000650 /* Build configuration list for PBXNativeTarget "RangersAPM" */;
+			buildPhases = (
+				C0DD9400000690 /* Headers */,
+				C0DD94000006A0 /* Sources */,
+				C0DD94000006B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0DD94000008F0 /* PBXTargetDependency */,
+			);
+			name = RangersAPM;
+			productName = RangersAPM;
+			productReference = 70CC5A44D52983592FC6726DAA22912A /* RangersAPM */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0DD9400000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = C0DD9400000030 /* Build configuration list for PBXProject "RangersAPM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C0DD9400000010;
+			productRefGroup = C0DD9400000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = C0DD94000008D0 /* OneKit */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				71D2FD6042B867813CF053D010A6167F /* RangersAPM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0DD94000006A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DD94000008C0 /* RangersAPM-dummy.m in Sources */,
+				C0DD9400000730 /* RangersAPMPublic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0DD94000008F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = C0DD94000008E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0DD9400000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C0DD9400000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C0DD9400000660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DD9400000860 /* RangersAPM.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/RangersAPM/RangersAPM-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/RangersAPM/RangersAPM.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RangersAPM;
+				PRODUCT_NAME = RangersAPM;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0DD9400000670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DD9400000850 /* RangersAPM.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/RangersAPM/RangersAPM-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/RangersAPM/RangersAPM.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RangersAPM;
+				PRODUCT_NAME = RangersAPM;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0DD9400000030 /* Build configuration list for PBXProject "RangersAPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DD9400000040 /* Debug */,
+				C0DD9400000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DD9400000650 /* Build configuration list for PBXNativeTarget "RangersAPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DD9400000670 /* Debug */,
+				C0DD9400000660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0DD9400000000 /* Project object */;
+}

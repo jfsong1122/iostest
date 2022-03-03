@@ -1,0 +1,1 @@
+../../../BDHotfix/BDHotfix/Classes/Core/BDHotfixConfig.h

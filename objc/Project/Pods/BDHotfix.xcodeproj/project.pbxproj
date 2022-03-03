@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C89857000002F0 /* ConstStr.strings in Resources */ = {isa = PBXBuildFile; fileRef = C89857000001D0 /* ConstStr.strings */; };
+		C8985700000300 /* Matiarial.list in Resources */ = {isa = PBXBuildFile; fileRef = C89857000001E0 /* Matiarial.list */; };
+		C8985700000330 /* BDHotfix-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C89857000000C0 /* BDHotfix-bitdummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C8985700000340 /* BDHotfix.h in Headers */ = {isa = PBXBuildFile; fileRef = C89857000000E0 /* BDHotfix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8985700000350 /* BDHotfixConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C89857000000F0 /* BDHotfixConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8985700000360 /* BDHotfixDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C8985700000100 /* BDHotfixDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8985700000370 /* BDHotfixPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = C8985700000110 /* BDHotfixPatch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8985700000380 /* BDHPatchApplyerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C8985700000120 /* BDHPatchApplyerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8985700000390 /* BDHF.h in Headers */ = {isa = PBXBuildFile; fileRef = C8985700000130 /* BDHF.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C89857000003A0 /* BDDYCModelKey.h in Headers */ = {isa = PBXBuildFile; fileRef = C8985700000140 /* BDDYCModelKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C89857000003B0 /* BDHotfixPatchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C8985700000150 /* BDHotfixPatchModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C89857000003C0 /* BDHotfixStartUpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C8985700000170 /* BDHotfixStartUpTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8985700000410 /* BDHotfix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8985700000400 /* BDHotfix-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8985700000420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8985700000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DD7654E916C6069C8C1A3D1A797F03;
+			remoteInfo = "BDHotfix-BDHotfix";
+		};
+		C8985700000450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8985700000440 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		C8985700000480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8985700000470 /* RARegisterKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A6ACDBC91EB09B2D53093FD4D39D30;
+			remoteInfo = RARegisterKit;
+		};
+		C89857000004B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C89857000004A0 /* SSZipArchive.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 90CF86BC7D493DAE1C2622CE3BC678BB;
+			remoteInfo = SSZipArchive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030CF0893197FBAFDA601A1D232DCDAB /* BDHotfix-BDHotfix */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BDHotfix-BDHotfix"; path = BDHotfix.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E08804373F70C89E7D6AC7F3AF9C9D7 /* BDHotfix */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BDHotfix; path = libBDHotfix.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89857000000C0 /* BDHotfix-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDHotfix-bitdummy.m"; sourceTree = "<group>"; };
+		C89857000000E0 /* BDHotfix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDHotfix.h; path = BDHotfix/Classes/Core/BDHotfix.h; sourceTree = "<group>"; };
+		C89857000000F0 /* BDHotfixConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDHotfixConfig.h; path = BDHotfix/Classes/Core/BDHotfixConfig.h; sourceTree = "<group>"; };
+		C8985700000100 /* BDHotfixDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDHotfixDelegate.h; path = BDHotfix/Classes/Core/BDHotfixDelegate.h; sourceTree = "<group>"; };
+		C8985700000110 /* BDHotfixPatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDHotfixPatch.h; path = BDHotfix/Classes/Core/BDHotfixPatch.h; sourceTree = "<group>"; };
+		C8985700000120 /* BDHPatchApplyerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDHPatchApplyerProtocol.h; path = BDHotfix/Classes/Core/BDHPatchApplyerProtocol.h; sourceTree = "<group>"; };
+		C8985700000130 /* BDHF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDHF.h; path = BDHotfix/Classes/Core/BDP/BDHF.h; sourceTree = "<group>"; };
+		C8985700000140 /* BDDYCModelKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDDYCModelKey.h; path = BDHotfix/Classes/Core/Model/BDDYCModelKey.h; sourceTree = "<group>"; };
+		C8985700000150 /* BDHotfixPatchModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDHotfixPatchModel.h; path = BDHotfix/Classes/Core/Model/BDHotfixPatchModel.h; sourceTree = "<group>"; };
+		C8985700000170 /* BDHotfixStartUpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDHotfixStartUpTask.h; path = BDHotfix/Classes/OneKit/Tasks/BDHotfixStartUpTask.h; sourceTree = "<group>"; };
+		C8985700000190 /* libBDHotfix_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDHotfix_Core_awesome_ios.a; path = "ios-arch-iphone/libBDHotfix_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		C89857000001B0 /* libBDHotfix_OneKit_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBDHotfix_OneKit_awesome_ios.a; path = "ios-arch-iphone/libBDHotfix_OneKit_awesome_ios.a"; sourceTree = "<group>"; };
+		C89857000001D0 /* ConstStr.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ConstStr.strings; path = BDHotfix/Classes/Core/Resources/ConstStr.strings; sourceTree = "<group>"; };
+		C89857000001E0 /* Matiarial.list */ = {isa = PBXFileReference; includeInIndex = 1; name = Matiarial.list; path = BDHotfix/Classes/Core/Resources/Matiarial.list; sourceTree = "<group>"; };
+		C8985700000320 /* ResourceBundle-BDHotfix-BDHotfix-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BDHotfix-BDHotfix-Info.plist"; sourceTree = "<group>"; };
+		C89857000003D0 /* BDHotfix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDHotfix.debug.xcconfig; sourceTree = "<group>"; };
+		C89857000003E0 /* BDHotfix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDHotfix.release.xcconfig; sourceTree = "<group>"; };
+		C89857000003F0 /* BDHotfix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDHotfix-prefix.pch"; sourceTree = "<group>"; };
+		C8985700000400 /* BDHotfix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDHotfix-dummy.m"; sourceTree = "<group>"; };
+		C8985700000440 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		C8985700000470 /* RARegisterKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RARegisterKit; path = RARegisterKit.xcodeproj; sourceTree = "<group>"; };
+		C89857000004A0 /* SSZipArchive */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSZipArchive; path = SSZipArchive.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8985700000260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89857000002D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8985700000010 = {
+			isa = PBXGroup;
+			children = (
+				C89857000000B0 /* BDHotfix */,
+				C89857000000A0 /* Dependencies */,
+				C8985700000060 /* Frameworks */,
+				C8985700000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8985700000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E08804373F70C89E7D6AC7F3AF9C9D7 /* BDHotfix */,
+				030CF0893197FBAFDA601A1D232DCDAB /* BDHotfix-BDHotfix */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8985700000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C89857000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C8985700000440 /* OneKit */,
+				C8985700000470 /* RARegisterKit */,
+				C89857000004A0 /* SSZipArchive */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		C89857000000B0 /* BDHotfix */ = {
+			isa = PBXGroup;
+			children = (
+				C89857000000C0 /* BDHotfix-bitdummy.m */,
+				C89857000000D0 /* Core */,
+				C8985700000160 /* OneKit */,
+				C8985700000310 /* Support Files */,
+			);
+			name = BDHotfix;
+			path = BDHotfix;
+			sourceTree = "<group>";
+		};
+		C89857000000D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C8985700000140 /* BDDYCModelKey.h */,
+				C8985700000130 /* BDHF.h */,
+				C89857000000E0 /* BDHotfix.h */,
+				C89857000000F0 /* BDHotfixConfig.h */,
+				C8985700000100 /* BDHotfixDelegate.h */,
+				C8985700000110 /* BDHotfixPatch.h */,
+				C8985700000150 /* BDHotfixPatchModel.h */,
+				C8985700000120 /* BDHPatchApplyerProtocol.h */,
+				C8985700000180 /* Frameworks */,
+				C89857000001C0 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C8985700000160 /* OneKit */ = {
+			isa = PBXGroup;
+			children = (
+				C8985700000170 /* BDHotfixStartUpTask.h */,
+				C89857000001A0 /* Frameworks */,
+			);
+			name = OneKit;
+			sourceTree = "<group>";
+		};
+		C8985700000180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8985700000190 /* libBDHotfix_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C89857000001A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C89857000001B0 /* libBDHotfix_OneKit_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C89857000001C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C89857000001D0 /* ConstStr.strings */,
+				C89857000001E0 /* Matiarial.list */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C8985700000310 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8985700000400 /* BDHotfix-dummy.m */,
+				C89857000003F0 /* BDHotfix-prefix.pch */,
+				C89857000003D0 /* BDHotfix.debug.xcconfig */,
+				C89857000003E0 /* BDHotfix.release.xcconfig */,
+				C8985700000320 /* ResourceBundle-BDHotfix-BDHotfix-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BDHotfix";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C8985700000240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89857000003A0 /* BDDYCModelKey.h in Headers */,
+				C8985700000390 /* BDHF.h in Headers */,
+				C8985700000340 /* BDHotfix.h in Headers */,
+				C8985700000350 /* BDHotfixConfig.h in Headers */,
+				C8985700000360 /* BDHotfixDelegate.h in Headers */,
+				C8985700000370 /* BDHotfixPatch.h in Headers */,
+				C89857000003B0 /* BDHotfixPatchModel.h in Headers */,
+				C89857000003C0 /* BDHotfixStartUpTask.h in Headers */,
+				C8985700000380 /* BDHPatchApplyerProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		001A095092729FDFA1F5E16A4CCD2611 /* BDHotfix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8985700000200 /* Build configuration list for PBXNativeTarget "BDHotfix" */;
+			buildPhases = (
+				C8985700000240 /* Headers */,
+				C8985700000250 /* Sources */,
+				C8985700000260 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8985700000430 /* PBXTargetDependency */,
+				C8985700000460 /* PBXTargetDependency */,
+				C8985700000490 /* PBXTargetDependency */,
+				C89857000004C0 /* PBXTargetDependency */,
+			);
+			name = BDHotfix;
+			productName = BDHotfix;
+			productReference = 7E08804373F70C89E7D6AC7F3AF9C9D7 /* BDHotfix */;
+			productType = "com.apple.product-type.library.static";
+		};
+		39DD7654E916C6069C8C1A3D1A797F03 /* BDHotfix-BDHotfix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8985700000280 /* Build configuration list for PBXNativeTarget "BDHotfix-BDHotfix" */;
+			buildPhases = (
+				C89857000002C0 /* Sources */,
+				C89857000002D0 /* Frameworks */,
+				C89857000002E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BDHotfix-BDHotfix";
+			productName = BDHotfix;
+			productReference = 030CF0893197FBAFDA601A1D232DCDAB /* BDHotfix-BDHotfix */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8985700000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = C8985700000030 /* Build configuration list for PBXProject "BDHotfix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C8985700000010;
+			productRefGroup = C8985700000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = C8985700000440 /* OneKit */;
+				},
+				{
+					ProjectRef = C8985700000470 /* RARegisterKit */;
+				},
+				{
+					ProjectRef = C89857000004A0 /* SSZipArchive */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				001A095092729FDFA1F5E16A4CCD2611 /* BDHotfix */,
+				39DD7654E916C6069C8C1A3D1A797F03 /* BDHotfix-BDHotfix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C89857000002E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89857000002F0 /* ConstStr.strings in Resources */,
+				C8985700000300 /* Matiarial.list in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8985700000250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8985700000330 /* BDHotfix-bitdummy.m in Sources */,
+				C8985700000410 /* BDHotfix-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89857000002C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8985700000430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BDHotfix-BDHotfix";
+			target = 39DD7654E916C6069C8C1A3D1A797F03 /* BDHotfix-BDHotfix */;
+			targetProxy = C8985700000420 /* PBXContainerItemProxy */;
+		};
+		C8985700000460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = C8985700000450 /* PBXContainerItemProxy */;
+		};
+		C8985700000490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RARegisterKit;
+			targetProxy = C8985700000480 /* PBXContainerItemProxy */;
+		};
+		C89857000004C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			targetProxy = C89857000004B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8985700000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8985700000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C8985700000210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89857000003E0 /* BDHotfix.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDHotfix/BDHotfix-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDHotfix;
+				PRODUCT_NAME = BDHotfix;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8985700000220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89857000003D0 /* BDHotfix.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BDHotfix/BDHotfix-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BDHotfix;
+				PRODUCT_NAME = BDHotfix;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8985700000290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89857000003E0 /* BDHotfix.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BDHotfix";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = BDHotfix;
+				INFOPLIST_FILE = "Target Support Files/BDHotfix/ResourceBundle-BDHotfix-BDHotfix-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BDHotfix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C89857000002A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89857000003D0 /* BDHotfix.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BDHotfix";
+				ENABLE_BITCODE = NO;
+				IBSC_MODULE = BDHotfix;
+				INFOPLIST_FILE = "Target Support Files/BDHotfix/ResourceBundle-BDHotfix-BDHotfix-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BDHotfix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8985700000030 /* Build configuration list for PBXProject "BDHotfix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8985700000040 /* Debug */,
+				C8985700000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8985700000200 /* Build configuration list for PBXNativeTarget "BDHotfix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8985700000220 /* Debug */,
+				C8985700000210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8985700000280 /* Build configuration list for PBXNativeTarget "BDHotfix-BDHotfix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89857000002A0 /* Debug */,
+				C8985700000290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8985700000000 /* Project object */;
+}

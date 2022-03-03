@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46EB2E00000390 /* Pods-Template_InHouse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000380 /* Pods-Template_InHouse-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46EB2E000003A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000000C0 /* App.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DD356195C1EFA995AD95125C032D5A;
+			remoteInfo = App;
+		};
+		46EB2E000003C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000000D0 /* BDH5WebView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 395A252D47565672A6E9DBA689C94B73;
+			remoteInfo = BDH5WebView;
+		};
+		46EB2E000003E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000000E0 /* BDHotfix.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 001A095092729FDFA1F5E16A4CCD2611;
+			remoteInfo = BDHotfix;
+		};
+		46EB2E00000400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000000F0 /* BDNativeWebComponentToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A1859A61B62A5FF67085BFF7968B46;
+			remoteInfo = BDNativeWebComponentToB;
+		};
+		46EB2E00000420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000100 /* BDPreloadSDKToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B45EEEBB64582F21121EE967C729A31;
+			remoteInfo = BDPreloadSDKToB;
+		};
+		46EB2E00000440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000110 /* BDWebCoreToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F3DE11DD6D38DEA9B7CB523D518C0C;
+			remoteInfo = BDWebCoreToB;
+		};
+		46EB2E00000460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000120 /* BDWebKitToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B853654601E647418471D9C216A228;
+			remoteInfo = BDWebKitToB;
+		};
+		46EB2E00000480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000130 /* BDXBridgeKitToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 51D37C5ECE147FED94BEB3B62E11E78D;
+			remoteInfo = BDXBridgeKitToB;
+		};
+		46EB2E000004A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000140 /* Godzippa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 23873CF57B6053906A8DBB845D382529;
+			remoteInfo = Godzippa;
+		};
+		46EB2E000004C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000150 /* JSONModel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68AC1514F280500634CE33E3D8E63583;
+			remoteInfo = JSONModel;
+		};
+		46EB2E000004E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000160 /* MMKV.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F811D3AC87F4D64B1375E5A914346DB;
+			remoteInfo = MMKV;
+		};
+		46EB2E00000500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000170 /* MMKVCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 888BF0AD181FD5983FA03E4CFF190867;
+			remoteInfo = MMKVCore;
+		};
+		46EB2E00000520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000180 /* OKJSBridgeToB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BAE50FE4C2908A909BAB02BFE459AD;
+			remoteInfo = OKJSBridgeToB;
+		};
+		46EB2E00000540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000190 /* OneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FDB596F09B7A02A2E5B3658E7159A9;
+			remoteInfo = OneKit;
+		};
+		46EB2E00000560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000001A0 /* QRCodeReaderViewController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D049C81F5D805EA622072684A362975A;
+			remoteInfo = QRCodeReaderViewController;
+		};
+		46EB2E00000580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000001B0 /* RARegisterKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A6ACDBC91EB09B2D53093FD4D39D30;
+			remoteInfo = RARegisterKit;
+		};
+		46EB2E000005A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000001C0 /* RSSwizzle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C5C634D45CFEE9A286708BA3EE61B6FC;
+			remoteInfo = RSSwizzle;
+		};
+		46EB2E000005C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000001D0 /* RangersAPM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D2FD6042B867813CF053D010A6167F;
+			remoteInfo = RangersAPM;
+		};
+		46EB2E000005E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000001E0 /* RangersAppLog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D06ABD4DB88D75A1CD8D856AA7D64B54;
+			remoteInfo = RangersAppLog;
+		};
+		46EB2E00000600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000001F0 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
+			remoteInfo = SDWebImage;
+		};
+		46EB2E00000620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000200 /* SSZipArchive.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 90CF86BC7D493DAE1C2622CE3BC678BB;
+			remoteInfo = SSZipArchive;
+		};
+		46EB2E00000640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000210 /* TTNetworkManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73119DD701757B40837515F362586977;
+			remoteInfo = TTNetworkManager;
+		};
+		46EB2E00000660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000220 /* VEAppUpdateHelper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3907EF1C6500F5BCAEF4CD2241EC38FA;
+			remoteInfo = VEAppUpdateHelper;
+		};
+		46EB2E00000680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000230 /* VEH5Kit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C01324B4D1B209C8A830298F54F224C;
+			remoteInfo = VEH5Kit;
+		};
+		46EB2E000006A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000240 /* VEInstall.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 10D42D0E9F6BD98A1ABA4A10468FED10;
+			remoteInfo = VEInstall;
+		};
+		46EB2E000006C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000250 /* VERemoteConfig.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5E9B88ACF00E8ACFEDE8DEDE58CF15;
+			remoteInfo = VERemoteConfig;
+		};
+		46EB2E000006E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000260 /* YYCache.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B4EFD655BE7A67C6F5C5E6F514BDB9;
+			remoteInfo = YYCache;
+		};
+		46EB2E00000700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000270 /* libwebp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B44052FC803D817D2B128238580750;
+			remoteInfo = libwebp;
+		};
+		46EB2E00000720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000280 /* lottie-ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FFD4CF15B40CE17E04F3BC6AAF7035A;
+			remoteInfo = "lottie-ios";
+		};
+		46EB2E00000740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000290 /* mars_gecko_ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D64ED42582DDE345DC89EBFE3335FBA;
+			remoteInfo = mars_gecko_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46EB2E000000B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E000000C0 /* App */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = App; path = App.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000000D0 /* BDH5WebView */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDH5WebView; path = BDH5WebView.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000000E0 /* BDHotfix */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDHotfix; path = BDHotfix.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000000F0 /* BDNativeWebComponentToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDNativeWebComponentToB; path = BDNativeWebComponentToB.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000100 /* BDPreloadSDKToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDPreloadSDKToB; path = BDPreloadSDKToB.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000110 /* BDWebCoreToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDWebCoreToB; path = BDWebCoreToB.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000120 /* BDWebKitToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDWebKitToB; path = BDWebKitToB.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000130 /* BDXBridgeKitToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BDXBridgeKitToB; path = BDXBridgeKitToB.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000140 /* Godzippa */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Godzippa; path = Godzippa.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000150 /* JSONModel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONModel; path = JSONModel.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000160 /* MMKV */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MMKV; path = MMKV.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000170 /* MMKVCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MMKVCore; path = MMKVCore.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000180 /* OKJSBridgeToB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OKJSBridgeToB; path = OKJSBridgeToB.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000190 /* OneKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneKit; path = OneKit.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000001A0 /* QRCodeReaderViewController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QRCodeReaderViewController; path = QRCodeReaderViewController.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000001B0 /* RARegisterKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RARegisterKit; path = RARegisterKit.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000001C0 /* RSSwizzle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSSwizzle; path = RSSwizzle.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000001D0 /* RangersAPM */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RangersAPM; path = RangersAPM.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000001E0 /* RangersAppLog */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RangersAppLog; path = RangersAppLog.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000001F0 /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000200 /* SSZipArchive */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSZipArchive; path = SSZipArchive.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000210 /* TTNetworkManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TTNetworkManager; path = TTNetworkManager.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000220 /* VEAppUpdateHelper */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VEAppUpdateHelper; path = VEAppUpdateHelper.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000230 /* VEH5Kit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VEH5Kit; path = VEH5Kit.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000240 /* VEInstall */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VEInstall; path = VEInstall.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000250 /* VERemoteConfig */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VERemoteConfig; path = VERemoteConfig.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000260 /* YYCache */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYCache; path = YYCache.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000270 /* libwebp */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libwebp; path = libwebp.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000280 /* lottie-ios */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lottie-ios"; path = "lottie-ios.xcodeproj"; sourceTree = "<group>"; };
+		46EB2E00000290 /* mars_gecko_ios */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mars_gecko_ios; path = mars_gecko_ios.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000330 /* Pods-Template_InHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Template_InHouse.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000340 /* Pods-Template_InHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Template_InHouse.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000350 /* Pods-Template_InHouse-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Template_InHouse-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00000360 /* Pods-Template_InHouse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Template_InHouse-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000370 /* Pods-Template_InHouse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Template_InHouse-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000380 /* Pods-Template_InHouse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Template_InHouse-dummy.m"; sourceTree = "<group>"; };
+		6181DF022F71A270DAAA6E1036FF7E3D /* Pods-Template_InHouse */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Template_InHouse"; path = "libPods-Template_InHouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EB2E00000310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46EB2E00000010 = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000B0 /* Podfile */,
+				46EB2E00000090 /* Development Pods */,
+				46EB2E00000060 /* Frameworks */,
+				46EB2E00000080 /* Pods */,
+				46EB2E00000020 /* Products */,
+				46EB2E00000070 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		46EB2E00000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6181DF022F71A270DAAA6E1036FF7E3D /* Pods-Template_InHouse */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46EB2E00000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46EB2E00000070 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000320 /* Pods-Template_InHouse */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46EB2E00000080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000D0 /* BDH5WebView */,
+				46EB2E000000E0 /* BDHotfix */,
+				46EB2E000000F0 /* BDNativeWebComponentToB */,
+				46EB2E00000100 /* BDPreloadSDKToB */,
+				46EB2E00000110 /* BDWebCoreToB */,
+				46EB2E00000120 /* BDWebKitToB */,
+				46EB2E00000130 /* BDXBridgeKitToB */,
+				46EB2E00000140 /* Godzippa */,
+				46EB2E00000150 /* JSONModel */,
+				46EB2E00000270 /* libwebp */,
+				46EB2E00000280 /* lottie-ios */,
+				46EB2E00000290 /* mars_gecko_ios */,
+				46EB2E00000160 /* MMKV */,
+				46EB2E00000170 /* MMKVCore */,
+				46EB2E00000180 /* OKJSBridgeToB */,
+				46EB2E00000190 /* OneKit */,
+				46EB2E000001A0 /* QRCodeReaderViewController */,
+				46EB2E000001D0 /* RangersAPM */,
+				46EB2E000001E0 /* RangersAppLog */,
+				46EB2E000001B0 /* RARegisterKit */,
+				46EB2E000001C0 /* RSSwizzle */,
+				46EB2E000001F0 /* SDWebImage */,
+				46EB2E00000200 /* SSZipArchive */,
+				46EB2E00000210 /* TTNetworkManager */,
+				46EB2E00000220 /* VEAppUpdateHelper */,
+				46EB2E00000230 /* VEH5Kit */,
+				46EB2E00000240 /* VEInstall */,
+				46EB2E00000250 /* VERemoteConfig */,
+				46EB2E00000260 /* YYCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46EB2E00000090 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000C0 /* App */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		46EB2E00000320 /* Pods-Template_InHouse */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000370 /* Pods-Template_InHouse-acknowledgements.markdown */,
+				46EB2E00000360 /* Pods-Template_InHouse-acknowledgements.plist */,
+				46EB2E00000380 /* Pods-Template_InHouse-dummy.m */,
+				46EB2E00000350 /* Pods-Template_InHouse-resources.sh */,
+				46EB2E00000340 /* Pods-Template_InHouse.debug.xcconfig */,
+				46EB2E00000330 /* Pods-Template_InHouse.release.xcconfig */,
+			);
+			name = "Pods-Template_InHouse";
+			path = "Target Support Files/Pods-Template_InHouse";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46EB2E000002F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		145EE36DEDF86D6875669823520B1560 /* Pods-Template_InHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E000002B0 /* Build configuration list for PBXNativeTarget "Pods-Template_InHouse" */;
+			buildPhases = (
+				46EB2E000002F0 /* Headers */,
+				46EB2E00000300 /* Sources */,
+				46EB2E00000310 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E000003B0 /* PBXTargetDependency */,
+				46EB2E000003D0 /* PBXTargetDependency */,
+				46EB2E000003F0 /* PBXTargetDependency */,
+				46EB2E00000410 /* PBXTargetDependency */,
+				46EB2E00000430 /* PBXTargetDependency */,
+				46EB2E00000450 /* PBXTargetDependency */,
+				46EB2E00000470 /* PBXTargetDependency */,
+				46EB2E00000490 /* PBXTargetDependency */,
+				46EB2E000004B0 /* PBXTargetDependency */,
+				46EB2E000004D0 /* PBXTargetDependency */,
+				46EB2E000004F0 /* PBXTargetDependency */,
+				46EB2E00000510 /* PBXTargetDependency */,
+				46EB2E00000530 /* PBXTargetDependency */,
+				46EB2E00000550 /* PBXTargetDependency */,
+				46EB2E00000570 /* PBXTargetDependency */,
+				46EB2E00000590 /* PBXTargetDependency */,
+				46EB2E000005B0 /* PBXTargetDependency */,
+				46EB2E000005D0 /* PBXTargetDependency */,
+				46EB2E000005F0 /* PBXTargetDependency */,
+				46EB2E00000610 /* PBXTargetDependency */,
+				46EB2E00000630 /* PBXTargetDependency */,
+				46EB2E00000650 /* PBXTargetDependency */,
+				46EB2E00000670 /* PBXTargetDependency */,
+				46EB2E00000690 /* PBXTargetDependency */,
+				46EB2E000006B0 /* PBXTargetDependency */,
+				46EB2E000006D0 /* PBXTargetDependency */,
+				46EB2E000006F0 /* PBXTargetDependency */,
+				46EB2E00000710 /* PBXTargetDependency */,
+				46EB2E00000730 /* PBXTargetDependency */,
+				46EB2E00000750 /* PBXTargetDependency */,
+			);
+			name = "Pods-Template_InHouse";
+			productName = "Pods-Template_InHouse";
+			productReference = 6181DF022F71A270DAAA6E1036FF7E3D /* Pods-Template_InHouse */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46EB2E00000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 46EB2E00000030 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46EB2E00000010;
+			productRefGroup = 46EB2E00000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 46EB2E000000C0 /* App */;
+				},
+				{
+					ProjectRef = 46EB2E000000D0 /* BDH5WebView */;
+				},
+				{
+					ProjectRef = 46EB2E000000E0 /* BDHotfix */;
+				},
+				{
+					ProjectRef = 46EB2E000000F0 /* BDNativeWebComponentToB */;
+				},
+				{
+					ProjectRef = 46EB2E00000100 /* BDPreloadSDKToB */;
+				},
+				{
+					ProjectRef = 46EB2E00000110 /* BDWebCoreToB */;
+				},
+				{
+					ProjectRef = 46EB2E00000120 /* BDWebKitToB */;
+				},
+				{
+					ProjectRef = 46EB2E00000130 /* BDXBridgeKitToB */;
+				},
+				{
+					ProjectRef = 46EB2E00000140 /* Godzippa */;
+				},
+				{
+					ProjectRef = 46EB2E00000150 /* JSONModel */;
+				},
+				{
+					ProjectRef = 46EB2E00000160 /* MMKV */;
+				},
+				{
+					ProjectRef = 46EB2E00000170 /* MMKVCore */;
+				},
+				{
+					ProjectRef = 46EB2E00000180 /* OKJSBridgeToB */;
+				},
+				{
+					ProjectRef = 46EB2E00000190 /* OneKit */;
+				},
+				{
+					ProjectRef = 46EB2E000001A0 /* QRCodeReaderViewController */;
+				},
+				{
+					ProjectRef = 46EB2E000001B0 /* RARegisterKit */;
+				},
+				{
+					ProjectRef = 46EB2E000001C0 /* RSSwizzle */;
+				},
+				{
+					ProjectRef = 46EB2E000001D0 /* RangersAPM */;
+				},
+				{
+					ProjectRef = 46EB2E000001E0 /* RangersAppLog */;
+				},
+				{
+					ProjectRef = 46EB2E000001F0 /* SDWebImage */;
+				},
+				{
+					ProjectRef = 46EB2E00000200 /* SSZipArchive */;
+				},
+				{
+					ProjectRef = 46EB2E00000210 /* TTNetworkManager */;
+				},
+				{
+					ProjectRef = 46EB2E00000220 /* VEAppUpdateHelper */;
+				},
+				{
+					ProjectRef = 46EB2E00000230 /* VEH5Kit */;
+				},
+				{
+					ProjectRef = 46EB2E00000240 /* VEInstall */;
+				},
+				{
+					ProjectRef = 46EB2E00000250 /* VERemoteConfig */;
+				},
+				{
+					ProjectRef = 46EB2E00000260 /* YYCache */;
+				},
+				{
+					ProjectRef = 46EB2E00000270 /* libwebp */;
+				},
+				{
+					ProjectRef = 46EB2E00000280 /* lottie-ios */;
+				},
+				{
+					ProjectRef = 46EB2E00000290 /* mars_gecko_ios */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				145EE36DEDF86D6875669823520B1560 /* Pods-Template_InHouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46EB2E00000300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00000390 /* Pods-Template_InHouse-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46EB2E000003B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = App;
+			targetProxy = 46EB2E000003A0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000003D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDH5WebView;
+			targetProxy = 46EB2E000003C0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000003F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDHotfix;
+			targetProxy = 46EB2E000003E0 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDNativeWebComponentToB;
+			targetProxy = 46EB2E00000400 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDPreloadSDKToB;
+			targetProxy = 46EB2E00000420 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDWebCoreToB;
+			targetProxy = 46EB2E00000440 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDWebKitToB;
+			targetProxy = 46EB2E00000460 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDXBridgeKitToB;
+			targetProxy = 46EB2E00000480 /* PBXContainerItemProxy */;
+		};
+		46EB2E000004B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Godzippa;
+			targetProxy = 46EB2E000004A0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000004D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			targetProxy = 46EB2E000004C0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000004F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMKV;
+			targetProxy = 46EB2E000004E0 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMKVCore;
+			targetProxy = 46EB2E00000500 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OKJSBridgeToB;
+			targetProxy = 46EB2E00000520 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneKit;
+			targetProxy = 46EB2E00000540 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReaderViewController;
+			targetProxy = 46EB2E00000560 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RARegisterKit;
+			targetProxy = 46EB2E00000580 /* PBXContainerItemProxy */;
+		};
+		46EB2E000005B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSSwizzle;
+			targetProxy = 46EB2E000005A0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000005D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangersAPM;
+			targetProxy = 46EB2E000005C0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000005F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangersAppLog;
+			targetProxy = 46EB2E000005E0 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = 46EB2E00000600 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			targetProxy = 46EB2E00000620 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTNetworkManager;
+			targetProxy = 46EB2E00000640 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VEAppUpdateHelper;
+			targetProxy = 46EB2E00000660 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VEH5Kit;
+			targetProxy = 46EB2E00000680 /* PBXContainerItemProxy */;
+		};
+		46EB2E000006B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VEInstall;
+			targetProxy = 46EB2E000006A0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000006D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VERemoteConfig;
+			targetProxy = 46EB2E000006C0 /* PBXContainerItemProxy */;
+		};
+		46EB2E000006F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			targetProxy = 46EB2E000006E0 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libwebp;
+			targetProxy = 46EB2E00000700 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			targetProxy = 46EB2E00000720 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mars_gecko_ios;
+			targetProxy = 46EB2E00000740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46EB2E00000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46EB2E00000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		46EB2E000002C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000330 /* Pods-Template_InHouse.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EB2E000002D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000340 /* Pods-Template_InHouse.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EB2E00000030 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000040 /* Debug */,
+				46EB2E00000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E000002B0 /* Build configuration list for PBXNativeTarget "Pods-Template_InHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E000002D0 /* Debug */,
+				46EB2E000002C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EB2E00000000 /* Project object */;
+}

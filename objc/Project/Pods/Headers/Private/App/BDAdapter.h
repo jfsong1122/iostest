@@ -1,0 +1,1 @@
+../../../../../../DevPods/App/Debug/RangersAppLog/BDAdapter.h
