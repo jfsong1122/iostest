@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'App'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'ByteDance App Demo.'
   s.description      = 'ByteDance App Demo..'
   s.homepage         = 'https://github.com/volcengine/ve_Template_iOS'
